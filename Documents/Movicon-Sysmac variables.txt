@@ -1,0 +1,4 @@
+HOST	NAME	DATATYPE	ADDRESS	COMMENT	TAGLINK	RW	POU
+	customerOrder.orderReceived	BOOL			TRUE	RW	
+	customerOrder.productID	INT			TRUE	RW	
+	customerOrder.name	STRING(256)			TRUE	RW	
