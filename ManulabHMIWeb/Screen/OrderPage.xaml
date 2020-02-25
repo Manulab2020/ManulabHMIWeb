@@ -23,7 +23,8 @@
       </TransformGroup>
     </ContentControl.RenderTransform>
   </ContentControl>
-  <GroupBox Header="Product 1" Background="#00FFFFFF" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox" Width="640" Height="500" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="0" Canvas.Top="220" syncfusion:SkinStorage.OverrideVisualStyle="True" />
-  <GroupBox Header="Product 2" Background="#00FFFFFF" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox1" Width="640" Height="500" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="640" Canvas.Top="220" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <GroupBox Header="Product_1" Background="#00FFFFFF" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox" Width="640" Height="500" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="0" Canvas.Top="220" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <GroupBox Header="Product_2" Background="#00FFFFFF" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox1" Width="640" Height="500" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="640" Canvas.Top="220" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <ContentControl Name="AnimatedImage" Width="170.952380952381" Height="133.809523809524" IsManipulationEnabled="False" Canvas.Left="41.4070149331512" Canvas.Top="263.333333333333" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="AnimatedImage1" Width="170.952380952381" Height="133.809523809524" IsManipulationEnabled="False" Canvas.Left="673.835586361723" Canvas.Top="262.428571428571" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
 </Canvas>

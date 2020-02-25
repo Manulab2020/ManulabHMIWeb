@@ -1,0 +1,244 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="AssemblyName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DynamicJobs">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="LastInteraction" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CommJobSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Type" type="xs:int" minOccurs="0" />
+                <xs:element name="Station" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SamplingInterval" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="SwapBytes" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SwapWords" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OutputAtStartup" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TotalJobSize" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="ElementNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="ConditionalVariableName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ConditionalVariableId" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DynamicJobs" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+                <xs:element name="TagFormat" type="xs:int" minOccurs="0" />
+                <xs:element name="ABAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="ParseOk" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TagSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="NodeId" type="xs:string" minOccurs="0" />
+                <xs:element name="DataType" type="xs:int" minOccurs="0" />
+                <xs:element name="DynamicSettings" type="xs:string" minOccurs="0" />
+                <xs:element name="SamplingInterval" type="xs:double" minOccurs="0" />
+                <xs:element name="ByteOffset" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="BitOffset" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="ArrayDimension" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="CommJobSettings" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//DynamicJobs" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//CommJobSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TagSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__DynamicJobs_x0023_OID_x0023_CommJobSettings_x0023_DynamicJobsIdx">
+        <xs:selector xpath=".//DynamicJobs" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_CommJobSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__CommJobSettings_x0023_OID_x0023_TagSettings_x0023_CommJobSettingsIdx">
+        <xs:selector xpath=".//CommJobSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__DynamicJobs_x0023_OID_x0023_CommJobSettings_x0023_DynamicJobs" refer="FK__DynamicJobs_x0023_OID_x0023_CommJobSettings_x0023_DynamicJobsIdx">
+        <xs:selector xpath=".//CommJobSettings" />
+        <xs:field xpath="DynamicJobs" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_CommJobSettings_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_CommJobSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//CommJobSettings" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__CommJobSettings_x0023_OID_x0023_TagSettings_x0023_CommJobSettings" refer="FK__CommJobSettings_x0023_OID_x0023_TagSettings_x0023_CommJobSettingsIdx">
+        <xs:selector xpath=".//TagSettings" />
+        <xs:field xpath="CommJobSettings" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>OmronEthernetIP.OmronEthernetIPCommJobSettings</TypeName>
+    <AssemblyName>OmronEthernetIP</AssemblyName>
+  </XPObjectType>
+  <DynamicJobs>
+    <OID>1</OID>
+    <LastInteraction>2020-02-25T13:58:37.9682733Z</LastInteraction>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DynamicJobs>
+  <CommJobSettings>
+    <OID>1</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>1</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>0</TagFormat>
+    <ABAddress>customerOrder.orderReceived</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <CommJobSettings>
+    <OID>2</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>2</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>3</TagFormat>
+    <ABAddress>customerOrder.productID</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <CommJobSettings>
+    <OID>3</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>256</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>9</TagFormat>
+    <ABAddress>customerOrder.name:256</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <TagSettings>
+    <OID>1</OID>
+    <NodeId>ns=2;s=a693159f-8a7a-4c47-871d-e102ecaeceb2?dfe73da8-9261-4a36-ad0f-753f8ab98186</NodeId>
+    <DataType>1</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=customerOrder.orderReceived|TEFRM=0|SSFL=:256</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>0</ArrayDimension>
+    <CommJobSettings>1</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>2</OID>
+    <NodeId>ns=2;s=a693159f-8a7a-4c47-871d-e102ecaeceb2?ebcb0256-f627-4f59-b557-def78f3762ad</NodeId>
+    <DataType>4</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=customerOrder.productID|TEFRM=3|SSFL=:256</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>0</ArrayDimension>
+    <CommJobSettings>2</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>3</OID>
+    <NodeId>ns=2;s=a693159f-8a7a-4c47-871d-e102ecaeceb2?5672d23c-1e83-4e1c-8ede-c809c4cd1387</NodeId>
+    <DataType>12</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=customerOrder.name:256|TEFRM=9|SSFL=:256</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>0</ArrayDimension>
+    <CommJobSettings>3</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+</DefaultName>

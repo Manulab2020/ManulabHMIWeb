@@ -78,20 +78,8 @@
                 <xs:element name="RedundancyKeepActiveServerActive" type="xs:boolean" minOccurs="0" />
                 <xs:element name="RedundancySkipHistoryDataSynchronization" type="xs:boolean" minOccurs="0" />
                 <xs:element name="RedundancyTransportSecurityMode" type="xs:int" minOccurs="0" />
-                <xs:element name="RedundancyUdpServiceIpAddress" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="RedundancyUdpClientIpAddress" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="RedundancyUdpServiceIpAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="RedundancyUdpClientIpAddress" type="xs:string" minOccurs="0" />
                 <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
                 <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
                 <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
@@ -102,20 +90,8 @@
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
-                <xs:element name="TypeName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="254" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="AssemblyName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="254" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="TypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -123,13 +99,7 @@
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
-                <xs:element name="Transport" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="Transport" type="xs:string" minOccurs="0" />
                 <xs:element name="Server" type="xs:string" minOccurs="0" />
                 <xs:element name="Port" type="xs:int" minOccurs="0" />
                 <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
@@ -455,11 +425,11 @@
   <ConfigurationBase>
     <OID>1</OID>
     <ConfigurationId>1b7affbf-cf7c-48c1-82d8-a6092f35a0a2</ConfigurationId>
-    <ParentApplicationName>ManulabHMI</ParentApplicationName>
+    <ParentApplicationName>ManulabHMIWeb</ParentApplicationName>
     <DefaultAccessMask>0</DefaultAccessMask>
     <DefaultAccessLevel>0</DefaultAccessLevel>
     <ApplicationName>ManulabHMI_Scheduler</ApplicationName>
-    <BuildDate>2020-02-21T09:05:21.971743Z</BuildDate>
+    <BuildDate>2020-02-21T09:05:21.971743</BuildDate>
     <HistorianDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Scheduler;</HistorianDefaultConnection>
     <EventDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Scheduler;</EventDefaultConnection>
     <AuditTraceDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Scheduler_Audit;</AuditTraceDefaultConnection>
@@ -508,7 +478,7 @@
     <RedundancyTransportSecurityMode>0</RedundancyTransportSecurityMode>
     <RedundancyUdpServiceIpAddress>224.0.0.1</RedundancyUdpServiceIpAddress>
     <RedundancyUdpClientIpAddress>224.0.0.1</RedundancyUdpClientIpAddress>
-    <OptimisticLockField>0</OptimisticLockField>
+    <OptimisticLockField>1</OptimisticLockField>
     <ObjectType>1</ObjectType>
   </ConfigurationBase>
   <XPObjectType>

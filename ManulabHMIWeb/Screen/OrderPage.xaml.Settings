@@ -352,10 +352,10 @@
         <preserveText>false</preserveText>
         <preserveVariables>false</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
-        <preservedText i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText></preservedText>
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -976,7 +976,7 @@
         <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#00FFFFFF&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>500</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>GroupBox</preservedText>
+        <preservedText>Product_2</preservedText>
         <preservedWidth>640</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -1053,6 +1053,14 @@
           <d5p1:entry>
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;133.80952380952374&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Top</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;263.333333333333&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Left</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;41.4070149331512&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -1195,6 +1203,142 @@
         <sExpression i:nil="true" />
         <sIdUnitConverter i:nil="true" />
         <sProblematicXaml i:nil="true" />
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush i:nil="true" />
+        <tagPen i:nil="true" />
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>AnimatedImage1</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>6d550d6c-562f-4c21-bc9b-64c2299ab400</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands />
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>HorizontalContentAlignment</d5p1:Key>
+            <d5p1:Value>&lt;HorizontalAlignment xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Stretch&lt;/HorizontalAlignment&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>VerticalContentAlignment</d5p1:Key>
+            <d5p1:Value>&lt;VerticalAlignment xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Stretch&lt;/VerticalAlignment&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;20&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontFamily</d5p1:Key>
+            <d5p1:Value>&lt;FontFamily xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Secoe UI&lt;/FontFamily&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontWeight</d5p1:Key>
+            <d5p1:Value>&lt;FontWeight xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;SemiBold&lt;/FontWeight&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Width</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;170.95238095238096&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Height</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;133.80952380952374&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Top</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;263.333333333333&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Left</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;41.4070149331512&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush i:nil="true" />
+        <preservedHeight>133.80952380952374</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText i:nil="true" />
+        <preservedWidth>170.95238095238096</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml>&lt;so:AnimatedImage 
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+		xmlns:so="clr-namespace:AnimatedObjects;assembly=AnimatedObjects"
+                  Width="150" Height="150" 
+                	Tag="ProblematicXamlWriter"
+          xmlns:mynsp="clr-namespace:Converters;assembly=Converters"&gt;
+                  &lt;so:AnimatedImage.Resources&gt;
+                    &lt;mynsp:ObjectToTextConverter x:Key="ObjectToTextConverter" /&gt;
+                  &lt;/so:AnimatedImage.Resources&gt;
+                  &lt;so:AnimatedImage.Value&gt;
+                    &lt;Binding Path="Value" 
+                    Converter="{StaticResource ObjectToTextConverter}" Mode="OneWay" 
+                    ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged"&gt;&lt;/Binding&gt;
+                  &lt;/so:AnimatedImage.Value&gt;
+
+&lt;/so:AnimatedImage&gt;</sProblematicXaml>
         <sReverseExpression i:nil="true" />
         <sSourceSymbolPath i:nil="true" />
         <sSourceSymbolProvider i:nil="true" />

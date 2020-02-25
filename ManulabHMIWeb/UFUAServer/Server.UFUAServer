@@ -76,20 +76,8 @@
                 <xs:element name="RedundancyKeepActiveServerActive" type="xs:boolean" minOccurs="0" />
                 <xs:element name="RedundancySkipHistoryDataSynchronization" type="xs:boolean" minOccurs="0" />
                 <xs:element name="RedundancyTransportSecurityMode" type="xs:int" minOccurs="0" />
-                <xs:element name="RedundancyUdpServiceIpAddress" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="RedundancyUdpClientIpAddress" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="RedundancyUdpServiceIpAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="RedundancyUdpClientIpAddress" type="xs:string" minOccurs="0" />
                 <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
                 <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
                 <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
@@ -100,20 +88,8 @@
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
-                <xs:element name="TypeName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="254" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="AssemblyName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="254" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="TypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -121,13 +97,7 @@
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
-                <xs:element name="Transport" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="Transport" type="xs:string" minOccurs="0" />
                 <xs:element name="Server" type="xs:string" minOccurs="0" />
                 <xs:element name="Port" type="xs:int" minOccurs="0" />
                 <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
@@ -142,35 +112,11 @@
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
-                <xs:element name="Name" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="FriendlyName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="Factory" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="FriendlyName" type="xs:string" minOccurs="0" />
+                <xs:element name="Factory" type="xs:string" minOccurs="0" />
                 <xs:element name="Path" type="xs:string" minOccurs="0" />
-                <xs:element name="AssemblyName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
                 <xs:element name="UFUAConfiguration" type="xs:int" minOccurs="0" />
                 <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
                 <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
@@ -205,13 +151,7 @@
                 <xs:element name="AccessLevel" type="xs:int" minOccurs="0" />
                 <xs:element name="SettingsTimeStamp" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
-                <xs:element name="PrototypeModel" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="PrototypeModel" type="xs:string" minOccurs="0" />
                 <xs:element name="UFUAFolder" type="xs:int" minOccurs="0" />
                 <xs:element name="UFUATagPrototype" type="xs:int" minOccurs="0" />
                 <xs:element name="UFUAEngineeringUnit" type="xs:string" minOccurs="0" />
@@ -219,13 +159,7 @@
                 <xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="ListProcedures" type="xs:string" minOccurs="0" />
                 <xs:element name="ScriptCode" type="xs:string" minOccurs="0" />
-                <xs:element name="Breakpoints" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="Breakpoints" type="xs:string" minOccurs="0" />
                 <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
                 <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
               </xs:sequence>
@@ -662,11 +596,11 @@
   <ConfigurationBase>
     <OID>1</OID>
     <ConfigurationId>d6284fbc-3cf0-4f7d-88aa-7bc2051031fa</ConfigurationId>
-    <ParentApplicationName>ManulabHMI</ParentApplicationName>
+    <ParentApplicationName>ManulabHMIWeb</ParentApplicationName>
     <DefaultAccessMask>0</DefaultAccessMask>
     <DefaultAccessLevel>0</DefaultAccessLevel>
     <ApplicationName>ManulabHMI_IOServer</ApplicationName>
-    <BuildDate>2020-02-21T13:35:10.8254704Z</BuildDate>
+    <BuildDate>2020-02-21T13:35:10.8254704</BuildDate>
     <HistorianDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_IOServer;</HistorianDefaultConnection>
     <EventDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_IOServer;</EventDefaultConnection>
     <AuditTraceDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_IOServer_Audit;</AuditTraceDefaultConnection>
@@ -715,7 +649,7 @@
     <RedundancyTransportSecurityMode>0</RedundancyTransportSecurityMode>
     <RedundancyUdpServiceIpAddress>224.0.0.1</RedundancyUdpServiceIpAddress>
     <RedundancyUdpClientIpAddress>224.0.0.1</RedundancyUdpClientIpAddress>
-    <OptimisticLockField>0</OptimisticLockField>
+    <OptimisticLockField>1</OptimisticLockField>
     <ObjectType>1</ObjectType>
   </ConfigurationBase>
   <XPObjectType>
@@ -731,6 +665,21 @@
   <XPObjectType>
     <OID>3</OID>
     <TypeName>UFUAModel.UFUACommunicationDriver</TypeName>
+    <AssemblyName>UFUAModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>4</OID>
+    <TypeName>UFUAModel.UFUATagPrototype</TypeName>
+    <AssemblyName>UFUAModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>5</OID>
+    <TypeName>UFUAModel.UFUATag</TypeName>
+    <AssemblyName>UFUAModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>6</OID>
+    <TypeName>UFUAModel.UFUAFolder</TypeName>
     <AssemblyName>UFUAModel</AssemblyName>
   </XPObjectType>
   <AddressBase>
@@ -752,6 +701,140 @@
     <UFUAConfiguration>1</UFUAConfiguration>
     <OptimisticLockField>0</OptimisticLockField>
   </UFUACommunicationDriverEx>
+  <UFUATag>
+    <OID>1</OID>
+    <MemberOrderId>0</MemberOrderId>
+    <UseShared>true</UseShared>
+    <Name>orderReceived</Name>
+    <Description></Description>
+    <ModelType>0</ModelType>
+    <DataType>0</DataType>
+    <ArrayDimension>0</ArrayDimension>
+    <IsRetentive>false</IsRetentive>
+    <EnableStatistics>false</EnableStatistics>
+    <IsRedundancyEnabled>true</IsRedundancyEnabled>
+    <AuditTraceEnabled>false</AuditTraceEnabled>
+    <EnterCommentOnAudit>false</EnterCommentOnAudit>
+    <EnterPasswordOnAudit>false</EnterPasswordOnAudit>
+    <MinAccessLevelRequiredOnAudit>0</MinAccessLevelRequiredOnAudit>
+    <MaxAuditAge>86400</MaxAuditAge>
+    <UserReadAccessMask>0</UserReadAccessMask>
+    <UserWriteAccessMask>0</UserWriteAccessMask>
+    <UserAccessLevel>0</UserAccessLevel>
+    <AccessLevel>3</AccessLevel>
+    <SettingsTimeStamp>2020-02-25T11:36:53.6701301Z</SettingsTimeStamp>
+    <NodeId>dfe73da8-9261-4a36-ad0f-753f8ab98186</NodeId>
+    <PrototypeModel></PrototypeModel>
+    <UFUATagPrototype>1</UFUATagPrototype>
+    <UFUAEngineeringUnit></UFUAEngineeringUnit>
+    <CreateDate>2020-02-25T11:36:53.6701301Z</CreateDate>
+    <Breakpoints></Breakpoints>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUATag>
+  <UFUATag>
+    <OID>2</OID>
+    <MemberOrderId>1</MemberOrderId>
+    <UseShared>true</UseShared>
+    <Name>productID</Name>
+    <Description></Description>
+    <ModelType>0</ModelType>
+    <DataType>3</DataType>
+    <ArrayDimension>0</ArrayDimension>
+    <IsRetentive>false</IsRetentive>
+    <EnableStatistics>false</EnableStatistics>
+    <IsRedundancyEnabled>true</IsRedundancyEnabled>
+    <AuditTraceEnabled>false</AuditTraceEnabled>
+    <EnterCommentOnAudit>false</EnterCommentOnAudit>
+    <EnterPasswordOnAudit>false</EnterPasswordOnAudit>
+    <MinAccessLevelRequiredOnAudit>0</MinAccessLevelRequiredOnAudit>
+    <MaxAuditAge>86400</MaxAuditAge>
+    <UserReadAccessMask>0</UserReadAccessMask>
+    <UserWriteAccessMask>0</UserWriteAccessMask>
+    <UserAccessLevel>0</UserAccessLevel>
+    <AccessLevel>3</AccessLevel>
+    <SettingsTimeStamp>2020-02-25T11:36:53.6721244Z</SettingsTimeStamp>
+    <NodeId>ebcb0256-f627-4f59-b557-def78f3762ad</NodeId>
+    <PrototypeModel></PrototypeModel>
+    <UFUATagPrototype>1</UFUATagPrototype>
+    <UFUAEngineeringUnit></UFUAEngineeringUnit>
+    <CreateDate>2020-02-25T11:36:53.6721244Z</CreateDate>
+    <Breakpoints></Breakpoints>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUATag>
+  <UFUATag>
+    <OID>3</OID>
+    <MemberOrderId>2</MemberOrderId>
+    <UseShared>true</UseShared>
+    <Name>name</Name>
+    <Description></Description>
+    <ModelType>0</ModelType>
+    <DataType>11</DataType>
+    <ArrayDimension>0</ArrayDimension>
+    <IsRetentive>false</IsRetentive>
+    <EnableStatistics>false</EnableStatistics>
+    <IsRedundancyEnabled>true</IsRedundancyEnabled>
+    <AuditTraceEnabled>false</AuditTraceEnabled>
+    <EnterCommentOnAudit>false</EnterCommentOnAudit>
+    <EnterPasswordOnAudit>false</EnterPasswordOnAudit>
+    <MinAccessLevelRequiredOnAudit>0</MinAccessLevelRequiredOnAudit>
+    <MaxAuditAge>86400</MaxAuditAge>
+    <UserReadAccessMask>0</UserReadAccessMask>
+    <UserWriteAccessMask>0</UserWriteAccessMask>
+    <UserAccessLevel>0</UserAccessLevel>
+    <AccessLevel>3</AccessLevel>
+    <SettingsTimeStamp>2020-02-25T11:36:53.6731212Z</SettingsTimeStamp>
+    <NodeId>5672d23c-1e83-4e1c-8ede-c809c4cd1387</NodeId>
+    <PrototypeModel></PrototypeModel>
+    <UFUATagPrototype>1</UFUATagPrototype>
+    <UFUAEngineeringUnit></UFUAEngineeringUnit>
+    <CreateDate>2020-02-25T11:36:53.6721244Z</CreateDate>
+    <Breakpoints></Breakpoints>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUATag>
+  <UFUATag>
+    <OID>4</OID>
+    <MemberOrderId>-1</MemberOrderId>
+    <UseShared>true</UseShared>
+    <Name>customerOrder</Name>
+    <Description></Description>
+    <ModelType>5</ModelType>
+    <ArrayDimension>0</ArrayDimension>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=customerOrder|TEFRM=10|SSFL=:256</DynamicSettings>
+    <IsRetentive>false</IsRetentive>
+    <EnableStatistics>false</EnableStatistics>
+    <IsRedundancyEnabled>true</IsRedundancyEnabled>
+    <AuditTraceEnabled>false</AuditTraceEnabled>
+    <EnterCommentOnAudit>false</EnterCommentOnAudit>
+    <EnterPasswordOnAudit>false</EnterPasswordOnAudit>
+    <MinAccessLevelRequiredOnAudit>0</MinAccessLevelRequiredOnAudit>
+    <MaxAuditAge>86400</MaxAuditAge>
+    <UserReadAccessMask>0</UserReadAccessMask>
+    <UserWriteAccessMask>0</UserWriteAccessMask>
+    <UserAccessLevel>0</UserAccessLevel>
+    <AccessLevel>3</AccessLevel>
+    <SettingsTimeStamp>2020-02-25T11:36:53.6950604Z</SettingsTimeStamp>
+    <NodeId>a693159f-8a7a-4c47-871d-e102ecaeceb2</NodeId>
+    <PrototypeModel>5d3d1098-6fc1-41a7-9aa3-60f4f7dd3a15</PrototypeModel>
+    <UFUAFolder>1</UFUAFolder>
+    <UFUAEngineeringUnit></UFUAEngineeringUnit>
+    <CreateDate>2020-02-25T11:36:53.6950604Z</CreateDate>
+    <Breakpoints></Breakpoints>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUATag>
+  <UFUAFolder>
+    <OID>1</OID>
+    <MemberOrderId>-1</MemberOrderId>
+    <Name>Station0</Name>
+    <NodeId>4306af4c-6834-49e5-8355-b2f7f5fb3793</NodeId>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAFolder>
+  <UFUATagPrototype>
+    <OID>1</OID>
+    <Name>customerOrder</Name>
+    <NodeId>5d3d1098-6fc1-41a7-9aa3-60f4f7dd3a15</NodeId>
+    <CreateDate>2020-02-25T11:36:53.6701301Z</CreateDate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUATagPrototype>
   <UFUABaseAddressEx>
     <OID>1</OID>
   </UFUABaseAddressEx>

@@ -41,6 +41,10 @@
       <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMI\ManulabHMI\Screen\Screen2.xaml</d2p1:Key>
       <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMI\ManulabHMI\Screen\Top.xaml</d2p1:Value>
     </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\Screen2.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\Info.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
   </mapRenamedResources>
   <mapUriChildProjectData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <mapUriControllerData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
@@ -149,7 +153,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/Screen2.xaml</d2p1:Key>
+      <d2p1:Key>Screen/Info.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>

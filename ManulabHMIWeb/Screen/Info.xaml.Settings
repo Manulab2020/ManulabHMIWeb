@@ -9,7 +9,7 @@
   <fastSamplingInterval>500</fastSamplingInterval>
   <fitInWindow>false</fitInWindow>
   <forceWritingOnServer>false</forceWritingOnServer>
-  <height>1080</height>
+  <height>400</height>
   <hideScrollBars>false</hideScrollBars>
   <id>00000000-0000-0000-0000-000000000000</id>
   <idDocument>1bec2333-698c-4bb1-b779-e8a5acbaae1c</idDocument>
@@ -24,7 +24,7 @@
   <mapAlias xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
   <mapScreenEntities>
     <entry>
-      <XamlName>ContentControl</XamlName>
+      <XamlName>Bd-@-PART_ContentHost</XamlName>
       <Settings>
         <accessLevel>0</accessLevel>
         <accessLevelFromTag>false</accessLevelFromTag>
@@ -34,14 +34,14 @@
         <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
         <bForceDynamicOnClient>false</bForceDynamicOnClient>
         <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
-        <bSourceSymbolLinked>true</bSourceSymbolLinked>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
         <bVisibleOnClient>true</bVisibleOnClient>
         <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <id>ea898f15-37b0-42d0-9e5d-b82929eb82ab</id>
-        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <id>22ba262d-e51c-4d20-9bb6-aabd6dc23816</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" i:nil="true" />
         <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
-        <listCommands />
+        <listCommands i:nil="true" />
         <listItemSources i:nil="true" />
         <listopcuaSmartEntityReference i:nil="true" />
         <lockMovement>false</lockMovement>
@@ -79,10 +79,10 @@
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
-        <preservedHeight>102.66666666666663</preservedHeight>
-        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedHeight>0</preservedHeight>
+        <preservedPen i:nil="true" />
         <preservedText i:nil="true" />
-        <preservedWidth>176.66666666666663</preservedWidth>
+        <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -90,8 +90,8 @@
         <sIdUnitConverter i:nil="true" />
         <sProblematicXaml i:nil="true" />
         <sReverseExpression i:nil="true" />
-        <sSourceSymbolPath>8wWGamS3somuyv1FmiUv92VciKr0tLeaU98s6WebLL99ZRKBoorVy+IbjQytciSlcQzVzhG/bBxFBZf9icGNzz9IPFM1x0mFwcV5zGQvdng=</sSourceSymbolPath>
-        <sSourceSymbolProvider></sSourceSymbolProvider>
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
         <sStyleResource i:nil="true" />
         <screen3DParameter i:nil="true" />
         <screen3DUri i:nil="true" />
@@ -107,7 +107,7 @@
       </Settings>
     </entry>
     <entry>
-      <XamlName>ContentControl1</XamlName>
+      <XamlName>TextBox</XamlName>
       <Settings>
         <accessLevel>0</accessLevel>
         <accessLevelFromTag>false</accessLevelFromTag>
@@ -117,11 +117,11 @@
         <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
         <bForceDynamicOnClient>false</bForceDynamicOnClient>
         <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
-        <bSourceSymbolLinked>true</bSourceSymbolLinked>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
         <bVisibleOnClient>true</bVisibleOnClient>
         <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <id>62c71554-6f26-4cf7-ba26-e3e2055cf2d6</id>
+        <id>e6c69914-c11d-4d87-92f5-276c83ae9fa0</id>
         <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
         <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
         <listCommands />
@@ -158,14 +158,14 @@
         <preserveSecurity>false</preserveSecurity>
         <preserveSize>true</preserveSize>
         <preserveStyle>false</preserveStyle>
-        <preserveText>true</preserveText>
-        <preserveVariables>true</preserveVariables>
+        <preserveText>false</preserveText>
+        <preserveVariables>false</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
-        <preservedHeight>101.99999999999994</preservedHeight>
-        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText i:nil="true" />
-        <preservedWidth>191.33333333333326</preservedWidth>
+        <preservedHeight>365.23809523809524</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText>ID_Info</preservedText>
+        <preservedWidth>597.14285714285711</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -173,15 +173,15 @@
         <sIdUnitConverter i:nil="true" />
         <sProblematicXaml i:nil="true" />
         <sReverseExpression i:nil="true" />
-        <sSourceSymbolPath>8wWGamS3somuyv1FmiUv92VciKr0tLeaU98s6WebLL99ZRKBoorVy+IbjQytciSlDuO9FZzQ1iia2IavvvlZD6mOAVj5gykTQ2ihcp4KLJ4=</sSourceSymbolPath>
-        <sSourceSymbolProvider></sSourceSymbolProvider>
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
         <sStyleResource i:nil="true" />
         <screen3DParameter i:nil="true" />
         <screen3DUri i:nil="true" />
         <showMenuOnLeft>false</showMenuOnLeft>
         <speechCommand i:nil="true" />
-        <tagBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</tagBrush>
-        <tagPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</tagPen>
+        <tagBrush i:nil="true" />
+        <tagPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</tagPen>
         <useIntelliSense>true</useIntelliSense>
         <visibilityLevel>2147483647</visibilityLevel>
         <writableAccessMask>0</writableAccessMask>
@@ -209,12 +209,12 @@
   <top>0</top>
   <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
   <useIntelliSense>true</useIntelliSense>
-  <width>1920</width>
+  <width>640</width>
   <windowOpacity>1</windowOpacity>
   <windowOpacityOnlyInactive>false</windowOpacityOnlyInactive>
   <windowStartupLocation>CenterScreen</windowStartupLocation>
-  <windowState>Maximized</windowState>
-  <windowStyle>None</windowStyle>
+  <windowState>Normal</windowState>
+  <windowStyle>SingleBorderWindow</windowStyle>
   <writeTimeout>0</writeTimeout>
   <zoomLevelCacheModeX>2</zoomLevelCacheModeX>
   <zoomLevelCacheModeY>2</zoomLevelCacheModeY>

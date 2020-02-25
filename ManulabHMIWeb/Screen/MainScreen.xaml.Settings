@@ -559,7 +559,7 @@
             <expression i:nil="true" />
             <opcuaEntityReference i:nil="true" />
             <autoCloseSecs>0</autoCloseSecs>
-            <executionMode>Synchro</executionMode>
+            <executionMode>Normal</executionMode>
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
