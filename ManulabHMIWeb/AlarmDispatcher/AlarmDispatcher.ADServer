@@ -1,0 +1,470 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ADGeneralSettingsEx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" type="xs:int" minOccurs="0" />
+                <xs:element name="UseLocalDateTime" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnableLog" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ErrorThreshold" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay0" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay1" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay2" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay3" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay4" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay5" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay6" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay7" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay8" type="xs:int" minOccurs="0" />
+                <xs:element name="PriorityDelay9" type="xs:int" minOccurs="0" />
+                <xs:element name="CustomMessage" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AddDateTime" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AddAlarmState" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AddNotificationText" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AddServerText" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AddNotificationName" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ConfigurationBase">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="ConfigurationId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentApplicationName" type="xs:string" minOccurs="0" />
+                <xs:element name="DefaultAccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultAccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="ApplicationName" type="xs:string" minOccurs="0" />
+                <xs:element name="ManufacturerName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProductUri" type="xs:string" minOccurs="0" />
+                <xs:element name="SoftwareVersion" type="xs:string" minOccurs="0" />
+                <xs:element name="BuildNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="BuildDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="AliasRoot" type="xs:string" minOccurs="0" />
+                <xs:element name="NamespaceUri" type="xs:string" minOccurs="0" />
+                <xs:element name="HistorianDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="AuditTraceDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="EventMaxAge" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableEventDataProtection" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MaxConcurrentHistoricalAccess" type="xs:int" minOccurs="0" />
+                <xs:element name="WaitHistoryRetryTime" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="MaxHistoryErrorBeforeFlush" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="MaxHistoryErrorCacheSize" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="MinHistoryPendingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryPendingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryDeletingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryDeleteProcess" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryRestoreProcess" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryTotalSafelyFilesSize" type="xs:long" minOccurs="0" />
+                <xs:element name="MaxHistoryAlarmsBranches" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxSessionTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="MinSessionTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="DiagnosticEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SpeechEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SpeechVoiceName" type="xs:string" minOccurs="0" />
+                <xs:element name="MaxSessionCount" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxBrowseContinuationPoints" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryContinuationPoints" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxRequestAge" type="xs:int" minOccurs="0" />
+                <xs:element name="MinPublishingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxPublishingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="PublishingResolution" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxSubscriptionLifetime" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxMessageQueueSize" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxNotificationQueueSize" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxNotificationsPerPublish" type="xs:int" minOccurs="0" />
+                <xs:element name="MinMetadataSamplingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultDataIOSamplingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="ListRedundancyServers" type="xs:string" minOccurs="0" />
+                <xs:element name="RedundancyStartupTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancySynchronizeTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyFullSynchronizationStartTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="RedundancyFullSynchronizationTimeSpan" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyHistoryThreadPool" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyMaxSyncEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyPortNumber" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="RedundancyMaxReceivedMessageSize" type="xs:long" minOccurs="0" />
+                <xs:element name="RedundancyMaxRetransmitCount" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyMaxPendingTransmitMessages" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyKeepActiveServerActive" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RedundancySkipHistoryDataSynchronization" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RedundancyTransportSecurityMode" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyUdpServiceIpAddress" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="RedundancyUdpClientIpAddress" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="AssemblyName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="AddressBase">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Transport" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Server" type="xs:string" minOccurs="0" />
+                <xs:element name="Port" type="xs:int" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UFUAConfiguration" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ADPlugin">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="ADGeneralSettings" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ADFolder">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="ADFolderAss" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ADNotification">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="NotificationType" type="xs:int" minOccurs="0" />
+                <xs:element name="AlarmNodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="AlarmName" type="xs:string" minOccurs="0" />
+                <xs:element name="Message" type="xs:string" minOccurs="0" />
+                <xs:element name="AlarmType" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableHighHighLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HighHighLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableHighLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HighLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableLowLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="LowLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableLowLowLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="LowLowLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="ConditionType" type="xs:int" minOccurs="0" />
+                <xs:element name="ActivationValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DeviationType" type="xs:int" minOccurs="0" />
+                <xs:element name="Severity" type="xs:int" minOccurs="0" />
+                <xs:element name="TimeUnit" type="xs:double" minOccurs="0" />
+                <xs:element name="DelayTimeOn" type="xs:double" minOccurs="0" />
+                <xs:element name="DelayTimeOff" type="xs:double" minOccurs="0" />
+                <xs:element name="Recipient" type="xs:string" minOccurs="0" />
+                <xs:element name="RecipientID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NotificationItem" type="xs:string" minOccurs="0" />
+                <xs:element name="NotificationItemName" type="xs:string" minOccurs="0" />
+                <xs:element name="Attachments" type="xs:string" minOccurs="0" />
+                <xs:element name="PluginName" type="xs:string" minOccurs="0" />
+                <xs:element name="ADGroupMessage" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PluginID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Priority" type="xs:int" minOccurs="0" />
+                <xs:element name="ADFolder" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableON" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnableOFF" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnableACK" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnableCONFIRMED" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ADBaseAddressEx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ADGeneralSettingsEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ADPlugin" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ADFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ADNotification" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ADBaseAddressEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ConfigurationBase_x0023_OID_x0023_ADGeneralSettingsEx_x0023_OIDIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ADGeneralSettingsEx_x0023_OID_x0023_ADPlugin_x0023_ADGeneralSettingsIdx">
+        <xs:selector xpath=".//ADGeneralSettingsEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ADFolder_x0023_OID_x0023_ADFolder_x0023_ADFolderAssIdx">
+        <xs:selector xpath=".//ADFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ADFolder_x0023_OID_x0023_ADNotification_x0023_ADFolderIdx">
+        <xs:selector xpath=".//ADFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__AddressBase_x0023_OID_x0023_ADBaseAddressEx_x0023_OIDIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__ConfigurationBase_x0023_OID_x0023_ADGeneralSettingsEx_x0023_OID" refer="FK__ConfigurationBase_x0023_OID_x0023_ADGeneralSettingsEx_x0023_OIDIdx">
+        <xs:selector xpath=".//ADGeneralSettingsEx" />
+        <xs:field xpath="OID" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfiguration" refer="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="UFUAConfiguration" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__ADGeneralSettingsEx_x0023_OID_x0023_ADPlugin_x0023_ADGeneralSettings" refer="FK__ADGeneralSettingsEx_x0023_OID_x0023_ADPlugin_x0023_ADGeneralSettingsIdx">
+        <xs:selector xpath=".//ADPlugin" />
+        <xs:field xpath="ADGeneralSettings" />
+      </xs:keyref>
+      <xs:keyref name="FK__ADFolder_x0023_OID_x0023_ADFolder_x0023_ADFolderAss" refer="FK__ADFolder_x0023_OID_x0023_ADFolder_x0023_ADFolderAssIdx">
+        <xs:selector xpath=".//ADFolder" />
+        <xs:field xpath="ADFolderAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__ADFolder_x0023_OID_x0023_ADNotification_x0023_ADFolder" refer="FK__ADFolder_x0023_OID_x0023_ADNotification_x0023_ADFolderIdx">
+        <xs:selector xpath=".//ADNotification" />
+        <xs:field xpath="ADFolder" />
+      </xs:keyref>
+      <xs:keyref name="FK__AddressBase_x0023_OID_x0023_ADBaseAddressEx_x0023_OID" refer="FK__AddressBase_x0023_OID_x0023_ADBaseAddressEx_x0023_OIDIdx">
+        <xs:selector xpath=".//ADBaseAddressEx" />
+        <xs:field xpath="OID" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <ADGeneralSettingsEx>
+    <OID>1</OID>
+    <UseLocalDateTime>false</UseLocalDateTime>
+    <EnableLog>false</EnableLog>
+    <ErrorThreshold>0</ErrorThreshold>
+    <PriorityDelay0>0</PriorityDelay0>
+    <PriorityDelay1>0</PriorityDelay1>
+    <PriorityDelay2>0</PriorityDelay2>
+    <PriorityDelay3>0</PriorityDelay3>
+    <PriorityDelay4>0</PriorityDelay4>
+    <PriorityDelay5>0</PriorityDelay5>
+    <PriorityDelay6>0</PriorityDelay6>
+    <PriorityDelay7>0</PriorityDelay7>
+    <PriorityDelay8>0</PriorityDelay8>
+    <PriorityDelay9>0</PriorityDelay9>
+    <CustomMessage>false</CustomMessage>
+    <AddDateTime>true</AddDateTime>
+    <AddAlarmState>true</AddAlarmState>
+    <AddNotificationText>true</AddNotificationText>
+    <AddServerText>true</AddServerText>
+    <AddNotificationName>true</AddNotificationName>
+  </ADGeneralSettingsEx>
+  <ConfigurationBase>
+    <OID>1</OID>
+    <ConfigurationId>aae253c9-0f53-47a9-8e84-3638a49b4186</ConfigurationId>
+    <DefaultAccessMask>0</DefaultAccessMask>
+    <DefaultAccessLevel>0</DefaultAccessLevel>
+    <ApplicationName>ManulabHMI_Dispatcher</ApplicationName>
+    <BuildDate>2020-02-21T09:05:24.6956601Z</BuildDate>
+    <HistorianDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Dispatcher;</HistorianDefaultConnection>
+    <EventDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Dispatcher;</EventDefaultConnection>
+    <AuditTraceDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Dispatcher_Audit;</AuditTraceDefaultConnection>
+    <EventMaxAge>31536000</EventMaxAge>
+    <EnableEventDataProtection>false</EnableEventDataProtection>
+    <MaxConcurrentHistoricalAccess>5</MaxConcurrentHistoricalAccess>
+    <WaitHistoryRetryTime>60</WaitHistoryRetryTime>
+    <MaxHistoryErrorBeforeFlush>3</MaxHistoryErrorBeforeFlush>
+    <MaxHistoryErrorCacheSize>10000</MaxHistoryErrorCacheSize>
+    <MinHistoryPendingEntities>500000</MinHistoryPendingEntities>
+    <MaxHistoryPendingEntities>600000</MaxHistoryPendingEntities>
+    <MaxHistoryDeletingEntities>10000</MaxHistoryDeletingEntities>
+    <MaxHistoryDeleteProcess>1</MaxHistoryDeleteProcess>
+    <MaxHistoryRestoreProcess>1</MaxHistoryRestoreProcess>
+    <MaxHistoryTotalSafelyFilesSize>104857600</MaxHistoryTotalSafelyFilesSize>
+    <MaxHistoryAlarmsBranches>10</MaxHistoryAlarmsBranches>
+    <MaxSessionTimeout>3600000</MaxSessionTimeout>
+    <MinSessionTimeout>10000</MinSessionTimeout>
+    <DiagnosticEnabled>false</DiagnosticEnabled>
+    <SpeechEnabled>true</SpeechEnabled>
+    <MaxSessionCount>100</MaxSessionCount>
+    <MaxBrowseContinuationPoints>10</MaxBrowseContinuationPoints>
+    <MaxHistoryContinuationPoints>100</MaxHistoryContinuationPoints>
+    <MaxRequestAge>600000</MaxRequestAge>
+    <MinPublishingInterval>100</MinPublishingInterval>
+    <MaxPublishingInterval>3600000</MaxPublishingInterval>
+    <PublishingResolution>50</PublishingResolution>
+    <MaxSubscriptionLifetime>3600000</MaxSubscriptionLifetime>
+    <MaxMessageQueueSize>10</MaxMessageQueueSize>
+    <MaxNotificationQueueSize>100</MaxNotificationQueueSize>
+    <MaxNotificationsPerPublish>1000</MaxNotificationsPerPublish>
+    <MinMetadataSamplingInterval>1000</MinMetadataSamplingInterval>
+    <DefaultDataIOSamplingInterval>0</DefaultDataIOSamplingInterval>
+    <RedundancyStartupTimeout>5</RedundancyStartupTimeout>
+    <RedundancySynchronizeTimeout>3</RedundancySynchronizeTimeout>
+    <RedundancyTimeout>10</RedundancyTimeout>
+    <RedundancyFullSynchronizationTimeSpan>0</RedundancyFullSynchronizationTimeSpan>
+    <RedundancyHistoryThreadPool>-1</RedundancyHistoryThreadPool>
+    <RedundancyMaxSyncEntities>10000</RedundancyMaxSyncEntities>
+    <RedundancyPortNumber>40000</RedundancyPortNumber>
+    <RedundancyMaxReceivedMessageSize>524288</RedundancyMaxReceivedMessageSize>
+    <RedundancyMaxRetransmitCount>0</RedundancyMaxRetransmitCount>
+    <RedundancyMaxPendingTransmitMessages>100</RedundancyMaxPendingTransmitMessages>
+    <RedundancyKeepActiveServerActive>false</RedundancyKeepActiveServerActive>
+    <RedundancySkipHistoryDataSynchronization>false</RedundancySkipHistoryDataSynchronization>
+    <RedundancyTransportSecurityMode>0</RedundancyTransportSecurityMode>
+    <RedundancyUdpServiceIpAddress>224.0.0.1</RedundancyUdpServiceIpAddress>
+    <RedundancyUdpClientIpAddress>224.0.0.1</RedundancyUdpClientIpAddress>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+  </ConfigurationBase>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>ADModel.ADGeneralSettings</TypeName>
+    <AssemblyName>ADModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>2</OID>
+    <TypeName>ADModel.ADBaseAddress</TypeName>
+    <AssemblyName>ADModel</AssemblyName>
+  </XPObjectType>
+  <AddressBase>
+    <OID>1</OID>
+    <Transport>net.pipe</Transport>
+    <Server>localhost</Server>
+    <Port>-1</Port>
+    <Enabled>true</Enabled>
+    <UFUAConfiguration>1</UFUAConfiguration>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>2</ObjectType>
+  </AddressBase>
+  <ADBaseAddressEx>
+    <OID>1</OID>
+  </ADBaseAddressEx>
+</DefaultName>

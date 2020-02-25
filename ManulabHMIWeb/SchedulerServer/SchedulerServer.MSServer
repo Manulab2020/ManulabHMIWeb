@@ -1,0 +1,537 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MSGeneralSettingsEx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" type="xs:int" minOccurs="0" />
+                <xs:element name="UserConnectionString" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableLog" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ConfigurationBase">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="ConfigurationId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentApplicationName" type="xs:string" minOccurs="0" />
+                <xs:element name="DefaultAccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultAccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="ApplicationName" type="xs:string" minOccurs="0" />
+                <xs:element name="ManufacturerName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProductUri" type="xs:string" minOccurs="0" />
+                <xs:element name="SoftwareVersion" type="xs:string" minOccurs="0" />
+                <xs:element name="BuildNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="BuildDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="AliasRoot" type="xs:string" minOccurs="0" />
+                <xs:element name="NamespaceUri" type="xs:string" minOccurs="0" />
+                <xs:element name="HistorianDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="AuditTraceDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="EventMaxAge" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableEventDataProtection" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MaxConcurrentHistoricalAccess" type="xs:int" minOccurs="0" />
+                <xs:element name="WaitHistoryRetryTime" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="MaxHistoryErrorBeforeFlush" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="MaxHistoryErrorCacheSize" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="MinHistoryPendingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryPendingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryDeletingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryDeleteProcess" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryRestoreProcess" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryTotalSafelyFilesSize" type="xs:long" minOccurs="0" />
+                <xs:element name="MaxHistoryAlarmsBranches" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxSessionTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="MinSessionTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="DiagnosticEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SpeechEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SpeechVoiceName" type="xs:string" minOccurs="0" />
+                <xs:element name="MaxSessionCount" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxBrowseContinuationPoints" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryContinuationPoints" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxRequestAge" type="xs:int" minOccurs="0" />
+                <xs:element name="MinPublishingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxPublishingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="PublishingResolution" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxSubscriptionLifetime" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxMessageQueueSize" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxNotificationQueueSize" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxNotificationsPerPublish" type="xs:int" minOccurs="0" />
+                <xs:element name="MinMetadataSamplingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultDataIOSamplingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="ListRedundancyServers" type="xs:string" minOccurs="0" />
+                <xs:element name="RedundancyStartupTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancySynchronizeTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyFullSynchronizationStartTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="RedundancyFullSynchronizationTimeSpan" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyHistoryThreadPool" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyMaxSyncEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyPortNumber" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="RedundancyMaxReceivedMessageSize" type="xs:long" minOccurs="0" />
+                <xs:element name="RedundancyMaxRetransmitCount" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyMaxPendingTransmitMessages" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyKeepActiveServerActive" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RedundancySkipHistoryDataSynchronization" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RedundancyTransportSecurityMode" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyUdpServiceIpAddress" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="RedundancyUdpClientIpAddress" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="AssemblyName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="AddressBase">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Transport" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Server" type="xs:string" minOccurs="0" />
+                <xs:element name="Port" type="xs:int" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UFUAConfiguration" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MSFolder">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="MSFolderAss" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MSScheduledAction">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Enable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Type" type="xs:int" minOccurs="0" />
+                <xs:element name="Time" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TimeOff" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DateOff" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EnableVariable" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableVarName" type="xs:string" minOccurs="0" />
+                <xs:element name="ScheduleItem" type="xs:string" minOccurs="0" />
+                <xs:element name="ScheduleItemName" type="xs:string" minOccurs="0" />
+                <xs:element name="ValueOn" type="xs:string" minOccurs="0" />
+                <xs:element name="ValueOff" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandsOn" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandsOff" type="xs:string" minOccurs="0" />
+                <xs:element name="RuntimeSelectable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AccessRole" type="xs:string" minOccurs="0" />
+                <xs:element name="AccessLevels" type="xs:int" minOccurs="0" />
+                <xs:element name="AccessMasks" type="xs:int" minOccurs="0" />
+                <xs:element name="MSFolderAss" type="xs:int" minOccurs="0" />
+                <xs:element name="ExecOnAtStartup" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ExecOffAtStartup" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HideRuntimeExceptionTab" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HideRuntimeSettingsTab" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="WeeklyCalendarItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MSScheduledAction" type="xs:int" minOccurs="0" />
+                <xs:element name="MSScheduledActionRuntime" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MSScheduledActionRuntime">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Time" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TimeOff" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DateOff" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ExecOnAtStartup" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ExecOffAtStartup" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CalendarItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Type" type="xs:int" minOccurs="0" />
+                <xs:element name="Month" type="xs:int" minOccurs="0" />
+                <xs:element name="DayOfMonth" type="xs:int" minOccurs="0" />
+                <xs:element name="WeekOfMonth" type="xs:int" minOccurs="0" />
+                <xs:element name="DayOfWeek" type="xs:int" minOccurs="0" />
+                <xs:element name="MSScheduledAction" type="xs:int" minOccurs="0" />
+                <xs:element name="MSScheduledActionRuntime" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ExceptionsCalendarItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EndDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Type" type="xs:int" minOccurs="0" />
+                <xs:element name="Month" type="xs:int" minOccurs="0" />
+                <xs:element name="DayOfMonth" type="xs:int" minOccurs="0" />
+                <xs:element name="WeekOfMonth" type="xs:int" minOccurs="0" />
+                <xs:element name="DayOfWeek" type="xs:int" minOccurs="0" />
+                <xs:element name="MSScheduledAction" type="xs:int" minOccurs="0" />
+                <xs:element name="MSScheduledActionRuntime" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MSAction">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="MSScheduledAction" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MSBaseAddressEx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MSGeneralSettingsEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MSFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MSScheduledAction" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//WeeklyCalendarItem" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MSScheduledActionRuntime" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//CalendarItem" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ExceptionsCalendarItem" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MSAction" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MSBaseAddressEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ConfigurationBase_x0023_OID_x0023_MSGeneralSettingsEx_x0023_OIDIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSFolder_x0023_OID_x0023_MSFolder_x0023_MSFolderAssIdx">
+        <xs:selector xpath=".//MSFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSFolder_x0023_OID_x0023_MSScheduledAction_x0023_MSFolderAssIdx">
+        <xs:selector xpath=".//MSFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSScheduledAction_x0023_OID_x0023_WeeklyCalendarItem_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//MSScheduledAction" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSScheduledActionRuntime_x0023_OID_x0023_WeeklyCalendarItem_x0023_MSScheduledActionRuntimeIdx">
+        <xs:selector xpath=".//MSScheduledActionRuntime" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSScheduledAction_x0023_OID_x0023_CalendarItem_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//MSScheduledAction" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSScheduledActionRuntime_x0023_OID_x0023_CalendarItem_x0023_MSScheduledActionRuntimeIdx">
+        <xs:selector xpath=".//MSScheduledActionRuntime" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSScheduledAction_x0023_OID_x0023_ExceptionsCalendarItem_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//MSScheduledAction" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSScheduledActionRuntime_x0023_OID_x0023_ExceptionsCalendarItem_x0023_MSScheduledActionRuntimeIdx">
+        <xs:selector xpath=".//MSScheduledActionRuntime" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__MSScheduledAction_x0023_OID_x0023_MSAction_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//MSScheduledAction" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__AddressBase_x0023_OID_x0023_MSBaseAddressEx_x0023_OIDIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__ConfigurationBase_x0023_OID_x0023_MSGeneralSettingsEx_x0023_OID" refer="FK__ConfigurationBase_x0023_OID_x0023_MSGeneralSettingsEx_x0023_OIDIdx">
+        <xs:selector xpath=".//MSGeneralSettingsEx" />
+        <xs:field xpath="OID" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfiguration" refer="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="UFUAConfiguration" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSFolder_x0023_OID_x0023_MSFolder_x0023_MSFolderAss" refer="FK__MSFolder_x0023_OID_x0023_MSFolder_x0023_MSFolderAssIdx">
+        <xs:selector xpath=".//MSFolder" />
+        <xs:field xpath="MSFolderAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSFolder_x0023_OID_x0023_MSScheduledAction_x0023_MSFolderAss" refer="FK__MSFolder_x0023_OID_x0023_MSScheduledAction_x0023_MSFolderAssIdx">
+        <xs:selector xpath=".//MSScheduledAction" />
+        <xs:field xpath="MSFolderAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSScheduledAction_x0023_OID_x0023_WeeklyCalendarItem_x0023_MSScheduledAction" refer="FK__MSScheduledAction_x0023_OID_x0023_WeeklyCalendarItem_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//WeeklyCalendarItem" />
+        <xs:field xpath="MSScheduledAction" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSScheduledActionRuntime_x0023_OID_x0023_WeeklyCalendarItem_x0023_MSScheduledActionRuntime" refer="FK__MSScheduledActionRuntime_x0023_OID_x0023_WeeklyCalendarItem_x0023_MSScheduledActionRuntimeIdx">
+        <xs:selector xpath=".//WeeklyCalendarItem" />
+        <xs:field xpath="MSScheduledActionRuntime" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSScheduledAction_x0023_OID_x0023_CalendarItem_x0023_MSScheduledAction" refer="FK__MSScheduledAction_x0023_OID_x0023_CalendarItem_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//CalendarItem" />
+        <xs:field xpath="MSScheduledAction" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSScheduledActionRuntime_x0023_OID_x0023_CalendarItem_x0023_MSScheduledActionRuntime" refer="FK__MSScheduledActionRuntime_x0023_OID_x0023_CalendarItem_x0023_MSScheduledActionRuntimeIdx">
+        <xs:selector xpath=".//CalendarItem" />
+        <xs:field xpath="MSScheduledActionRuntime" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSScheduledAction_x0023_OID_x0023_ExceptionsCalendarItem_x0023_MSScheduledAction" refer="FK__MSScheduledAction_x0023_OID_x0023_ExceptionsCalendarItem_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//ExceptionsCalendarItem" />
+        <xs:field xpath="MSScheduledAction" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSScheduledActionRuntime_x0023_OID_x0023_ExceptionsCalendarItem_x0023_MSScheduledActionRuntime" refer="FK__MSScheduledActionRuntime_x0023_OID_x0023_ExceptionsCalendarItem_x0023_MSScheduledActionRuntimeIdx">
+        <xs:selector xpath=".//ExceptionsCalendarItem" />
+        <xs:field xpath="MSScheduledActionRuntime" />
+      </xs:keyref>
+      <xs:keyref name="FK__MSScheduledAction_x0023_OID_x0023_MSAction_x0023_MSScheduledAction" refer="FK__MSScheduledAction_x0023_OID_x0023_MSAction_x0023_MSScheduledActionIdx">
+        <xs:selector xpath=".//MSAction" />
+        <xs:field xpath="MSScheduledAction" />
+      </xs:keyref>
+      <xs:keyref name="FK__AddressBase_x0023_OID_x0023_MSBaseAddressEx_x0023_OID" refer="FK__AddressBase_x0023_OID_x0023_MSBaseAddressEx_x0023_OIDIdx">
+        <xs:selector xpath=".//MSBaseAddressEx" />
+        <xs:field xpath="OID" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <MSGeneralSettingsEx>
+    <OID>1</OID>
+    <EnableLog>false</EnableLog>
+  </MSGeneralSettingsEx>
+  <ConfigurationBase>
+    <OID>1</OID>
+    <ConfigurationId>1b7affbf-cf7c-48c1-82d8-a6092f35a0a2</ConfigurationId>
+    <ParentApplicationName>ManulabHMI</ParentApplicationName>
+    <DefaultAccessMask>0</DefaultAccessMask>
+    <DefaultAccessLevel>0</DefaultAccessLevel>
+    <ApplicationName>ManulabHMI_Scheduler</ApplicationName>
+    <BuildDate>2020-02-21T09:05:21.971743Z</BuildDate>
+    <HistorianDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Scheduler;</HistorianDefaultConnection>
+    <EventDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Scheduler;</EventDefaultConnection>
+    <AuditTraceDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_Scheduler_Audit;</AuditTraceDefaultConnection>
+    <EventMaxAge>31536000</EventMaxAge>
+    <EnableEventDataProtection>false</EnableEventDataProtection>
+    <MaxConcurrentHistoricalAccess>5</MaxConcurrentHistoricalAccess>
+    <WaitHistoryRetryTime>60</WaitHistoryRetryTime>
+    <MaxHistoryErrorBeforeFlush>3</MaxHistoryErrorBeforeFlush>
+    <MaxHistoryErrorCacheSize>10000</MaxHistoryErrorCacheSize>
+    <MinHistoryPendingEntities>500000</MinHistoryPendingEntities>
+    <MaxHistoryPendingEntities>600000</MaxHistoryPendingEntities>
+    <MaxHistoryDeletingEntities>10000</MaxHistoryDeletingEntities>
+    <MaxHistoryDeleteProcess>1</MaxHistoryDeleteProcess>
+    <MaxHistoryRestoreProcess>1</MaxHistoryRestoreProcess>
+    <MaxHistoryTotalSafelyFilesSize>104857600</MaxHistoryTotalSafelyFilesSize>
+    <MaxHistoryAlarmsBranches>10</MaxHistoryAlarmsBranches>
+    <MaxSessionTimeout>3600000</MaxSessionTimeout>
+    <MinSessionTimeout>10000</MinSessionTimeout>
+    <DiagnosticEnabled>false</DiagnosticEnabled>
+    <SpeechEnabled>true</SpeechEnabled>
+    <MaxSessionCount>100</MaxSessionCount>
+    <MaxBrowseContinuationPoints>10</MaxBrowseContinuationPoints>
+    <MaxHistoryContinuationPoints>100</MaxHistoryContinuationPoints>
+    <MaxRequestAge>600000</MaxRequestAge>
+    <MinPublishingInterval>100</MinPublishingInterval>
+    <MaxPublishingInterval>3600000</MaxPublishingInterval>
+    <PublishingResolution>50</PublishingResolution>
+    <MaxSubscriptionLifetime>3600000</MaxSubscriptionLifetime>
+    <MaxMessageQueueSize>10</MaxMessageQueueSize>
+    <MaxNotificationQueueSize>100</MaxNotificationQueueSize>
+    <MaxNotificationsPerPublish>1000</MaxNotificationsPerPublish>
+    <MinMetadataSamplingInterval>1000</MinMetadataSamplingInterval>
+    <DefaultDataIOSamplingInterval>0</DefaultDataIOSamplingInterval>
+    <RedundancyStartupTimeout>5</RedundancyStartupTimeout>
+    <RedundancySynchronizeTimeout>3</RedundancySynchronizeTimeout>
+    <RedundancyTimeout>10</RedundancyTimeout>
+    <RedundancyFullSynchronizationTimeSpan>0</RedundancyFullSynchronizationTimeSpan>
+    <RedundancyHistoryThreadPool>-1</RedundancyHistoryThreadPool>
+    <RedundancyMaxSyncEntities>10000</RedundancyMaxSyncEntities>
+    <RedundancyPortNumber>40000</RedundancyPortNumber>
+    <RedundancyMaxReceivedMessageSize>524288</RedundancyMaxReceivedMessageSize>
+    <RedundancyMaxRetransmitCount>0</RedundancyMaxRetransmitCount>
+    <RedundancyMaxPendingTransmitMessages>100</RedundancyMaxPendingTransmitMessages>
+    <RedundancyKeepActiveServerActive>false</RedundancyKeepActiveServerActive>
+    <RedundancySkipHistoryDataSynchronization>false</RedundancySkipHistoryDataSynchronization>
+    <RedundancyTransportSecurityMode>0</RedundancyTransportSecurityMode>
+    <RedundancyUdpServiceIpAddress>224.0.0.1</RedundancyUdpServiceIpAddress>
+    <RedundancyUdpClientIpAddress>224.0.0.1</RedundancyUdpClientIpAddress>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+  </ConfigurationBase>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>MSModel.MSGeneralSettings</TypeName>
+    <AssemblyName>MSModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>2</OID>
+    <TypeName>MSModel.MSBaseAddress</TypeName>
+    <AssemblyName>MSModel</AssemblyName>
+  </XPObjectType>
+  <AddressBase>
+    <OID>1</OID>
+    <Transport>net.pipe</Transport>
+    <Server>localhost</Server>
+    <Port>-1</Port>
+    <Enabled>true</Enabled>
+    <UFUAConfiguration>1</UFUAConfiguration>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>2</ObjectType>
+  </AddressBase>
+  <MSBaseAddressEx>
+    <OID>1</OID>
+  </MSBaseAddressEx>
+</DefaultName>

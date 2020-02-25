@@ -1,0 +1,3 @@
+<Canvas Background="#FF000000" Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <ContentControl Name="AnimatedImage1" Width="552.222222222223" Height="183.766666666667" IsManipulationEnabled="False" Canvas.Left="342.537037037037" Canvas.Top="9.24999999999992" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+</Canvas>

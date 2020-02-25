@@ -1,0 +1,232 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TcpChannelSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" type="xs:int" minOccurs="0" />
+                <xs:element name="TcpChannelSettingsHostName" type="xs:string" minOccurs="0" />
+                <xs:element name="TcpChannelSettingsHostPort" type="xs:int" minOccurs="0" />
+                <xs:element name="TcpChannelSettingsBackupHostName" type="xs:string" minOccurs="0" />
+                <xs:element name="TcpChannelSettingsSwitchHostTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="TcpChannelSettingsReadTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="TcpChannelSettingsWriteTimeout" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ChannelSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="WaitTime" type="xs:int" minOccurs="0" />
+                <xs:element name="Timeout" type="xs:int" minOccurs="0" />
+                <xs:element name="ScheduleTimeJobsList" type="xs:int" minOccurs="0" />
+                <xs:element name="PollingTimeNotInUse" type="xs:int" minOccurs="0" />
+                <xs:element name="PollingTimeInError" type="xs:int" minOccurs="0" />
+                <xs:element name="KeepOpened" type="xs:boolean" minOccurs="0" />
+                <xs:element name="StateCommandTag" type="xs:string" minOccurs="0" />
+                <xs:element name="DriverSettings" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DriverSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Enable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AggregationThreshold" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="AggregationLimit" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="SyncAtStartup" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnableStatistics" type="xs:boolean" minOccurs="0" />
+                <xs:element name="StateCommandTag" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="StationSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Channel" type="xs:string" minOccurs="0" />
+                <xs:element name="MaxRetriesBeforeError" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="RewritingOfTheSameValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="StateCommandTag" type="xs:string" minOccurs="0" />
+                <xs:element name="DriverSettings" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+                <xs:element name="CPUSlot" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="PlcType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TcpChannelSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ChannelSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//DriverSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//StationSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ChannelSettings_x0023_OID_x0023_TcpChannelSettings_x0023_OIDIdx">
+        <xs:selector xpath=".//ChannelSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__DriverSettings_x0023_OID_x0023_ChannelSettings_x0023_DriverSettingsIdx">
+        <xs:selector xpath=".//DriverSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_ChannelSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_DriverSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__DriverSettings_x0023_OID_x0023_StationSettings_x0023_DriverSettingsIdx">
+        <xs:selector xpath=".//DriverSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_StationSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__ChannelSettings_x0023_OID_x0023_TcpChannelSettings_x0023_OID" refer="FK__ChannelSettings_x0023_OID_x0023_TcpChannelSettings_x0023_OIDIdx">
+        <xs:selector xpath=".//TcpChannelSettings" />
+        <xs:field xpath="OID" />
+      </xs:keyref>
+      <xs:keyref name="FK__DriverSettings_x0023_OID_x0023_ChannelSettings_x0023_DriverSettings" refer="FK__DriverSettings_x0023_OID_x0023_ChannelSettings_x0023_DriverSettingsIdx">
+        <xs:selector xpath=".//ChannelSettings" />
+        <xs:field xpath="DriverSettings" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_ChannelSettings_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_ChannelSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//ChannelSettings" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_DriverSettings_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_DriverSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//DriverSettings" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__DriverSettings_x0023_OID_x0023_StationSettings_x0023_DriverSettings" refer="FK__DriverSettings_x0023_OID_x0023_StationSettings_x0023_DriverSettingsIdx">
+        <xs:selector xpath=".//StationSettings" />
+        <xs:field xpath="DriverSettings" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_StationSettings_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_StationSettings_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//StationSettings" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <TcpChannelSettings>
+    <OID>1</OID>
+    <TcpChannelSettingsHostName></TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostPort>44818</TcpChannelSettingsHostPort>
+    <TcpChannelSettingsBackupHostName></TcpChannelSettingsBackupHostName>
+    <TcpChannelSettingsSwitchHostTimeout>10000</TcpChannelSettingsSwitchHostTimeout>
+    <TcpChannelSettingsReadTimeout>2000</TcpChannelSettingsReadTimeout>
+    <TcpChannelSettingsWriteTimeout>2000</TcpChannelSettingsWriteTimeout>
+  </TcpChannelSettings>
+  <ChannelSettings>
+    <OID>1</OID>
+    <Name>Channel0</Name>
+    <WaitTime>0</WaitTime>
+    <Timeout>5000</Timeout>
+    <ScheduleTimeJobsList>100</ScheduleTimeJobsList>
+    <PollingTimeNotInUse>0</PollingTimeNotInUse>
+    <PollingTimeInError>0</PollingTimeInError>
+    <KeepOpened>true</KeepOpened>
+    <StateCommandTag></StateCommandTag>
+    <DriverSettings>1</DriverSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>2</ObjectType>
+  </ChannelSettings>
+  <DriverSettings>
+    <OID>1</OID>
+    <Enable>true</Enable>
+    <AggregationThreshold>5</AggregationThreshold>
+    <AggregationLimit>0</AggregationLimit>
+    <SyncAtStartup>false</SyncAtStartup>
+    <EnableStatistics>false</EnableStatistics>
+    <StateCommandTag></StateCommandTag>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+  </DriverSettings>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>OmronEthernetIP.OmronEthernetIPDriverSettings</TypeName>
+    <AssemblyName>OmronEthernetIP</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>2</OID>
+    <TypeName>OmronEthernetIP.OmronEthernetIPChannelSettings</TypeName>
+    <AssemblyName>OmronEthernetIP</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>3</OID>
+    <TypeName>OmronEthernetIP.OmronEthernetIPStationSettings</TypeName>
+    <AssemblyName>OmronEthernetIP</AssemblyName>
+  </XPObjectType>
+  <StationSettings>
+    <OID>1</OID>
+    <Name>Station0</Name>
+    <Channel>Channel0</Channel>
+    <MaxRetriesBeforeError>3</MaxRetriesBeforeError>
+    <RewritingOfTheSameValue>false</RewritingOfTheSameValue>
+    <StateCommandTag></StateCommandTag>
+    <DriverSettings>1</DriverSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>3</ObjectType>
+    <CPUSlot>0</CPUSlot>
+    <PlcType>0</PlcType>
+  </StationSettings>
+</DefaultName>

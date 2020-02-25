@@ -1,0 +1,758 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="UFUAConfigurationEx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ConfigurationBase">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="ConfigurationId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentApplicationName" type="xs:string" minOccurs="0" />
+                <xs:element name="DefaultAccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultAccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="ApplicationName" type="xs:string" minOccurs="0" />
+                <xs:element name="ManufacturerName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProductUri" type="xs:string" minOccurs="0" />
+                <xs:element name="SoftwareVersion" type="xs:string" minOccurs="0" />
+                <xs:element name="BuildNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="BuildDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="AliasRoot" type="xs:string" minOccurs="0" />
+                <xs:element name="NamespaceUri" type="xs:string" minOccurs="0" />
+                <xs:element name="HistorianDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="AuditTraceDefaultConnection" type="xs:string" minOccurs="0" />
+                <xs:element name="EventMaxAge" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableEventDataProtection" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MaxConcurrentHistoricalAccess" type="xs:int" minOccurs="0" />
+                <xs:element name="WaitHistoryRetryTime" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="MaxHistoryErrorBeforeFlush" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="MaxHistoryErrorCacheSize" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="MinHistoryPendingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryPendingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryDeletingEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryDeleteProcess" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryRestoreProcess" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryTotalSafelyFilesSize" type="xs:long" minOccurs="0" />
+                <xs:element name="MaxHistoryAlarmsBranches" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxSessionTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="MinSessionTimeout" type="xs:int" minOccurs="0" />
+                <xs:element name="DiagnosticEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SpeechEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SpeechVoiceName" type="xs:string" minOccurs="0" />
+                <xs:element name="MaxSessionCount" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxBrowseContinuationPoints" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxHistoryContinuationPoints" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxRequestAge" type="xs:int" minOccurs="0" />
+                <xs:element name="MinPublishingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxPublishingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="PublishingResolution" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxSubscriptionLifetime" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxMessageQueueSize" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxNotificationQueueSize" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxNotificationsPerPublish" type="xs:int" minOccurs="0" />
+                <xs:element name="MinMetadataSamplingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultDataIOSamplingInterval" type="xs:int" minOccurs="0" />
+                <xs:element name="ListRedundancyServers" type="xs:string" minOccurs="0" />
+                <xs:element name="RedundancyStartupTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancySynchronizeTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyTimeout" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyFullSynchronizationStartTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="RedundancyFullSynchronizationTimeSpan" type="xs:double" minOccurs="0" />
+                <xs:element name="RedundancyHistoryThreadPool" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyMaxSyncEntities" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyPortNumber" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="RedundancyMaxReceivedMessageSize" type="xs:long" minOccurs="0" />
+                <xs:element name="RedundancyMaxRetransmitCount" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyMaxPendingTransmitMessages" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyKeepActiveServerActive" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RedundancySkipHistoryDataSynchronization" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RedundancyTransportSecurityMode" type="xs:int" minOccurs="0" />
+                <xs:element name="RedundancyUdpServiceIpAddress" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="RedundancyUdpClientIpAddress" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="AssemblyName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="AddressBase">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Transport" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Server" type="xs:string" minOccurs="0" />
+                <xs:element name="Port" type="xs:int" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UFUAConfiguration" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUACommunicationDriverEx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="FriendlyName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Factory" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="UFUAConfiguration" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUATag">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="MemberOrderId" type="xs:int" minOccurs="0" />
+                <xs:element name="UseShared" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="OriginalName" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="ModelType" type="xs:int" minOccurs="0" />
+                <xs:element name="DataType" type="xs:int" minOccurs="0" />
+                <xs:element name="ArrayDimension" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="DynamicSettings" type="xs:string" minOccurs="0" />
+                <xs:element name="IsRetentive" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnableStatistics" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsRedundancyEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AuditTraceEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnterCommentOnAudit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnterPasswordOnAudit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MinAccessLevelRequiredOnAudit" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxAuditAge" type="xs:double" minOccurs="0" />
+                <xs:element name="InitialValue" type="xs:string" minOccurs="0" />
+                <xs:element name="UserReadAccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="UserWriteAccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="UserAccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="AccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="SettingsTimeStamp" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="PrototypeModel" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="UFUAFolder" type="xs:int" minOccurs="0" />
+                <xs:element name="UFUATagPrototype" type="xs:int" minOccurs="0" />
+                <xs:element name="UFUAEngineeringUnit" type="xs:string" minOccurs="0" />
+                <xs:element name="HistorianSettings" type="xs:string" minOccurs="0" />
+                <xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ListProcedures" type="xs:string" minOccurs="0" />
+                <xs:element name="ScriptCode" type="xs:string" minOccurs="0" />
+                <xs:element name="Breakpoints" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAFolder">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="MemberOrderId" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="OriginalName" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="User" type="xs:string" minOccurs="0" />
+                <xs:element name="UFUAFolderAss" type="xs:int" minOccurs="0" />
+                <xs:element name="UFUATagPrototype" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUATagPrototype">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="UFUATagOwner" type="xs:int" minOccurs="0" />
+                <xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAEnumString">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Data" type="xs:string" minOccurs="0" />
+                <xs:element name="UFUATag" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAAlarmThreshold">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="SettingsTimeStamp" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="UFUAAlarmDefinitionNodeIdRef" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="AlarmText" type="xs:string" minOccurs="0" />
+                <xs:element name="AddTagDescription" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EnableTag" type="xs:string" minOccurs="0" />
+                <xs:element name="ActivationValueTag" type="xs:string" minOccurs="0" />
+                <xs:element name="HighHighLimitTag" type="xs:string" minOccurs="0" />
+                <xs:element name="HighLimitTag" type="xs:string" minOccurs="0" />
+                <xs:element name="LowLimitTag" type="xs:string" minOccurs="0" />
+                <xs:element name="LowLowLimitTag" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableQualityGood" type="xs:int" minOccurs="0" />
+                <xs:element name="Beep" type="xs:int" minOccurs="0" />
+                <xs:element name="Expression" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandsOn" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandsOff" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandsAck" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandsReset" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandsDbClick" type="xs:string" minOccurs="0" />
+                <xs:element name="UFUATagAss" type="xs:int" minOccurs="0" />
+                <xs:element name="UFUAAlarmDefinitionRef" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAAlarmDefinition">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="AlarmType" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableHighHighLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HighHighLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableHighLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HighLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableLowLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="LowLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="EnableLowLowLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="LowLowLimit" type="xs:double" minOccurs="0" />
+                <xs:element name="ConditionType" type="xs:int" minOccurs="0" />
+                <xs:element name="ActivationValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DeviationType" type="xs:int" minOccurs="0" />
+                <xs:element name="Severity" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableQualityGood" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SaveEventsLog" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SaveBranches" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SupportAck" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SupportReset" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Beep" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SoundFile" type="xs:string" minOccurs="0" />
+                <xs:element name="RepeatSoundContinuously" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UseTimeStamp" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TimeUnit" type="xs:double" minOccurs="0" />
+                <xs:element name="DelayTimeOn" type="xs:double" minOccurs="0" />
+                <xs:element name="DelayTimeOff" type="xs:double" minOccurs="0" />
+                <xs:element name="UFUAAlarmDefinitions" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAAlarmSource">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="UFUAArea" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAArea">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="UFUAAreaAss" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="XPTagEntityReference">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TagEntity" type="xs:string" minOccurs="0" />
+                <xs:element name="UFUAAlarmThresholdReference" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAView">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUAViewUFUAViews_UFUATagUFUATags">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UFUATags" type="xs:int" minOccurs="0" />
+                <xs:element name="UFUAViews" type="xs:int" minOccurs="0" />
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUABaseAddressEx">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAConfigurationEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUACommunicationDriverEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUATag" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUATagPrototype" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAEnumString" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAAlarmThreshold" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAAlarmDefinition" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAAlarmSource" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAArea" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPTagEntityReference" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAView" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAViewUFUAViews_UFUATagUFUATags" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_UFUATags_UFUAViews">
+        <xs:selector xpath=".//UFUAViewUFUAViews_UFUATagUFUATags" />
+        <xs:field xpath="UFUATags" />
+        <xs:field xpath="UFUAViews" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUABaseAddressEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ConfigurationBase_x0023_OID_x0023_UFUAConfigurationEx_x0023_OIDIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAConfigurationEx_x0023_OID_x0023_UFUACommunicationDriverEx_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//UFUAConfigurationEx" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAFolder_x0023_OID_x0023_UFUATag_x0023_UFUAFolderIdx">
+        <xs:selector xpath=".//UFUAFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUATagPrototype_x0023_OID_x0023_UFUATag_x0023_UFUATagPrototypeIdx">
+        <xs:selector xpath=".//UFUATagPrototype" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAFolder_x0023_OID_x0023_UFUAFolder_x0023_UFUAFolderAssIdx">
+        <xs:selector xpath=".//UFUAFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUATagPrototype_x0023_OID_x0023_UFUAFolder_x0023_UFUATagPrototypeIdx">
+        <xs:selector xpath=".//UFUATagPrototype" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUATag_x0023_OID_x0023_UFUATagPrototype_x0023_UFUATagOwnerIdx">
+        <xs:selector xpath=".//UFUATag" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUATag_x0023_OID_x0023_UFUAEnumString_x0023_UFUATagIdx">
+        <xs:selector xpath=".//UFUATag" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUATag_x0023_OID_x0023_UFUAAlarmThreshold_x0023_UFUATagAssIdx">
+        <xs:selector xpath=".//UFUATag" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAAlarmDefinition_x0023_OID_x0023_UFUAAlarmThreshold_x0023_UFUAAlarmDefinitionRefIdx">
+        <xs:selector xpath=".//UFUAAlarmDefinition" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAAlarmSource_x0023_OID_x0023_UFUAAlarmDefinition_x0023_UFUAAlarmDefinitionsIdx">
+        <xs:selector xpath=".//UFUAAlarmSource" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAArea_x0023_OID_x0023_UFUAAlarmSource_x0023_UFUAAreaIdx">
+        <xs:selector xpath=".//UFUAArea" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAArea_x0023_OID_x0023_UFUAArea_x0023_UFUAAreaAssIdx">
+        <xs:selector xpath=".//UFUAArea" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAAlarmThreshold_x0023_OID_x0023_XPTagEntityReference_x0023_UFUAAlarmThresholdReferenceIdx">
+        <xs:selector xpath=".//UFUAAlarmThreshold" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUATag_x0023_OID_x0023_UFUAViewUFUAViews_UFUATagUFUATags_x0023_UFUATagsIdx">
+        <xs:selector xpath=".//UFUATag" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFUAView_x0023_OID_x0023_UFUAViewUFUAViews_UFUATagUFUATags_x0023_UFUAViewsIdx">
+        <xs:selector xpath=".//UFUAView" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__AddressBase_x0023_OID_x0023_UFUABaseAddressEx_x0023_OIDIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__ConfigurationBase_x0023_OID_x0023_UFUAConfigurationEx_x0023_OID" refer="FK__ConfigurationBase_x0023_OID_x0023_UFUAConfigurationEx_x0023_OIDIdx">
+        <xs:selector xpath=".//UFUAConfigurationEx" />
+        <xs:field xpath="OID" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_ConfigurationBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//ConfigurationBase" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfiguration" refer="FK__ConfigurationBase_x0023_OID_x0023_AddressBase_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="UFUAConfiguration" />
+      </xs:keyref>
+      <xs:keyref name="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectType" refer="FK__XPObjectType_x0023_OID_x0023_AddressBase_x0023_ObjectTypeIdx">
+        <xs:selector xpath=".//AddressBase" />
+        <xs:field xpath="ObjectType" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAConfigurationEx_x0023_OID_x0023_UFUACommunicationDriverEx_x0023_UFUAConfiguration" refer="FK__UFUAConfigurationEx_x0023_OID_x0023_UFUACommunicationDriverEx_x0023_UFUAConfigurationIdx">
+        <xs:selector xpath=".//UFUACommunicationDriverEx" />
+        <xs:field xpath="UFUAConfiguration" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAFolder_x0023_OID_x0023_UFUATag_x0023_UFUAFolder" refer="FK__UFUAFolder_x0023_OID_x0023_UFUATag_x0023_UFUAFolderIdx">
+        <xs:selector xpath=".//UFUATag" />
+        <xs:field xpath="UFUAFolder" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUATagPrototype_x0023_OID_x0023_UFUATag_x0023_UFUATagPrototype" refer="FK__UFUATagPrototype_x0023_OID_x0023_UFUATag_x0023_UFUATagPrototypeIdx">
+        <xs:selector xpath=".//UFUATag" />
+        <xs:field xpath="UFUATagPrototype" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAFolder_x0023_OID_x0023_UFUAFolder_x0023_UFUAFolderAss" refer="FK__UFUAFolder_x0023_OID_x0023_UFUAFolder_x0023_UFUAFolderAssIdx">
+        <xs:selector xpath=".//UFUAFolder" />
+        <xs:field xpath="UFUAFolderAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUATagPrototype_x0023_OID_x0023_UFUAFolder_x0023_UFUATagPrototype" refer="FK__UFUATagPrototype_x0023_OID_x0023_UFUAFolder_x0023_UFUATagPrototypeIdx">
+        <xs:selector xpath=".//UFUAFolder" />
+        <xs:field xpath="UFUATagPrototype" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUATag_x0023_OID_x0023_UFUATagPrototype_x0023_UFUATagOwner" refer="FK__UFUATag_x0023_OID_x0023_UFUATagPrototype_x0023_UFUATagOwnerIdx">
+        <xs:selector xpath=".//UFUATagPrototype" />
+        <xs:field xpath="UFUATagOwner" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUATag_x0023_OID_x0023_UFUAEnumString_x0023_UFUATag" refer="FK__UFUATag_x0023_OID_x0023_UFUAEnumString_x0023_UFUATagIdx">
+        <xs:selector xpath=".//UFUAEnumString" />
+        <xs:field xpath="UFUATag" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUATag_x0023_OID_x0023_UFUAAlarmThreshold_x0023_UFUATagAss" refer="FK__UFUATag_x0023_OID_x0023_UFUAAlarmThreshold_x0023_UFUATagAssIdx">
+        <xs:selector xpath=".//UFUAAlarmThreshold" />
+        <xs:field xpath="UFUATagAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAAlarmDefinition_x0023_OID_x0023_UFUAAlarmThreshold_x0023_UFUAAlarmDefinitionRef" refer="FK__UFUAAlarmDefinition_x0023_OID_x0023_UFUAAlarmThreshold_x0023_UFUAAlarmDefinitionRefIdx">
+        <xs:selector xpath=".//UFUAAlarmThreshold" />
+        <xs:field xpath="UFUAAlarmDefinitionRef" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAAlarmSource_x0023_OID_x0023_UFUAAlarmDefinition_x0023_UFUAAlarmDefinitions" refer="FK__UFUAAlarmSource_x0023_OID_x0023_UFUAAlarmDefinition_x0023_UFUAAlarmDefinitionsIdx">
+        <xs:selector xpath=".//UFUAAlarmDefinition" />
+        <xs:field xpath="UFUAAlarmDefinitions" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAArea_x0023_OID_x0023_UFUAAlarmSource_x0023_UFUAArea" refer="FK__UFUAArea_x0023_OID_x0023_UFUAAlarmSource_x0023_UFUAAreaIdx">
+        <xs:selector xpath=".//UFUAAlarmSource" />
+        <xs:field xpath="UFUAArea" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAArea_x0023_OID_x0023_UFUAArea_x0023_UFUAAreaAss" refer="FK__UFUAArea_x0023_OID_x0023_UFUAArea_x0023_UFUAAreaAssIdx">
+        <xs:selector xpath=".//UFUAArea" />
+        <xs:field xpath="UFUAAreaAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAAlarmThreshold_x0023_OID_x0023_XPTagEntityReference_x0023_UFUAAlarmThresholdReference" refer="FK__UFUAAlarmThreshold_x0023_OID_x0023_XPTagEntityReference_x0023_UFUAAlarmThresholdReferenceIdx">
+        <xs:selector xpath=".//XPTagEntityReference" />
+        <xs:field xpath="UFUAAlarmThresholdReference" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUATag_x0023_OID_x0023_UFUAViewUFUAViews_UFUATagUFUATags_x0023_UFUATags" refer="FK__UFUATag_x0023_OID_x0023_UFUAViewUFUAViews_UFUATagUFUATags_x0023_UFUATagsIdx">
+        <xs:selector xpath=".//UFUAViewUFUAViews_UFUATagUFUATags" />
+        <xs:field xpath="UFUATags" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFUAView_x0023_OID_x0023_UFUAViewUFUAViews_UFUATagUFUATags_x0023_UFUAViews" refer="FK__UFUAView_x0023_OID_x0023_UFUAViewUFUAViews_UFUATagUFUATags_x0023_UFUAViewsIdx">
+        <xs:selector xpath=".//UFUAViewUFUAViews_UFUATagUFUATags" />
+        <xs:field xpath="UFUAViews" />
+      </xs:keyref>
+      <xs:keyref name="FK__AddressBase_x0023_OID_x0023_UFUABaseAddressEx_x0023_OID" refer="FK__AddressBase_x0023_OID_x0023_UFUABaseAddressEx_x0023_OIDIdx">
+        <xs:selector xpath=".//UFUABaseAddressEx" />
+        <xs:field xpath="OID" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <UFUAConfigurationEx>
+    <OID>1</OID>
+  </UFUAConfigurationEx>
+  <ConfigurationBase>
+    <OID>1</OID>
+    <ConfigurationId>d6284fbc-3cf0-4f7d-88aa-7bc2051031fa</ConfigurationId>
+    <ParentApplicationName>ManulabHMI</ParentApplicationName>
+    <DefaultAccessMask>0</DefaultAccessMask>
+    <DefaultAccessLevel>0</DefaultAccessLevel>
+    <ApplicationName>ManulabHMI_IOServer</ApplicationName>
+    <BuildDate>2020-02-21T13:35:10.8254704Z</BuildDate>
+    <HistorianDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_IOServer;</HistorianDefaultConnection>
+    <EventDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_IOServer;</EventDefaultConnection>
+    <AuditTraceDefaultConnection>XpoProvider=MSSqlServer;data source=(local)\SQLEXPRESS;Integrated Security=SSPI;initial catalog=ManulabHMI_IOServer_Audit;</AuditTraceDefaultConnection>
+    <EventMaxAge>31536000</EventMaxAge>
+    <EnableEventDataProtection>false</EnableEventDataProtection>
+    <MaxConcurrentHistoricalAccess>5</MaxConcurrentHistoricalAccess>
+    <WaitHistoryRetryTime>60</WaitHistoryRetryTime>
+    <MaxHistoryErrorBeforeFlush>3</MaxHistoryErrorBeforeFlush>
+    <MaxHistoryErrorCacheSize>10000</MaxHistoryErrorCacheSize>
+    <MinHistoryPendingEntities>500000</MinHistoryPendingEntities>
+    <MaxHistoryPendingEntities>600000</MaxHistoryPendingEntities>
+    <MaxHistoryDeletingEntities>10000</MaxHistoryDeletingEntities>
+    <MaxHistoryDeleteProcess>1</MaxHistoryDeleteProcess>
+    <MaxHistoryRestoreProcess>1</MaxHistoryRestoreProcess>
+    <MaxHistoryTotalSafelyFilesSize>104857600</MaxHistoryTotalSafelyFilesSize>
+    <MaxHistoryAlarmsBranches>10</MaxHistoryAlarmsBranches>
+    <MaxSessionTimeout>3600000</MaxSessionTimeout>
+    <MinSessionTimeout>10000</MinSessionTimeout>
+    <DiagnosticEnabled>false</DiagnosticEnabled>
+    <SpeechEnabled>true</SpeechEnabled>
+    <MaxSessionCount>100</MaxSessionCount>
+    <MaxBrowseContinuationPoints>10</MaxBrowseContinuationPoints>
+    <MaxHistoryContinuationPoints>100</MaxHistoryContinuationPoints>
+    <MaxRequestAge>600000</MaxRequestAge>
+    <MinPublishingInterval>100</MinPublishingInterval>
+    <MaxPublishingInterval>3600000</MaxPublishingInterval>
+    <PublishingResolution>50</PublishingResolution>
+    <MaxSubscriptionLifetime>3600000</MaxSubscriptionLifetime>
+    <MaxMessageQueueSize>10</MaxMessageQueueSize>
+    <MaxNotificationQueueSize>100</MaxNotificationQueueSize>
+    <MaxNotificationsPerPublish>1000</MaxNotificationsPerPublish>
+    <MinMetadataSamplingInterval>1000</MinMetadataSamplingInterval>
+    <DefaultDataIOSamplingInterval>0</DefaultDataIOSamplingInterval>
+    <RedundancyStartupTimeout>5</RedundancyStartupTimeout>
+    <RedundancySynchronizeTimeout>3</RedundancySynchronizeTimeout>
+    <RedundancyTimeout>10</RedundancyTimeout>
+    <RedundancyFullSynchronizationTimeSpan>0</RedundancyFullSynchronizationTimeSpan>
+    <RedundancyHistoryThreadPool>-1</RedundancyHistoryThreadPool>
+    <RedundancyMaxSyncEntities>10000</RedundancyMaxSyncEntities>
+    <RedundancyPortNumber>40000</RedundancyPortNumber>
+    <RedundancyMaxReceivedMessageSize>524288</RedundancyMaxReceivedMessageSize>
+    <RedundancyMaxRetransmitCount>0</RedundancyMaxRetransmitCount>
+    <RedundancyMaxPendingTransmitMessages>100</RedundancyMaxPendingTransmitMessages>
+    <RedundancyKeepActiveServerActive>false</RedundancyKeepActiveServerActive>
+    <RedundancySkipHistoryDataSynchronization>false</RedundancySkipHistoryDataSynchronization>
+    <RedundancyTransportSecurityMode>0</RedundancyTransportSecurityMode>
+    <RedundancyUdpServiceIpAddress>224.0.0.1</RedundancyUdpServiceIpAddress>
+    <RedundancyUdpClientIpAddress>224.0.0.1</RedundancyUdpClientIpAddress>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+  </ConfigurationBase>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>UFUAModel.UFUAConfiguration</TypeName>
+    <AssemblyName>UFUAModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>2</OID>
+    <TypeName>UFUAModel.UFUABaseAddress</TypeName>
+    <AssemblyName>UFUAModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>3</OID>
+    <TypeName>UFUAModel.UFUACommunicationDriver</TypeName>
+    <AssemblyName>UFUAModel</AssemblyName>
+  </XPObjectType>
+  <AddressBase>
+    <OID>1</OID>
+    <Transport>net.pipe</Transport>
+    <Server>localhost</Server>
+    <Port>-1</Port>
+    <Enabled>true</Enabled>
+    <UFUAConfiguration>1</UFUAConfiguration>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>2</ObjectType>
+  </AddressBase>
+  <UFUACommunicationDriverEx>
+    <OID>1</OID>
+    <Name>OmronEthernetIP</Name>
+    <FriendlyName>Omron EtherNet/IP</FriendlyName>
+    <Factory>Omron</Factory>
+    <AssemblyName>OmronEthernetIP.dll</AssemblyName>
+    <UFUAConfiguration>1</UFUAConfiguration>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUACommunicationDriverEx>
+  <UFUABaseAddressEx>
+    <OID>1</OID>
+  </UFUABaseAddressEx>
+</DefaultName>

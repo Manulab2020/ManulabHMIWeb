@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectData xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <autoloadScreenListEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document" />
+  <bingMapKind>Hybrid</bingMapKind>
+  <defaultSpeechCommands xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>next</d2p1:string>
+    <d2p1:string>back</d2p1:string>
+    <d2p1:string>home</d2p1:string>
+    <d2p1:string>reset</d2p1:string>
+    <d2p1:string>swipe up</d2p1:string>
+    <d2p1:string>swipe down</d2p1:string>
+    <d2p1:string>zoom in</d2p1:string>
+    <d2p1:string>zoom out</d2p1:string>
+  </defaultSpeechCommands>
+  <description i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <enableBackup>true</enableBackup>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <identityColor xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+    <d2p1:A>255</d2p1:A>
+    <d2p1:B>152</d2p1:B>
+    <d2p1:G>113</d2p1:G>
+    <d2p1:R>159</d2p1:R>
+    <d2p1:ScA>1</d2p1:ScA>
+    <d2p1:ScB>0.313988745</d2p1:ScB>
+    <d2p1:ScG>0.1651322</d2p1:ScG>
+    <d2p1:ScR>0.3467041</d2p1:ScR>
+  </identityColor>
+  <latitude>NaN</latitude>
+  <listChildProjectPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <listStartupLogicsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document" />
+  <listStartupScripts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+  <listStartupScriptsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document" />
+  <longitude>NaN</longitude>
+  <mainScreen i:nil="true" />
+  <mapAppNameSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+  <mapRenamedFolders xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+  <mapRenamedResources xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMI\ManulabHMI\Screen\Screen2.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMI\ManulabHMI\Screen\Top.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+  </mapRenamedResources>
+  <mapUriChildProjectData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <mapUriControllerData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/Screen1.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>20</d5p1:B>
+          <d5p1:G>216</d5p1:G>
+          <d5p1:R>118</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.00699541066</d5p1:ScB>
+          <d5p1:ScG>0.6866853</d5p1:ScG>
+          <d5p1:ScR>0.18116425</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/MainScreen.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>142</d5p1:B>
+          <d5p1:G>231</d5p1:G>
+          <d5p1:R>95</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.270497829</d5p1:ScB>
+          <d5p1:ScG>0.7991027</d5p1:ScG>
+          <d5p1:ScR>0.114435382</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/OrderPage.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>161</d5p1:B>
+          <d5p1:G>174</d5p1:G>
+          <d5p1:R>111</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.356400162</d5p1:ScB>
+          <d5p1:ScG>0.4232677</d5p1:ScG>
+          <d5p1:ScR>0.158960834</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/Top.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>238</d5p1:B>
+          <d5p1:G>148</d5p1:G>
+          <d5p1:R>173</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.8549926</d5p1:ScB>
+          <d5p1:ScG>0.2961383</d5p1:ScG>
+          <d5p1:ScR>0.4178851</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/Screen2.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>120</d5p1:B>
+          <d5p1:G>129</d5p1:G>
+          <d5p1:R>235</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.187820777</d5p1:ScB>
+          <d5p1:ScG>0.219526231</d5p1:ScG>
+          <d5p1:ScR>0.8307699</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+  </mapUriControllerData>
+  <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+  <maxBackupCount>10</maxBackupCount>
+  <maxCleanCount>2</maxCleanCount>
+  <passwordProject i:nil="true" />
+  <projectId>a108083a-080f-4d0d-a82b-f4e0a75365df</projectId>
+  <projectType i:nil="true" />
+  <publishingInterval>250</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <speechConfidenceLevel>0.7</speechConfidenceLevel>
+  <speechCulture>en-us</speechCulture>
+  <speechEnabled>false</speechEnabled>
+  <startType>TilePage</startType>
+  <theme>Blend</theme>
+  <tileSize>ExtraLarge</tileSize>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <version>3.4.268.19227</version>
+  <visible>true</visible>
+</ProjectData>

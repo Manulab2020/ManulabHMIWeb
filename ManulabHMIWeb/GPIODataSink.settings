@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GPIOSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listPIN i:nil="true" />
+  <pubnubPublishKey i:nil="true" />
+  <pubnubSubscribeKey i:nil="true" />
+</GPIOSettings>

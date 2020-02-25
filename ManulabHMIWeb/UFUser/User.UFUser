@@ -1,0 +1,175 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="UFUserSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="AutoLogoutSeconds" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableUserManager" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UserLockMode" type="xs:int" minOccurs="0" />
+                <xs:element name="LoginControlVisible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MaxRuntimeEditAccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="MinRequiredPasswordLength" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxInvalidPasswordAttempts" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableValidationOnOS" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SharedConnectionRepository" type="xs:string" minOccurs="0" />
+                <xs:element name="DesktopSystemRole" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ServerAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="StaticFromAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableSSLTLS" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PortNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="EnAutentication" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UserName" type="xs:string" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFRole">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="AccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="AccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="CultureName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TelegramGroupChatID" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUser">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+                <xs:element name="ElectronicSignature" type="xs:string" minOccurs="0" />
+                <xs:element name="PasswordExpiresInDays" type="xs:int" minOccurs="0" />
+                <xs:element name="ForcePasswordChangeFirstLogin" type="xs:boolean" minOccurs="0" />
+                <xs:element name="LastDateTimeChanged" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="AccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="AccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="CultureName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="PhoneNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="MobilePhoneNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="TelegramChatID" type="xs:string" minOccurs="0" />
+                <xs:element name="UFRoleAss" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="AssemblyName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="254" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUserSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFRole" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUser" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="FK__UFRole_x0023_OID_x0023_UFUser_x0023_UFRoleAssIdx">
+        <xs:selector xpath=".//UFRole" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__UFRole_x0023_OID_x0023_UFUser_x0023_UFRoleAss" refer="FK__UFRole_x0023_OID_x0023_UFUser_x0023_UFRoleAssIdx">
+        <xs:selector xpath=".//UFUser" />
+        <xs:field xpath="UFRoleAss" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <UFUserSettings>
+    <OID>1</OID>
+    <AutoLogoutSeconds>60</AutoLogoutSeconds>
+    <EnableUserManager>false</EnableUserManager>
+    <UserLockMode>0</UserLockMode>
+    <LoginControlVisible>true</LoginControlVisible>
+    <MaxRuntimeEditAccessLevel>1000</MaxRuntimeEditAccessLevel>
+    <MinRequiredPasswordLength>4</MinRequiredPasswordLength>
+    <MaxInvalidPasswordAttempts>5</MaxInvalidPasswordAttempts>
+    <EnableValidationOnOS>false</EnableValidationOnOS>
+    <EnableSSLTLS>false</EnableSSLTLS>
+    <PortNumber>25</PortNumber>
+    <EnAutentication>false</EnAutentication>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUserSettings>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>UFUserModel.UFUserSettings</TypeName>
+    <AssemblyName>UserModel</AssemblyName>
+  </XPObjectType>
+</DefaultName>
