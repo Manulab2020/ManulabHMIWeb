@@ -1,4 +1,5 @@
 <Canvas Background="#FF000000" Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:c="clr-namespace:Converters;assembly=Converters">
+  <Rectangle Fill="{DynamicResource GS_gray2}" Stroke="{DynamicResource GS_black2}" Name="Rectangle" Width="1080" MinWidth="5" Height="600" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="200" Canvas.Top="130" />
   <ContentControl Name="EmbeddedTabScreen" Width="1280" Height="80" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="ButtonControl2" Width="100" Height="44.4444444444444" IsManipulationEnabled="False" Canvas.Left="1148" Canvas.Top="733.333333333333" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl FontSize="10.2222222222222" Name="ContentControl985693412" Width="24" Height="26.6666666666667" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1186" Canvas.Top="742.222222222222" syncfusion:SkinStorage.OverrideVisualStyle="True" />
@@ -26,5 +27,31 @@
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
     </TextBox.TextDecorations>3D Printer Rack 1:</TextBox>
+  <ContentControl Name="ContentControl6" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="490.29761904762" Canvas.Top="633.373015873016" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="FullAnimatedText" Width="76.6666666666672" Height="69.9999999999999" IsManipulationEnabled="False" Canvas.Left="784.186507936506" Canvas.Top="295.039682539682" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ContentControl" Width="78.666666666667" Height="148.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="304.388888888889" Canvas.Top="625">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+          <RotateTransform Angle="90" />
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="ContentControl2" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="1055.74206349206" Canvas.Top="414.373015873016" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl4" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="850.075396825398" Canvas.Top="415.373015873016" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl5" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="646.630952380953" Canvas.Top="415.261904761905" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl7" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="449.853174603176" Canvas.Top="416.261904761905" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl8" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="250.853174603176" Canvas.Top="407.261904761905" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl9" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="1025.18650793651" Canvas.Top="170.484126984127" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl10" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="798.408730158731" Canvas.Top="155.928571428572" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl11" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="594.964285714287" Canvas.Top="173.595238095238" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl12" Width="161.666666666667" Height="133.888888888889" RenderTransformOrigin="0.5,0.5" Canvas.Left="410.408730158731" Canvas.Top="160.150793650794" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="AnimatedImage" Width="164.444444444446" Height="176.666666666667" IsManipulationEnabled="False" Canvas.Left="235.5" Canvas.Top="145" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
 </Canvas>
