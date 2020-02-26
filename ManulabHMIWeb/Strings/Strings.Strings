@@ -59,33 +59,49 @@
     </xs:element>
   </xs:schema>
   <UFStringLocale>
-    <OID>4</OID>
+    <OID>5</OID>
     <Name>en-GB</Name>
     <Locale>en-GB</Locale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocale>
   <UFStringLocaleText>
-    <OID>6</OID>
-    <Text>Product_2</Text>
-    <Locale>Name Tag</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>4</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>7</OID>
+    <OID>9</OID>
     <Text>Product_1</Text>
     <Locale>Name Plate</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>4</UFStringLocale>
+    <UFStringLocale>5</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>8</OID>
+    <OID>10</OID>
     <Text>ID_Info</Text>
     <Locale>Here there be info</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>4</UFStringLocale>
+    <UFStringLocale>5</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>11</OID>
+    <Text>Product_2</Text>
+    <Locale>Name Tag</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>5</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>12</OID>
+    <Text>ID_Product_1</Text>
+    <Locale>A name plate with an NTNU Manulab logo and your name.</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>5</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>13</OID>
+    <Text>ID_Product_2</Text>
+    <Locale>A name tag with an NTNU logo and your initial</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>5</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
 </DefaultName>

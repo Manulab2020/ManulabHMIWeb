@@ -1,3 +1,4 @@
-<Canvas Background="#FF000000" Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Canvas Background="#FF000000" Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:syncfusion="http://schemas.syncfusion.com/wpf">
   <ContentControl Name="AnimatedImage1" Width="552.222222222223" Height="183.766666666667" IsManipulationEnabled="False" Canvas.Left="342.537037037037" Canvas.Top="9.24999999999992" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ContentControl" Width="208" Height="71.3333333333333" RenderTransformOrigin="0.5,0.5" Canvas.Left="1054.16666666667" Canvas.Top="12.3333333333333" syncfusion:SkinStorage.OverrideVisualStyle="True" />
 </Canvas>
