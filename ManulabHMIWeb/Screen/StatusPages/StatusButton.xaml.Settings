@@ -126,7 +126,7 @@
         <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>50</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Main</preservedText>
+        <preservedText>Main page</preservedText>
         <preservedWidth>180</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -266,7 +266,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/StatusPages/StatusPrinterRack1.xaml</screenName>
+            <screenName>Screen/StatusPages/StatusPrinterRackPage1.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -398,7 +398,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/StatusPages/StatusPrinterRack2.xaml</screenName>
+            <screenName>Screen/StatusPages/StatusPrinterRackPage2.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -530,7 +530,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/StatusPages/StatusLaserCutter.xaml</screenName>
+            <screenName>Screen/StatusPages/StatusLaserCutterPage.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -662,7 +662,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/StatusPages/StatusCobots.xaml</screenName>
+            <screenName>Screen/StatusPages/StatusCobotsPage.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -794,7 +794,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/StatusPages/StatusQuattro.xaml</screenName>
+            <screenName>Screen/StatusPages/StatusQuattroPage.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -926,7 +926,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/StatusPages/StatusMobileRobots.xaml</screenName>
+            <screenName>Screen/StatusPages/StatusMobileRobotsPage.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -1058,7 +1058,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/StatusPages/StatusViper.xaml</screenName>
+            <screenName>Screen/StatusPages/StatusViperPage.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -1180,23 +1180,7 @@
         <id>c615fd05-6b31-4551-a9d8-9b317643ffe8</id>
         <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
         <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
-        <listCommands>
-          <entry i:type="OpenScreenCommand">
-            <delayCommandSecs>0</delayCommandSecs>
-            <expression i:nil="true" />
-            <opcuaEntityReference i:nil="true" />
-            <autoCloseSecs>0</autoCloseSecs>
-            <executionMode>Normal</executionMode>
-            <isRelative>false</isRelative>
-            <parameterFile i:nil="true" />
-            <requestedMonitor>-1</requestedMonitor>
-            <screenName i:nil="true" />
-            <synchroFrame>false</synchroFrame>
-            <synchroPopup>false</synchroPopup>
-            <x>NaN</x>
-            <y>NaN</y>
-          </entry>
-        </listCommands>
+        <listCommands />
         <listItemSources i:nil="true" />
         <listopcuaSmartEntityReference i:nil="true" />
         <lockMovement>false</lockMovement>
@@ -1312,23 +1296,7 @@
         <id>9eaf858a-444b-41b2-ae86-be9cc6b213d4</id>
         <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
         <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
-        <listCommands>
-          <entry i:type="OpenScreenCommand">
-            <delayCommandSecs>0</delayCommandSecs>
-            <expression i:nil="true" />
-            <opcuaEntityReference i:nil="true" />
-            <autoCloseSecs>0</autoCloseSecs>
-            <executionMode>Normal</executionMode>
-            <isRelative>false</isRelative>
-            <parameterFile i:nil="true" />
-            <requestedMonitor>-1</requestedMonitor>
-            <screenName i:nil="true" />
-            <synchroFrame>false</synchroFrame>
-            <synchroPopup>false</synchroPopup>
-            <x>NaN</x>
-            <y>NaN</y>
-          </entry>
-        </listCommands>
+        <listCommands />
         <listItemSources i:nil="true" />
         <listopcuaSmartEntityReference i:nil="true" />
         <lockMovement>false</lockMovement>
@@ -1444,23 +1412,7 @@
         <id>85e1fe05-0a90-44b2-aaf0-ced7942a3190</id>
         <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
         <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
-        <listCommands>
-          <entry i:type="OpenScreenCommand">
-            <delayCommandSecs>0</delayCommandSecs>
-            <expression i:nil="true" />
-            <opcuaEntityReference i:nil="true" />
-            <autoCloseSecs>0</autoCloseSecs>
-            <executionMode>Normal</executionMode>
-            <isRelative>false</isRelative>
-            <parameterFile i:nil="true" />
-            <requestedMonitor>-1</requestedMonitor>
-            <screenName i:nil="true" />
-            <synchroFrame>false</synchroFrame>
-            <synchroPopup>false</synchroPopup>
-            <x>NaN</x>
-            <y>NaN</y>
-          </entry>
-        </listCommands>
+        <listCommands />
         <listItemSources i:nil="true" />
         <listopcuaSmartEntityReference i:nil="true" />
         <lockMovement>false</lockMovement>

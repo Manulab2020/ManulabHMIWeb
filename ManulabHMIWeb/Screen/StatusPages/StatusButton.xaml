@@ -6,6 +6,10 @@
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
     </TextBox.TextDecorations>Status:</TextBox>
   <ContentControl Name="ButtonControl1" Width="180" Height="50" IsManipulationEnabled="False" Canvas.Left="10" Canvas.Top="120" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="ButtonControl2" Width="180" Height="50" IsManipulationEnabled="False" Canvas.Left="10" Canvas.Top="180" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />

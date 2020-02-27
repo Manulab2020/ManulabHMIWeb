@@ -1,0 +1,52 @@
+<Canvas Background="#FF000000" Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:c="clr-namespace:Converters;assembly=Converters">
+  <ContentControl Name="EmbeddedTabScreen" Width="1280" Height="80" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl2" Width="100" Height="44.4444444444444" IsManipulationEnabled="False" Canvas.Left="1148" Canvas.Top="733.333333333333" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl FontSize="10.2222222222222" Name="ContentControl985693412" Width="24" Height="26.6666666666667" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1186" Canvas.Top="742.222222222222" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ButtonControl1" Width="100" Height="44.4444444444444" IsManipulationEnabled="False" Canvas.Left="1040" Canvas.Top="733.333333333333" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Background="#FFF0F8FF" FontSize="10.2222222222222" Name="ContentControl3" Width="24" Height="26.6666666666667" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1076" Canvas.Top="742.222222222222" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ButtonControl3" Width="100" Height="44.4444444444444" IsManipulationEnabled="False" Canvas.Left="931" Canvas.Top="733.666666666667" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ContentControl1" Width="60.424242424242" Height="27.4545454545455" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="950.041125541125" Canvas.Top="741.415584415585" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+          <ScaleTransform ScaleX="-1" />
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EmbeddedTabScreen1" Width="200" Height="720" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="80" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="28" FontWeight="Normal" Name="TextBox" Width="241.870801033592" MinWidth="5" Height="43.134328358209" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="210" Canvas.Top="90" syncfusion:SkinStorage.OverrideVisualStyle="True" c:TextBoxProperties.UnderlineTextSource="True">
+    <TextBox.TextDecorations>
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+    </TextBox.TextDecorations>3D Printer Rack 1:</TextBox>
+  <ContentControl Name="EmbeddedTabScreen2" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="200" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen3" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="416" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen4" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="632" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen5" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="848" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen6" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="1064" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen7" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="1064" Canvas.Top="430" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen8" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="848" Canvas.Top="430" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen9" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="632" Canvas.Top="430" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen10" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="416" Canvas.Top="430" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen11" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="200" Canvas.Top="430" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+</Canvas>
