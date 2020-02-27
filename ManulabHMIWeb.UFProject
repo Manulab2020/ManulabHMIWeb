@@ -1409,6 +1409,188 @@
         <visible>true</visible>
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusLaserCutter/</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>207</d5p1:B>
+          <d5p1:G>119</d5p1:G>
+          <d5p1:R>207</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.623960435</d5p1:ScB>
+          <d5p1:ScG>0.18447499</d5p1:ScG>
+          <d5p1:ScR>0.623960435</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusCobots/</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>207</d5p1:B>
+          <d5p1:G>119</d5p1:G>
+          <d5p1:R>207</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.623960435</d5p1:ScB>
+          <d5p1:ScG>0.18447499</d5p1:ScG>
+          <d5p1:ScR>0.623960435</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusMobileRobots/</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>47</d5p1:B>
+          <d5p1:G>37</d5p1:G>
+          <d5p1:R>30</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.02842604</d5p1:ScB>
+          <d5p1:ScG>0.0185002219</d5p1:ScG>
+          <d5p1:ScR>0.0129830325</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusQuattro/</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>94</d5p1:B>
+          <d5p1:G>214</d5p1:G>
+          <d5p1:R>121</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.111932434</d5p1:ScB>
+          <d5p1:ScG>0.672443151</d5p1:ScG>
+          <d5p1:ScR>0.191201687</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusViper/</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>94</d5p1:B>
+          <d5p1:G>214</d5p1:G>
+          <d5p1:R>121</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.111932434</d5p1:ScB>
+          <d5p1:ScG>0.672443151</d5p1:ScG>
+          <d5p1:ScR>0.191201687</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusMobileRobots/StatusMobileRobot1.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>148</d5p1:B>
+          <d5p1:G>195</d5p1:G>
+          <d5p1:R>72</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.2961383</d5p1:ScB>
+          <d5p1:ScG>0.5457245</d5p1:ScG>
+          <d5p1:ScR>0.06480327</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusMobileRobots/StatusMobileRobot2.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>148</d5p1:B>
+          <d5p1:G>195</d5p1:G>
+          <d5p1:R>72</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.2961383</d5p1:ScB>
+          <d5p1:ScG>0.5457245</d5p1:ScG>
+          <d5p1:ScR>0.06480327</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
   </mapUriControllerData>
   <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
   <maxBackupCount>10</maxBackupCount>

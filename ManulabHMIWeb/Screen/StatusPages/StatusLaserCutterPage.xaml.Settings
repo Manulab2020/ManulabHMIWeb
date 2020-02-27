@@ -50,7 +50,7 @@
         <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
           <d5p1:entry>
             <d5p1:Key>Screens</d5p1:Key>
-            <d5p1:Value>&lt;ScreenList Capacity="0" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" /&gt;</d5p1:Value>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusLaserCutter/StatusLaserCuttter0.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Width</d5p1:Key>
@@ -101,7 +101,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
