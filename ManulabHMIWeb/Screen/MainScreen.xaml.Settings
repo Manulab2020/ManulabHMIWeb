@@ -563,7 +563,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/Info.xaml</screenName>
+            <screenName>Screen/Info/InfoMain.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>

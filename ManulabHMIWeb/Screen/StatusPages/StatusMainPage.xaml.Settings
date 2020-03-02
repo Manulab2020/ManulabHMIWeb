@@ -546,7 +546,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/Info.xaml</screenName>
+            <screenName>Screen/Info/InfoStatus.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -626,10 +626,10 @@
         <preserveText>false</preserveText>
         <preserveVariables>false</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
-        <preservedText i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText></preservedText>
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -862,10 +862,10 @@
         <preserveText>false</preserveText>
         <preserveVariables>false</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
-        <preservedText i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText></preservedText>
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -1143,7 +1143,7 @@
         <preservedBrush i:nil="true" />
         <preservedHeight>70</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Main page:</preservedText>
+        <preservedText>Status_Main</preservedText>
         <preservedWidth>177.777777777778</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -1195,7 +1195,7 @@
         <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
           <d5p1:entry>
             <d5p1:Key>Screens</d5p1:Key>
-            <d5p1:Value>&lt;ScreenList Capacity="0" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" /&gt;</d5p1:Value>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMain/StatusPrinterRack1.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Width</d5p1:Key>
@@ -1246,7 +1246,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -1317,6 +1317,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMain/StatusPrinterRack2.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -1350,7 +1354,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -1423,7 +1427,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Screens</d5p1:Key>
-            <d5p1:Value>&lt;ScreenList Capacity="0" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" /&gt;</d5p1:Value>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMain/StatusLaserCutter.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -1458,7 +1462,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -1529,6 +1533,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMain/StatusMobileRobots.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -1562,7 +1570,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -1633,6 +1641,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMain/StatusCobots.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -1666,7 +1678,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -1737,6 +1749,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusOther/StatusEmptySlot.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -1770,7 +1786,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -1841,6 +1857,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusOther/StatusEmptySlot.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -1874,7 +1894,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -1945,6 +1965,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusOther/StatusEmptySlot.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -1978,7 +2002,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -2049,6 +2073,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMain/StatusViperRobots.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -2082,7 +2110,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -2153,6 +2181,10 @@
             <d5p1:Key>Height</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;300&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Screens</d5p1:Key>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMain/StatusQuattroRobots.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -2186,7 +2218,7 @@
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>

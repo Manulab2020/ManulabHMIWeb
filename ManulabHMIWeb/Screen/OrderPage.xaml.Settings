@@ -272,7 +272,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/Info.xaml</screenName>
+            <screenName>Screen/Info/InfoOrder.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -1293,10 +1293,6 @@
             <d5p1:Key>ControlBackground</d5p1:Key>
             <d5p1:Value>&lt;VisualBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;VisualBrush.Visual&gt;&lt;Image Source="{x:Null}" /&gt;&lt;/VisualBrush.Visual&gt;&lt;/VisualBrush&gt;</d5p1:Value>
           </d5p1:entry>
-          <d5p1:entry>
-            <d5p1:Key>Background</d5p1:Key>
-            <d5p1:Value>&lt;VisualBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;VisualBrush.Visual&gt;&lt;Image&gt;&lt;Image.Source&gt;&lt;BitmapImage BaseUri="{x:Null}" UriSource="C:/Users/Hans-Christian/Documents/Progea/Movicon.NExT/ManulabHMIWeb/Images/asking for help online, im having the same problem.jpg" CacheOption="OnLoad" /&gt;&lt;/Image.Source&gt;&lt;/Image&gt;&lt;/VisualBrush.Visual&gt;&lt;/VisualBrush&gt;</d5p1:Value>
-          </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
@@ -1443,7 +1439,7 @@
         <preservedBrush i:nil="true" />
         <preservedHeight>72.666666666666742</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText></preservedText>
+        <preservedText>Order</preservedText>
         <preservedWidth>624.66666666666652</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />

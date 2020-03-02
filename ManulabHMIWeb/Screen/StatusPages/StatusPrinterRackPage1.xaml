@@ -16,7 +16,7 @@
     </ContentControl.RenderTransform>
   </ContentControl>
   <ContentControl Name="EmbeddedTabScreen1" Width="200" Height="720" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="80" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
-  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="28" FontWeight="Normal" Name="TextBox" Width="241.870801033592" MinWidth="5" Height="43.134328358209" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="210" Canvas.Top="90" syncfusion:SkinStorage.OverrideVisualStyle="True" c:TextBoxProperties.UnderlineTextSource="True">
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="28" FontWeight="Normal" Name="TextBox" Width="241.870801033592" MinWidth="5" Height="43.134328358209" MinHeight="5" ToolTip="Printer_Rack_1" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="210" Canvas.Top="90" syncfusion:SkinStorage.OverrideVisualStyle="True" c:TextBoxProperties.UnderlineTextSource="True">
     <TextBox.TextDecorations>
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
@@ -38,7 +38,11 @@
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
-    </TextBox.TextDecorations>3D Printer Rack 1:</TextBox>
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+    </TextBox.TextDecorations>Printer_Rack_1</TextBox>
   <ContentControl Name="EmbeddedTabScreen2" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="200" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="EmbeddedTabScreen3" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="416" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="EmbeddedTabScreen4" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="632" Canvas.Top="130" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />

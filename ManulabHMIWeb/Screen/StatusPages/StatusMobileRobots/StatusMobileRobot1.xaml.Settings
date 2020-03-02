@@ -24,126 +24,6 @@
   <mapAlias xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
   <mapScreenEntities>
     <entry>
-      <XamlName>AnimatedImage</XamlName>
-      <Settings>
-        <accessLevel>0</accessLevel>
-        <accessLevelFromTag>false</accessLevelFromTag>
-        <accessRole i:nil="true" />
-        <bEnableManipulation>false</bEnableManipulation>
-        <bEnableMouseOver>false</bEnableMouseOver>
-        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
-        <bForceDynamicOnClient>false</bForceDynamicOnClient>
-        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
-        <bSourceSymbolLinked>false</bSourceSymbolLinked>
-        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
-        <bVisibleOnClient>true</bVisibleOnClient>
-        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <id>02180bb2-31e8-4a1b-a7e7-b0cc72715550</id>
-        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
-        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
-        <listCommands />
-        <listItemSources i:nil="true" />
-        <listopcuaSmartEntityReference i:nil="true" />
-        <lockMovement>false</lockMovement>
-        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
-          <d5p1:entry>
-            <d5p1:Key>HorizontalContentAlignment</d5p1:Key>
-            <d5p1:Value>&lt;HorizontalAlignment xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Stretch&lt;/HorizontalAlignment&gt;</d5p1:Value>
-          </d5p1:entry>
-          <d5p1:entry>
-            <d5p1:Key>VerticalContentAlignment</d5p1:Key>
-            <d5p1:Value>&lt;VerticalAlignment xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Stretch&lt;/VerticalAlignment&gt;</d5p1:Value>
-          </d5p1:entry>
-          <d5p1:entry>
-            <d5p1:Key>FontSize</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;20&lt;/Double&gt;</d5p1:Value>
-          </d5p1:entry>
-          <d5p1:entry>
-            <d5p1:Key>FontFamily</d5p1:Key>
-            <d5p1:Value>&lt;FontFamily xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Secoe UI&lt;/FontFamily&gt;</d5p1:Value>
-          </d5p1:entry>
-          <d5p1:entry>
-            <d5p1:Key>FontWeight</d5p1:Key>
-            <d5p1:Value>&lt;FontWeight xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;SemiBold&lt;/FontWeight&gt;</d5p1:Value>
-          </d5p1:entry>
-        </mapProblematicXamlWriterProperties>
-        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <max3DRotationAngleX>0</max3DRotationAngleX>
-        <max3DRotationAngleY>0</max3DRotationAngleY>
-        <max3DRotationAngleZ>0</max3DRotationAngleZ>
-        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
-        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
-        <max3DZoom>0</max3DZoom>
-        <menuName i:nil="true" />
-        <min3DRotationAngleX>0</min3DRotationAngleX>
-        <min3DRotationAngleY>0</min3DRotationAngleY>
-        <min3DRotationAngleZ>0</min3DRotationAngleZ>
-        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
-        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
-        <min3DZoom>0</min3DZoom>
-        <nSelLength>0</nSelLength>
-        <nStartSel>0</nStartSel>
-        <opcuaEntityReference i:nil="true" />
-        <opcuaEntityReference3DZoom i:nil="true" />
-        <preserveAnimations>false</preserveAnimations>
-        <preserveCode>false</preserveCode>
-        <preserveColors>false</preserveColors>
-        <preserveCommands>false</preserveCommands>
-        <preserveExpression>false</preserveExpression>
-        <preserveMenu>false</preserveMenu>
-        <preserveSecurity>false</preserveSecurity>
-        <preserveSize>true</preserveSize>
-        <preserveStyle>false</preserveStyle>
-        <preserveText>true</preserveText>
-        <preserveVariables>true</preserveVariables>
-        <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
-        <preservedHeight>150</preservedHeight>
-        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText i:nil="true" />
-        <preservedWidth>150</preservedWidth>
-        <readableAccessMask>0</readableAccessMask>
-        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
-        <sCode i:nil="true" />
-        <sExpression i:nil="true" />
-        <sIdUnitConverter i:nil="true" />
-        <sProblematicXaml>&lt;so:AnimatedImage 
-                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-		xmlns:so="clr-namespace:AnimatedObjects;assembly=AnimatedObjects"
-                  Width="150" Height="150" 
-                	Tag="ProblematicXamlWriter"
-          xmlns:mynsp="clr-namespace:Converters;assembly=Converters"&gt;
-                  &lt;so:AnimatedImage.Resources&gt;
-                    &lt;mynsp:ObjectToTextConverter x:Key="ObjectToTextConverter" /&gt;
-                  &lt;/so:AnimatedImage.Resources&gt;
-                  &lt;so:AnimatedImage.Value&gt;
-                    &lt;Binding Path="Value" 
-                    Converter="{StaticResource ObjectToTextConverter}" Mode="OneWay" 
-                    ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged"&gt;&lt;/Binding&gt;
-                  &lt;/so:AnimatedImage.Value&gt;
-
-&lt;/so:AnimatedImage&gt;</sProblematicXaml>
-        <sReverseExpression i:nil="true" />
-        <sSourceSymbolPath i:nil="true" />
-        <sSourceSymbolProvider i:nil="true" />
-        <sStyleResource i:nil="true" />
-        <screen3DParameter i:nil="true" />
-        <screen3DUri i:nil="true" />
-        <showMenuOnLeft>false</showMenuOnLeft>
-        <speechCommand i:nil="true" />
-        <tagBrush i:nil="true" />
-        <tagPen i:nil="true" />
-        <useIntelliSense>true</useIntelliSense>
-        <visibilityLevel>2147483647</visibilityLevel>
-        <writableAccessMask>0</writableAccessMask>
-        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
-        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
-      </Settings>
-    </entry>
-    <entry>
       <XamlName>ContentControl4</XamlName>
       <Settings>
         <accessLevel>0</accessLevel>
@@ -799,6 +679,146 @@
         <showMenuOnLeft>false</showMenuOnLeft>
         <speechCommand i:nil="true" />
         <tagBrush i:nil="true" />
+        <tagPen i:nil="true" />
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>AnimatedImage1</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>8987ce41-6860-4df1-a1e9-c6494c191fd5</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands />
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>HorizontalContentAlignment</d5p1:Key>
+            <d5p1:Value>&lt;HorizontalAlignment xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Stretch&lt;/HorizontalAlignment&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>VerticalContentAlignment</d5p1:Key>
+            <d5p1:Value>&lt;VerticalAlignment xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Stretch&lt;/VerticalAlignment&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;20&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontFamily</d5p1:Key>
+            <d5p1:Value>&lt;FontFamily xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Secoe UI&lt;/FontFamily&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontWeight</d5p1:Key>
+            <d5p1:Value>&lt;FontWeight xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;SemiBold&lt;/FontWeight&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Background</d5p1:Key>
+            <d5p1:Value>&lt;VisualBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;VisualBrush.Visual&gt;&lt;Image&gt;&lt;Image.Source&gt;&lt;BitmapImage BaseUri="{x:Null}" UriSource="C:/Users/Hans-Christian/Documents/Progea/Movicon.NExT/ManulabHMIWeb/Images/Amatec-Omron-AIV-1.png" CacheOption="OnLoad" /&gt;&lt;/Image.Source&gt;&lt;/Image&gt;&lt;/VisualBrush.Visual&gt;&lt;/VisualBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Top</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;37.6666666666667&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Left</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;31.9666666666668&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Width</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;170&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Height</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;170&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush>&lt;VisualBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;VisualBrush.Visual&gt;&lt;Image&gt;&lt;Image.Source&gt;&lt;BitmapImage BaseUri="pack://application:,,,/" UriSource="C:/Users/Hans-Christian/Documents/Progea/Movicon.NExT/ManulabHMIWeb/Images/Amatec-Omron-AIV-1.png" CacheOption="OnLoad" /&gt;&lt;/Image.Source&gt;&lt;/Image&gt;&lt;/VisualBrush.Visual&gt;&lt;/VisualBrush&gt;</preservedBrush>
+        <preservedHeight>150</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText i:nil="true" />
+        <preservedWidth>150</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml>&lt;so:AnimatedImage 
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+		xmlns:so="clr-namespace:AnimatedObjects;assembly=AnimatedObjects"
+                  Width="150" Height="150" 
+                	Tag="ProblematicXamlWriter"
+          xmlns:mynsp="clr-namespace:Converters;assembly=Converters"&gt;
+                  &lt;so:AnimatedImage.Resources&gt;
+                    &lt;mynsp:ObjectToTextConverter x:Key="ObjectToTextConverter" /&gt;
+                  &lt;/so:AnimatedImage.Resources&gt;
+                  &lt;so:AnimatedImage.Value&gt;
+                    &lt;Binding Path="Value" 
+                    Converter="{StaticResource ObjectToTextConverter}" Mode="OneWay" 
+                    ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged"&gt;&lt;/Binding&gt;
+                  &lt;/so:AnimatedImage.Value&gt;
+
+&lt;/so:AnimatedImage&gt;</sProblematicXaml>
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush>&lt;VisualBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;&lt;VisualBrush.Visual&gt;&lt;Image&gt;&lt;Image.Source&gt;&lt;BitmapImage BaseUri="{x:Null}" UriSource="C:/Users/Hans-Christian/Documents/Progea/Movicon.NExT/ManulabHMIWeb/Images/Amatec-Omron-AIV-1.png" CacheOption="OnLoad" /&gt;&lt;/Image.Source&gt;&lt;/Image&gt;&lt;/VisualBrush.Visual&gt;&lt;/VisualBrush&gt;</tagBrush>
         <tagPen i:nil="true" />
         <useIntelliSense>true</useIntelliSense>
         <visibilityLevel>2147483647</visibilityLevel>

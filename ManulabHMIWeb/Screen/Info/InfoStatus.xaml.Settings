@@ -164,7 +164,7 @@
         <preservedBrush i:nil="true" />
         <preservedHeight>365.23809523809524</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>ID_Info</preservedText>
+        <preservedText>ID_Info_Status</preservedText>
         <preservedWidth>597.14285714285711</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
