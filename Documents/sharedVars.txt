@@ -1,0 +1,10 @@
+HOST	NAME	DATATYPE	ADDRESS	COMMENT	TAGLINK	RW	POU
+	customerOrder.orderReceived	BOOL			TRUE	RW	
+	customerOrder.productID	INT			TRUE	RW	
+	customerOrder.name	STRING(256)			TRUE	RW	
+	moviconSend.statusPrinters	INT[0..19]			TRUE	RW	
+	moviconSend.statusCutter	INT			TRUE	RW	
+	moviconSend.statusLDs	INT[0..2]			TRUE	RW	
+	moviconSend.statusTMs	INT[0..2]			TRUE	RW	
+	moviconSend.statusQuattro	INT			TRUE	RW	
+	moviconSend.statusVipers	INT[0..1]			TRUE	RW	
