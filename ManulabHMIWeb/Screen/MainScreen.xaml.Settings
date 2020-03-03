@@ -2,12 +2,12 @@
 <ScreenDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
   <applyWindowSettingsOnLoad>true</applyWindowSettingsOnLoad>
   <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-  <delayLoadSymbols>0</delayLoadSymbols>
+  <delayLoadSymbols>500</delayLoadSymbols>
   <delayUnloadSecs>0</delayUnloadSecs>
   <disableWhenNotUsed>true</disableWhenNotUsed>
   <disableZoom>false</disableZoom>
   <fastSamplingInterval>500</fastSamplingInterval>
-  <fitInWindow>false</fitInWindow>
+  <fitInWindow>true</fitInWindow>
   <forceWritingOnServer>false</forceWritingOnServer>
   <height>800</height>
   <hideScrollBars>false</hideScrollBars>

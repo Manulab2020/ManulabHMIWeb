@@ -31,4 +31,9 @@
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="14" Name="TextBox1" Width="353.421633554084" MinWidth="5" Height="106.666666666667" MinHeight="5" ToolTip="ID_Product_2" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="918.740618101546" Canvas.Top="240.166666666667" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Product_2</TextBox>
   <ContentControl Name="ContentControl2" Width="626.422222222222" Height="72.6666666666666" RenderTransformOrigin="0.5,0.5" Canvas.Left="645.744444444445" Canvas.Top="640.166666666667" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <ContentControl Name="AnimatedImage1" Width="257.251130032587" Height="210.031746031746" IsManipulationEnabled="False" Canvas.Left="645.314615059295" Canvas.Top="241.761904761904" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FFFFFFFF" FontSize="14" VerticalContentAlignment="Center" Name="TextBox2" Width="560" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="45.7142857142857" Canvas.Top="500.952380952381" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <TextBox.Foreground>
+      <SolidColorBrush Color="#FF000000" Opacity="0.5" />
+    </TextBox.Foreground>Write Text Here</TextBox>
+  <ContentControl Name="EditDisplay6" Width="560" Height="60" IsManipulationEnabled="False" Canvas.Left="40" Canvas.Top="570" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
 </Canvas>

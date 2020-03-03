@@ -7,7 +7,7 @@
   <disableWhenNotUsed>true</disableWhenNotUsed>
   <disableZoom>false</disableZoom>
   <fastSamplingInterval>500</fastSamplingInterval>
-  <fitInWindow>false</fitInWindow>
+  <fitInWindow>true</fitInWindow>
   <forceWritingOnServer>false</forceWritingOnServer>
   <height>800</height>
   <hideScrollBars>false</hideScrollBars>
