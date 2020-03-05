@@ -1153,7 +1153,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Screens</d5p1:Key>
-            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMobileRobots/StatusMobileRobot1.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMobileRobots/StatusMobileRobotCobot0.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -1261,7 +1261,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Screens</d5p1:Key>
-            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMobileRobots/StatusMobileRobot2.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMobileRobots/StatusMobileRobot1.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -1369,7 +1369,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Screens</d5p1:Key>
-            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusOther/StatusEmptySlot.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
+            <d5p1:Value>&lt;ScreenList Capacity="4" xmlns="clr-namespace:ScreenManager.SpecialObjects;assembly=ScreenManager" xmlns:s="clr-namespace:System;assembly=mscorlib"&gt;&lt;s:String&gt;Screen/StatusPages/StatusMobileRobots/StatusMobileRobot2.xaml&lt;/s:String&gt;&lt;/ScreenList&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />

@@ -9,20 +9,795 @@
   <fastSamplingInterval>500</fastSamplingInterval>
   <forceWritingOnServer>false</forceWritingOnServer>
   <id>00000000-0000-0000-0000-000000000000</id>
-  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>stopVar</d2p1:string>
+    <d2p1:string>num</d2p1:string>
+    <d2p1:string>Station0_moviconSend-statusCutter</d2p1:string>
+    <d2p1:string>Station0_moviconSend-statusPrinters</d2p1:string>
+    <d2p1:string>Station0_moviconSend-statusLDs</d2p1:string>
+    <d2p1:string>Station0_moviconSend-statusTMs</d2p1:string>
+    <d2p1:string>Station0_moviconSend-statusQuattro</d2p1:string>
+    <d2p1:string>Station0_moviconSend-statusVipers</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter01-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter01-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter01-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter02-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter02-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter02-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter03-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter03-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter03-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter04-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter04-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter04-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter05-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter05-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter05-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter06-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter06-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter06-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter07-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter07-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter07-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter08-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter08-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter08-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter09-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter09-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter09-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter10-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter10-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter10-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter11-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter11-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter11-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter12-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter12-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter12-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter13-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter13-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter13-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter14-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter14-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter14-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter15-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter15-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter15-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter16-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter16-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter16-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter17-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter17-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter17-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter18-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter18-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter18-FAULT</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter19-IDLE</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter19-BUSY</d2p1:string>
+    <d2p1:string>statusVar_printers_statusPrinter19-FAULT</d2p1:string>
+    <d2p1:string>statusVar_laserCutter_statusLaserCutter00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_laserCutter_statusLaserCutter00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_laserCutter_statusLaserCutter00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot01-IDLE</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot01-BUSY</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot01-FAULT</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot02-IDLE</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot02-BUSY</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobot02-FAULT</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobotCobot00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobotCobot00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_mobileRobot_statusMobileRobotCobot00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_cobot_statusCobot00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_cobot_statusCobot00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_cobot_statusCobot00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_cobot_statusCobot01-IDLE</d2p1:string>
+    <d2p1:string>statusVar_cobot_statusCobot01-BUSY</d2p1:string>
+    <d2p1:string>statusVar_cobot_statusCobot01-FAULT</d2p1:string>
+    <d2p1:string>statusVar_quattro_statusQuattro00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_quattro_statusQuattro00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_quattro_statusQuattro00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_viper_statusViper00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_viper_statusViper00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_viper_statusViper00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_viper_statusViper01-IDLE</d2p1:string>
+    <d2p1:string>statusVar_viper_statusViper01-BUSY</d2p1:string>
+    <d2p1:string>statusVar_viper_statusViper01-FAULT</d2p1:string>
+  </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>77</nStartSel>
+  <nStartSel>755</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
-Sub Main Handles .Main
-    While
-        
+Imports System
+Imports System.Threading
 
-        
-    End While
+Option Explicit
+
+Const statCodeFault As Int16 = 0
+Const statCodeIdle As Int16 = 1
+Const statCodeBusy As Int16 = 2
+
+Const sleepTime As Int16 = 2000
+
+Const testing As Boolean = True
+
+Sub Main Handles .Main
+    stopVar = True
+    num = statCodeIdle
+    Do
+        ' DoEvents
+
+        If testing = True Then
+            If num = statCodeIdle Then
+                num = statCodeBusy
+            ElseIf num = statCodeBusy Then
+                num = statCodeFault
+            ElseIf num = statCodeFault Then
+                num = statCodeIdle
+            Else
+                num = statCodeFault
+            End If
+
+            Station0_moviconSend.statusCutter = num
+            Station0_moviconSend.statusPrinters(0) = num
+            Station0_moviconSend.statusPrinters(1) = num
+            Station0_moviconSend.statusPrinters(2) = num
+            Station0_moviconSend.statusPrinters(3) = num
+            Station0_moviconSend.statusPrinters(4) = num
+            Station0_moviconSend.statusPrinters(5) = num
+            Station0_moviconSend.statusPrinters(6) = num
+            Station0_moviconSend.statusPrinters(7) = num
+            Station0_moviconSend.statusPrinters(8) = num
+            Station0_moviconSend.statusPrinters(9) = num
+            Station0_moviconSend.statusPrinters(10) = num
+            Station0_moviconSend.statusPrinters(11) = num
+            Station0_moviconSend.statusPrinters(12) = num
+            Station0_moviconSend.statusPrinters(13) = num
+            Station0_moviconSend.statusPrinters(14) = num
+            Station0_moviconSend.statusPrinters(15) = num
+            Station0_moviconSend.statusPrinters(16) = num
+            Station0_moviconSend.statusPrinters(17) = num
+            Station0_moviconSend.statusPrinters(18) = num
+            Station0_moviconSend.statusPrinters(19) = num
+            Station0_moviconSend.statusLDs(0) = num
+            Station0_moviconSend.statusLDs(1) = num
+            Station0_moviconSend.statusLDs(2) = num
+            Station0_moviconSend.statusTMs(0) = num
+            Station0_moviconSend.statusTMs(1) = num
+            Station0_moviconSend.statusTMs(2) = num
+            Station0_moviconSend.statusQuattro = num
+            Station0_moviconSend.statusVipers(0) = num
+            Station0_moviconSend.statusVipers(1) = num
+        End If
+        '
+        ' Status for 3D Printers
+        '
+        ' Status for 3D Printer 00
+        Select Case Station0_moviconSend.statusPrinters(0)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter00.IDLE = True
+                statusVar_printers_statusPrinter00.BUSY = False
+                statusVar_printers_statusPrinter00.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter00.IDLE = False
+                statusVar_printers_statusPrinter00.BUSY = True
+                statusVar_printers_statusPrinter00.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter00.IDLE = False
+                statusVar_printers_statusPrinter00.BUSY = False
+                statusVar_printers_statusPrinter00.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter00.IDLE = False
+                statusVar_printers_statusPrinter00.BUSY = False
+                statusVar_printers_statusPrinter00.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 01
+        Select Case Station0_moviconSend.statusPrinters(1)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter01.IDLE = True
+                statusVar_printers_statusPrinter01.BUSY = False
+                statusVar_printers_statusPrinter01.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter01.IDLE = False
+                statusVar_printers_statusPrinter01.BUSY = True
+                statusVar_printers_statusPrinter01.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter01.IDLE = False
+                statusVar_printers_statusPrinter01.BUSY = False
+                statusVar_printers_statusPrinter01.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter01.IDLE = False
+                statusVar_printers_statusPrinter01.BUSY = False
+                statusVar_printers_statusPrinter01.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 02
+        Select Case Station0_moviconSend.statusPrinters(2)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter02.IDLE = True
+                statusVar_printers_statusPrinter02.BUSY = False
+                statusVar_printers_statusPrinter02.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter02.IDLE = False
+                statusVar_printers_statusPrinter02.BUSY = True
+                statusVar_printers_statusPrinter02.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter02.IDLE = False
+                statusVar_printers_statusPrinter02.BUSY = False
+                statusVar_printers_statusPrinter02.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter02.IDLE = False
+                statusVar_printers_statusPrinter02.BUSY = False
+                statusVar_printers_statusPrinter02.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 03
+        Select Case Station0_moviconSend.statusPrinters(3)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter03.IDLE = True
+                statusVar_printers_statusPrinter03.BUSY = False
+                statusVar_printers_statusPrinter03.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter03.IDLE = False
+                statusVar_printers_statusPrinter03.BUSY = True
+                statusVar_printers_statusPrinter03.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter03.IDLE = False
+                statusVar_printers_statusPrinter03.BUSY = False
+                statusVar_printers_statusPrinter03.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter03.IDLE = False
+                statusVar_printers_statusPrinter03.BUSY = False
+                statusVar_printers_statusPrinter03.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 04
+        Select Case Station0_moviconSend.statusPrinters(4)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter04.IDLE = True
+                statusVar_printers_statusPrinter04.BUSY = False
+                statusVar_printers_statusPrinter04.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter04.IDLE = False
+                statusVar_printers_statusPrinter04.BUSY = True
+                statusVar_printers_statusPrinter04.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter04.IDLE = False
+                statusVar_printers_statusPrinter04.BUSY = False
+                statusVar_printers_statusPrinter04.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter04.IDLE = False
+                statusVar_printers_statusPrinter04.BUSY = False
+                statusVar_printers_statusPrinter04.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 05
+        Select Case Station0_moviconSend.statusPrinters(5)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter05.IDLE = True
+                statusVar_printers_statusPrinter05.BUSY = False
+                statusVar_printers_statusPrinter05.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter05.IDLE = False
+                statusVar_printers_statusPrinter05.BUSY = True
+                statusVar_printers_statusPrinter05.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter05.IDLE = False
+                statusVar_printers_statusPrinter05.BUSY = False
+                statusVar_printers_statusPrinter05.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter05.IDLE = False
+                statusVar_printers_statusPrinter05.BUSY = False
+                statusVar_printers_statusPrinter05.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 06
+        Select Case Station0_moviconSend.statusPrinters(6)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter06.IDLE = True
+                statusVar_printers_statusPrinter06.BUSY = False
+                statusVar_printers_statusPrinter06.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter06.IDLE = False
+                statusVar_printers_statusPrinter06.BUSY = True
+                statusVar_printers_statusPrinter06.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter06.IDLE = False
+                statusVar_printers_statusPrinter06.BUSY = False
+                statusVar_printers_statusPrinter06.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter06.IDLE = False
+                statusVar_printers_statusPrinter06.BUSY = False
+                statusVar_printers_statusPrinter06.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 07
+        Select Case Station0_moviconSend.statusPrinters(7)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter07.IDLE = True
+                statusVar_printers_statusPrinter07.BUSY = False
+                statusVar_printers_statusPrinter07.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter07.IDLE = False
+                statusVar_printers_statusPrinter07.BUSY = True
+                statusVar_printers_statusPrinter07.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter07.IDLE = False
+                statusVar_printers_statusPrinter07.BUSY = False
+                statusVar_printers_statusPrinter07.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter07.IDLE = False
+                statusVar_printers_statusPrinter07.BUSY = False
+                statusVar_printers_statusPrinter07.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 08
+        Select Case Station0_moviconSend.statusPrinters(8)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter08.IDLE = True
+                statusVar_printers_statusPrinter08.BUSY = False
+                statusVar_printers_statusPrinter08.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter08.IDLE = False
+                statusVar_printers_statusPrinter08.BUSY = True
+                statusVar_printers_statusPrinter08.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter08.IDLE = False
+                statusVar_printers_statusPrinter08.BUSY = False
+                statusVar_printers_statusPrinter08.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter08.IDLE = False
+                statusVar_printers_statusPrinter08.BUSY = False
+                statusVar_printers_statusPrinter08.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 09
+        Select Case Station0_moviconSend.statusPrinters(9)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter09.IDLE = True
+                statusVar_printers_statusPrinter09.BUSY = False
+                statusVar_printers_statusPrinter09.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter09.IDLE = False
+                statusVar_printers_statusPrinter09.BUSY = True
+                statusVar_printers_statusPrinter09.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter09.IDLE = False
+                statusVar_printers_statusPrinter09.BUSY = False
+                statusVar_printers_statusPrinter09.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter09.IDLE = False
+                statusVar_printers_statusPrinter09.BUSY = False
+                statusVar_printers_statusPrinter09.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 10
+        Select Case Station0_moviconSend.statusPrinters(10)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter10.IDLE = True
+                statusVar_printers_statusPrinter10.BUSY = False
+                statusVar_printers_statusPrinter10.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter10.IDLE = False
+                statusVar_printers_statusPrinter10.BUSY = True
+                statusVar_printers_statusPrinter10.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter10.IDLE = False
+                statusVar_printers_statusPrinter10.BUSY = False
+                statusVar_printers_statusPrinter10.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter10.IDLE = False
+                statusVar_printers_statusPrinter10.BUSY = False
+                statusVar_printers_statusPrinter10.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 11
+        Select Case Station0_moviconSend.statusPrinters(11)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter11.IDLE = True
+                statusVar_printers_statusPrinter11.BUSY = False
+                statusVar_printers_statusPrinter11.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter11.IDLE = False
+                statusVar_printers_statusPrinter11.BUSY = True
+                statusVar_printers_statusPrinter11.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter11.IDLE = False
+                statusVar_printers_statusPrinter11.BUSY = False
+                statusVar_printers_statusPrinter11.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter11.IDLE = False
+                statusVar_printers_statusPrinter11.BUSY = False
+                statusVar_printers_statusPrinter11.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 12
+        Select Case Station0_moviconSend.statusPrinters(12)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter12.IDLE = True
+                statusVar_printers_statusPrinter12.BUSY = False
+                statusVar_printers_statusPrinter12.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter12.IDLE = False
+                statusVar_printers_statusPrinter12.BUSY = True
+                statusVar_printers_statusPrinter12.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter12.IDLE = False
+                statusVar_printers_statusPrinter12.BUSY = False
+                statusVar_printers_statusPrinter12.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter12.IDLE = False
+                statusVar_printers_statusPrinter12.BUSY = False
+                statusVar_printers_statusPrinter12.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 13
+        Select Case Station0_moviconSend.statusPrinters(13)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter13.IDLE = True
+                statusVar_printers_statusPrinter13.BUSY = False
+                statusVar_printers_statusPrinter13.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter13.IDLE = False
+                statusVar_printers_statusPrinter13.BUSY = True
+                statusVar_printers_statusPrinter13.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter13.IDLE = False
+                statusVar_printers_statusPrinter13.BUSY = False
+                statusVar_printers_statusPrinter13.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter13.IDLE = False
+                statusVar_printers_statusPrinter13.BUSY = False
+                statusVar_printers_statusPrinter13.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 14
+        Select Case Station0_moviconSend.statusPrinters(14)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter14.IDLE = True
+                statusVar_printers_statusPrinter14.BUSY = False
+                statusVar_printers_statusPrinter14.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter14.IDLE = False
+                statusVar_printers_statusPrinter14.BUSY = True
+                statusVar_printers_statusPrinter14.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter14.IDLE = False
+                statusVar_printers_statusPrinter14.BUSY = False
+                statusVar_printers_statusPrinter14.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter14.IDLE = False
+                statusVar_printers_statusPrinter14.BUSY = False
+                statusVar_printers_statusPrinter14.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 15
+        Select Case Station0_moviconSend.statusPrinters(15)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter15.IDLE = True
+                statusVar_printers_statusPrinter15.BUSY = False
+                statusVar_printers_statusPrinter15.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter15.IDLE = False
+                statusVar_printers_statusPrinter15.BUSY = True
+                statusVar_printers_statusPrinter15.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter15.IDLE = False
+                statusVar_printers_statusPrinter15.BUSY = False
+                statusVar_printers_statusPrinter15.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter15.IDLE = False
+                statusVar_printers_statusPrinter15.BUSY = False
+                statusVar_printers_statusPrinter15.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 16
+        Select Case Station0_moviconSend.statusPrinters(16)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter16.IDLE = True
+                statusVar_printers_statusPrinter16.BUSY = False
+                statusVar_printers_statusPrinter16.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter16.IDLE = False
+                statusVar_printers_statusPrinter16.BUSY = True
+                statusVar_printers_statusPrinter16.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter16.IDLE = False
+                statusVar_printers_statusPrinter16.BUSY = False
+                statusVar_printers_statusPrinter16.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter16.IDLE = False
+                statusVar_printers_statusPrinter16.BUSY = False
+                statusVar_printers_statusPrinter16.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 17
+        Select Case Station0_moviconSend.statusPrinters(17)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter17.IDLE = True
+                statusVar_printers_statusPrinter17.BUSY = False
+                statusVar_printers_statusPrinter17.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter17.IDLE = False
+                statusVar_printers_statusPrinter17.BUSY = True
+                statusVar_printers_statusPrinter17.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter17.IDLE = False
+                statusVar_printers_statusPrinter17.BUSY = False
+                statusVar_printers_statusPrinter17.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter17.IDLE = False
+                statusVar_printers_statusPrinter17.BUSY = False
+                statusVar_printers_statusPrinter17.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 18
+        Select Case Station0_moviconSend.statusPrinters(18)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter18.IDLE = True
+                statusVar_printers_statusPrinter18.BUSY = False
+                statusVar_printers_statusPrinter18.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter18.IDLE = False
+                statusVar_printers_statusPrinter18.BUSY = True
+                statusVar_printers_statusPrinter18.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter18.IDLE = False
+                statusVar_printers_statusPrinter18.BUSY = False
+                statusVar_printers_statusPrinter18.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter18.IDLE = False
+                statusVar_printers_statusPrinter18.BUSY = False
+                statusVar_printers_statusPrinter18.FAULT = True
+        End Select
+
+        ' Status for 3D Printer 19
+        Select Case Station0_moviconSend.statusPrinters(19)
+            Case statCodeIdle
+                statusVar_printers_statusPrinter19.IDLE = True
+                statusVar_printers_statusPrinter19.BUSY = False
+                statusVar_printers_statusPrinter19.FAULT = False
+            Case statCodeBusy
+                statusVar_printers_statusPrinter19.IDLE = False
+                statusVar_printers_statusPrinter19.BUSY = True
+                statusVar_printers_statusPrinter19.FAULT = False
+            Case statCodeFault
+                statusVar_printers_statusPrinter19.IDLE = False
+                statusVar_printers_statusPrinter19.BUSY = False
+                statusVar_printers_statusPrinter19.FAULT = True
+            Case Else
+                statusVar_printers_statusPrinter19.IDLE = False
+                statusVar_printers_statusPrinter19.BUSY = False
+                statusVar_printers_statusPrinter19.FAULT = True
+        End Select
+
+        '
+        ' Status for Laser Cutter
+        '
+        ' Status for Laser Cutter 00
+        Select Case Station0_moviconSend.statusCutter
+            Case statCodeIdle
+                statusVar_laserCutter_statusLaserCutter00.IDLE = True
+                statusVar_laserCutter_statusLaserCutter00.BUSY = False
+                statusVar_laserCutter_statusLaserCutter00.FAULT = False
+            Case statCodeBusy
+                statusVar_laserCutter_statusLaserCutter00.IDLE = False
+                statusVar_laserCutter_statusLaserCutter00.BUSY = True
+                statusVar_laserCutter_statusLaserCutter00.FAULT = False
+            Case statCodeFault
+                statusVar_laserCutter_statusLaserCutter00.IDLE = False
+                statusVar_laserCutter_statusLaserCutter00.BUSY = False
+                statusVar_laserCutter_statusLaserCutter00.FAULT = True
+            Case Else
+                statusVar_laserCutter_statusLaserCutter00.IDLE = False
+                statusVar_laserCutter_statusLaserCutter00.BUSY = False
+                statusVar_laserCutter_statusLaserCutter00.FAULT = True
+        End Select
+
+        '
+        ' Status for Mobile Robots
+        '
+        ' Status for Mobile Robots 00
+        Select Case Station0_moviconSend.statusLDs(0)
+            Case statCodeIdle
+                statusVar_mobileRobot_statusMobileRobot00.IDLE = True
+                statusVar_mobileRobot_statusMobileRobot00.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot00.FAULT = False
+            Case statCodeBusy
+                statusVar_mobileRobot_statusMobileRobot00.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot00.BUSY = True
+                statusVar_mobileRobot_statusMobileRobot00.FAULT = False
+            Case statCodeFault
+                statusVar_mobileRobot_statusMobileRobot00.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot00.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot00.FAULT = True
+            Case Else
+                statusVar_mobileRobot_statusMobileRobot00.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot00.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot00.FAULT = True
+        End Select
+
+        ' Status for Mobile Robots 01
+        Select Case Station0_moviconSend.statusLDs(1)
+            Case statCodeIdle
+                statusVar_mobileRobot_statusMobileRobot01.IDLE = True
+                statusVar_mobileRobot_statusMobileRobot01.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot01.FAULT = False
+            Case statCodeBusy
+                statusVar_mobileRobot_statusMobileRobot01.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot01.BUSY = True
+                statusVar_mobileRobot_statusMobileRobot01.FAULT = False
+            Case statCodeFault
+                statusVar_mobileRobot_statusMobileRobot01.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot01.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot01.FAULT = True
+            Case Else
+                statusVar_mobileRobot_statusMobileRobot01.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot01.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot01.FAULT = True
+        End Select
+
+        ' Status for Mobile Robots 02
+        Select Case Station0_moviconSend.statusLDs(2)
+            Case statCodeIdle
+                statusVar_mobileRobot_statusMobileRobot02.IDLE = True
+                statusVar_mobileRobot_statusMobileRobot02.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot02.FAULT = False
+            Case statCodeBusy
+                statusVar_mobileRobot_statusMobileRobot02.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot02.BUSY = True
+                statusVar_mobileRobot_statusMobileRobot02.FAULT = False
+            Case statCodeFault
+                statusVar_mobileRobot_statusMobileRobot02.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot02.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot02.FAULT = True
+            Case Else
+                statusVar_mobileRobot_statusMobileRobot02.IDLE = False
+                statusVar_mobileRobot_statusMobileRobot02.BUSY = False
+                statusVar_mobileRobot_statusMobileRobot02.FAULT = True
+        End Select
+
+        '
+        ' Status for Cobots
+        '
+        ' Status for Mobile Robots Cobots 00
+        Select Case Station0_moviconSend.statusTMs(0)
+            Case statCodeIdle
+                statusVar_mobileRobot_statusMobileRobotCobot00.IDLE = True
+                statusVar_mobileRobot_statusMobileRobotCobot00.BUSY = False
+                statusVar_mobileRobot_statusMobileRobotCobot00.FAULT = False
+            Case statCodeBusy
+                statusVar_mobileRobot_statusMobileRobotCobot00.IDLE = False
+                statusVar_mobileRobot_statusMobileRobotCobot00.BUSY = True
+                statusVar_mobileRobot_statusMobileRobotCobot00.FAULT = False
+            Case statCodeFault
+                statusVar_mobileRobot_statusMobileRobotCobot00.IDLE = False
+                statusVar_mobileRobot_statusMobileRobotCobot00.BUSY = False
+                statusVar_mobileRobot_statusMobileRobotCobot00.FAULT = True
+            Case Else
+                statusVar_mobileRobot_statusMobileRobotCobot00.IDLE = False
+                statusVar_mobileRobot_statusMobileRobotCobot00.BUSY = False
+                statusVar_mobileRobot_statusMobileRobotCobot00.FAULT = True
+        End Select
+
+        ' Status for Cobots 00
+        Select Case Station0_moviconSend.statusTMs(1)
+            Case statCodeIdle
+                statusVar_cobot_statusCobot00.IDLE = True
+                statusVar_cobot_statusCobot00.BUSY = False
+                statusVar_cobot_statusCobot00.FAULT = False
+            Case statCodeBusy
+                statusVar_cobot_statusCobot00.IDLE = False
+                statusVar_cobot_statusCobot00.BUSY = True
+                statusVar_cobot_statusCobot00.FAULT = False
+            Case statCodeFault
+                statusVar_cobot_statusCobot00.IDLE = False
+                statusVar_cobot_statusCobot00.BUSY = False
+                statusVar_cobot_statusCobot00.FAULT = True
+            Case Else
+                statusVar_cobot_statusCobot00.IDLE = False
+                statusVar_cobot_statusCobot00.BUSY = False
+                statusVar_cobot_statusCobot00.FAULT = True
+        End Select
+
+        ' Status for Cobots 01
+        Select Case Station0_moviconSend.statusTMs(2)
+            Case statCodeIdle
+                statusVar_cobot_statusCobot01.IDLE = True
+                statusVar_cobot_statusCobot01.BUSY = False
+                statusVar_cobot_statusCobot01.FAULT = False
+            Case statCodeBusy
+                statusVar_cobot_statusCobot01.IDLE = False
+                statusVar_cobot_statusCobot01.BUSY = True
+                statusVar_cobot_statusCobot01.FAULT = False
+            Case statCodeFault
+                statusVar_cobot_statusCobot01.IDLE = False
+                statusVar_cobot_statusCobot01.BUSY = False
+                statusVar_cobot_statusCobot01.FAULT = True
+            Case Else
+                statusVar_cobot_statusCobot01.IDLE = False
+                statusVar_cobot_statusCobot01.BUSY = False
+                statusVar_cobot_statusCobot01.FAULT = True
+        End Select
+
+        '
+        ' Status for Quattro Robots
+        '
+        ' Status for Quattro Robot 00
+        Select Case Station0_moviconSend.statusQuattro
+            Case statCodeIdle
+                statusVar_quattro_statusQuattro00.IDLE = True
+                statusVar_quattro_statusQuattro00.BUSY = False
+                statusVar_quattro_statusQuattro00.FAULT = False
+            Case statCodeBusy
+                statusVar_quattro_statusQuattro00.IDLE = False
+                statusVar_quattro_statusQuattro00.BUSY = True
+                statusVar_quattro_statusQuattro00.FAULT = False
+            Case statCodeFault
+                statusVar_quattro_statusQuattro00.IDLE = False
+                statusVar_quattro_statusQuattro00.BUSY = False
+                statusVar_quattro_statusQuattro00.FAULT = True
+            Case Else
+                statusVar_quattro_statusQuattro00.IDLE = False
+                statusVar_quattro_statusQuattro00.BUSY = False
+                statusVar_quattro_statusQuattro00.FAULT = True
+        End Select
+
+        '
+        ' Status for Viper Robots
+        '
+        ' Status for Viper Robot 00
+        Select Case Station0_moviconSend.statusVipers(0)
+            Case statCodeIdle
+                statusVar_viper_statusViper00.IDLE = True
+                statusVar_viper_statusViper00.BUSY = False
+                statusVar_viper_statusViper00.FAULT = False
+            Case statCodeBusy
+                statusVar_viper_statusViper00.IDLE = False
+                statusVar_viper_statusViper00.BUSY = True
+                statusVar_viper_statusViper00.FAULT = False
+            Case statCodeFault
+                statusVar_viper_statusViper00.IDLE = False
+                statusVar_viper_statusViper00.BUSY = False
+                statusVar_viper_statusViper00.FAULT = True
+            Case Else
+                statusVar_viper_statusViper00.IDLE = False
+                statusVar_viper_statusViper00.BUSY = False
+                statusVar_viper_statusViper00.FAULT = True
+        End Select
+
+        ' Status for Viper Robot 01
+        Select Case Station0_moviconSend.statusVipers(1)
+            Case statCodeIdle
+                statusVar_viper_statusViper01.IDLE = True
+                statusVar_viper_statusViper01.BUSY = False
+                statusVar_viper_statusViper01.FAULT = False
+            Case statCodeBusy
+                statusVar_viper_statusViper01.IDLE = False
+                statusVar_viper_statusViper01.BUSY = True
+                statusVar_viper_statusViper01.FAULT = False
+            Case statCodeFault
+                statusVar_viper_statusViper01.IDLE = False
+                statusVar_viper_statusViper01.BUSY = False
+                statusVar_viper_statusViper01.FAULT = True
+            Case Else
+                statusVar_viper_statusViper01.IDLE = False
+                statusVar_viper_statusViper01.BUSY = False
+                statusVar_viper_statusViper01.FAULT = True
+        End Select
+
+        Thread.Sleep(sleepTime)
+
+    Loop Until stopVar = False
 End Sub
 </sCode>
   <sessionName i:nil="true" />

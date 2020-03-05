@@ -145,7 +145,7 @@
   </XPObjectType>
   <DynamicJobs>
     <OID>1</OID>
-    <LastInteraction>2020-03-02T12:49:22.4389165Z</LastInteraction>
+    <LastInteraction>2020-03-05T09:25:54.9358357Z</LastInteraction>
     <OptimisticLockField>0</OptimisticLockField>
   </DynamicJobs>
   <CommJobSettings>
@@ -205,6 +205,120 @@
     <ABAddress>customerOrder.name:256</ABAddress>
     <ParseOk>true</ParseOk>
   </CommJobSettings>
+  <CommJobSettings>
+    <OID>4</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>40</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>3</TagFormat>
+    <ABAddress>moviconSend.statusPrinters</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <CommJobSettings>
+    <OID>5</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>2</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>3</TagFormat>
+    <ABAddress>moviconSend.statusCutter</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <CommJobSettings>
+    <OID>6</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>6</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>3</TagFormat>
+    <ABAddress>moviconSend.statusLDs</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <CommJobSettings>
+    <OID>7</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>6</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>3</TagFormat>
+    <ABAddress>moviconSend.statusTMs</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <CommJobSettings>
+    <OID>8</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>2</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>3</TagFormat>
+    <ABAddress>moviconSend.statusQuattro</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
+  <CommJobSettings>
+    <OID>9</OID>
+    <Type>1</Type>
+    <Station>Station0</Station>
+    <SamplingInterval>0</SamplingInterval>
+    <SwapBytes>false</SwapBytes>
+    <SwapWords>false</SwapWords>
+    <OutputAtStartup>false</OutputAtStartup>
+    <TotalJobSize>4</TotalJobSize>
+    <ElementNumber>0</ElementNumber>
+    <ConditionalVariableName></ConditionalVariableName>
+    <ConditionalVariableId></ConditionalVariableId>
+    <DynamicJobs>1</DynamicJobs>
+    <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>1</ObjectType>
+    <TagFormat>3</TagFormat>
+    <ABAddress>moviconSend.statusVipers</ABAddress>
+    <ParseOk>true</ParseOk>
+  </CommJobSettings>
   <TagSettings>
     <OID>1</OID>
     <NodeId>ns=2;s=a693159f-8a7a-4c47-871d-e102ecaeceb2?dfe73da8-9261-4a36-ad0f-753f8ab98186</NodeId>
@@ -239,6 +353,78 @@
     <BitOffset>0</BitOffset>
     <ArrayDimension>0</ArrayDimension>
     <CommJobSettings>3</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>4</OID>
+    <NodeId>ns=2;s=cf07133d-e04d-46e1-999e-13034962b4ef?3f4c278e-c100-44ac-9a12-11fc37598a2c</NodeId>
+    <DataType>4</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=moviconSend.statusPrinters|TEFRM=3</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>20</ArrayDimension>
+    <CommJobSettings>4</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>5</OID>
+    <NodeId>ns=2;s=cf07133d-e04d-46e1-999e-13034962b4ef?151b6a36-791f-4ba2-8f96-d0334de8ffa1</NodeId>
+    <DataType>4</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=moviconSend.statusCutter|TEFRM=3</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>0</ArrayDimension>
+    <CommJobSettings>5</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>6</OID>
+    <NodeId>ns=2;s=cf07133d-e04d-46e1-999e-13034962b4ef?73fce068-20ba-4b0f-bbf3-60aa2978b1fc</NodeId>
+    <DataType>4</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=moviconSend.statusLDs|TEFRM=3</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>3</ArrayDimension>
+    <CommJobSettings>6</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>7</OID>
+    <NodeId>ns=2;s=cf07133d-e04d-46e1-999e-13034962b4ef?d6f7075d-9dd0-4800-8303-345ba131d300</NodeId>
+    <DataType>4</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=moviconSend.statusTMs|TEFRM=3</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>3</ArrayDimension>
+    <CommJobSettings>7</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>8</OID>
+    <NodeId>ns=2;s=cf07133d-e04d-46e1-999e-13034962b4ef?2cbe5c7b-de5f-4e06-80d9-07f1380c5ee5</NodeId>
+    <DataType>4</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=moviconSend.statusQuattro|TEFRM=3</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>0</ArrayDimension>
+    <CommJobSettings>8</CommJobSettings>
+    <OptimisticLockField>0</OptimisticLockField>
+  </TagSettings>
+  <TagSettings>
+    <OID>9</OID>
+    <NodeId>ns=2;s=cf07133d-e04d-46e1-999e-13034962b4ef?4da3bbba-2190-4caa-bd29-c012839dbb15</NodeId>
+    <DataType>4</DataType>
+    <DynamicSettings>OmronEthernetIP.Station=Station0|LinkType=1|ABA=moviconSend.statusVipers|TEFRM=3</DynamicSettings>
+    <SamplingInterval>0</SamplingInterval>
+    <ByteOffset>0</ByteOffset>
+    <BitOffset>0</BitOffset>
+    <ArrayDimension>2</ArrayDimension>
+    <CommJobSettings>9</CommJobSettings>
     <OptimisticLockField>0</OptimisticLockField>
   </TagSettings>
 </DefaultName>

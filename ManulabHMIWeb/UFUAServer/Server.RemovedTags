@@ -1,5 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RemovedVariablesDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
   <addressSpaceTags />
-  <prototypeMembers />
+  <prototypeMembers>
+    <entry>
+      <TagName>status</TagName>
+      <NodeId>fb4f54a2-40e1-47be-ad55-df56c4edebf8</NodeId>
+    </entry>
+    <entry>
+      <TagName>customerOrder</TagName>
+      <NodeId>5d3d1098-6fc1-41a7-9aa3-60f4f7dd3a15</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend</TagName>
+      <NodeId>6a3631d8-22c2-443d-9973-409a5b1afece</NodeId>
+    </entry>
+  </prototypeMembers>
 </RemovedVariablesDocument>

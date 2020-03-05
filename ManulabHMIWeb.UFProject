@@ -30,9 +30,15 @@
   <listChildProjectPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <listStartupLogicsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document" />
   <listStartupScripts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-  <listStartupScriptsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document" />
+  <listStartupScriptsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document">
+    <d2p1:StartupScript>
+      <d2p1:ExecuteAsService>true</d2p1:ExecuteAsService>
+      <d2p1:ExecutionMode>Synchro</d2p1:ExecutionMode>
+      <d2p1:Uri>Script/UpdateStatus.Script</d2p1:Uri>
+    </d2p1:StartupScript>
+  </listStartupScriptsEx>
   <longitude>NaN</longitude>
-  <mainScreen i:nil="true" />
+  <mainScreen>Screen/MainScreen.xaml</mainScreen>
   <mapAppNameSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
   <mapRenamedFolders xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
@@ -149,6 +155,10 @@
     <d2p1:KeyValueOfstringstring>
       <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\Info\InfoMain2.xaml</d2p1:Key>
       <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\Info\InfoOrder.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusMobileRobots\StatusCobot0.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusMobileRobots\StatusMobileRobotCobot0.xaml</d2p1:Value>
     </d2p1:KeyValueOfstringstring>
   </mapRenamedResources>
   <mapUriChildProjectData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -2103,6 +2113,32 @@
         <visible>true</visible>
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusMobileRobots/StatusMobileRobotCobot0.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>148</d5p1:B>
+          <d5p1:G>195</d5p1:G>
+          <d5p1:R>72</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.2961383</d5p1:ScB>
+          <d5p1:ScG>0.5457245</d5p1:ScG>
+          <d5p1:ScR>0.06480327</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
   </mapUriControllerData>
   <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
   <maxBackupCount>10</maxBackupCount>
@@ -2116,7 +2152,7 @@
   <speechConfidenceLevel>0.7</speechConfidenceLevel>
   <speechCulture>en-us</speechCulture>
   <speechEnabled>false</speechEnabled>
-  <startType>TilePage</startType>
+  <startType>MainScreen</startType>
   <theme>Blend</theme>
   <tileSize>ExtraLarge</tileSize>
   <useAlwaysSecureConnections>false</useAlwaysSecureConnections>

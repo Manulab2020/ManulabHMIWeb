@@ -59,425 +59,433 @@
     </xs:element>
   </xs:schema>
   <UFStringLocale>
-    <OID>29</OID>
+    <OID>30</OID>
     <Name>en-GB</Name>
     <Locale>en-GB</Locale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocale>
   <UFStringLocaleText>
-    <OID>1008</OID>
-    <Text>Printer_16</Text>
-    <Locale>Printer 16</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1009</OID>
-    <Text>Printer_12</Text>
-    <Locale>Printer 12</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1010</OID>
-    <Text>ID_Product_1</Text>
-    <Locale>A name plate with an NTNU Manulab logo and your name.</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1011</OID>
-    <Text>Printer_11</Text>
-    <Locale>Printer 11</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1012</OID>
-    <Text>Printer_Rack_1</Text>
-    <Locale>3D Printer Rack 1</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1013</OID>
-    <Text>Printer_02</Text>
-    <Locale>Printer 2</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1014</OID>
-    <Text>ID_Info_Status</Text>
-    <Locale>The status main page will have an overview of errors in the workstation.\nTo view the status of the equipment in a workstation click on the corresponding button on left side of the screen.\nEach equipment will show the status IDLE, BUSY or ERROR.</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1015</OID>
-    <Text>Printer_00</Text>
-    <Locale>Printer 0</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1016</OID>
-    <Text>Product_2</Text>
-    <Locale>Name Tag</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1017</OID>
-    <Text>Printer_17</Text>
-    <Locale>Printer 17</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1018</OID>
-    <Text>Viper_Robot_0</Text>
-    <Locale>Viper Robot 0</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1019</OID>
-    <Text>Printer_04</Text>
-    <Locale>Printer 4</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1020</OID>
-    <Text>Status_Idle</Text>
-    <Locale>IDLE:</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1021</OID>
-    <Text>Printer_Rack_2</Text>
-    <Locale>3D Printer Rack 2</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1022</OID>
-    <Text>ID_Info_Main</Text>
-    <Locale>Here there be info main</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1023</OID>
-    <Text>Laser_Cutter_0</Text>
-    <Locale>Laser Cutter</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1024</OID>
-    <Text>Status_Empty_Slot</Text>
-    <Locale>Empty Slot</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1025</OID>
-    <Text>Cobot_Workstation</Text>
-    <Locale>Cobots</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1026</OID>
-    <Text>Status_Error_Main</Text>
-    <Locale>ERROR IN WORKSTATION:</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1027</OID>
-    <Text>ID_Product_2</Text>
-    <Locale>A name tag with an NTNU logo and your initial</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1028</OID>
-    <Text>Mobile_Robot_0</Text>
-    <Locale>LD-Robot: Taklo</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1029</OID>
-    <Text>Printer_14</Text>
-    <Locale>Printer 14</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1030</OID>
-    <Text>Mobile_Robot_2</Text>
-    <Locale>LD-Robot: Finnson</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1031</OID>
-    <Text>Cobot_0</Text>
-    <Locale>TM Robot 0: Mark Zuccerburg</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1032</OID>
-    <Text>Printer_10</Text>
-    <Locale>Printer 10</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1033</OID>
-    <Text>Status_Error</Text>
-    <Locale>ERROR:</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1034</OID>
-    <Text>Quattro_Robot_Workstation</Text>
-    <Locale>Quattro Robot</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1035</OID>
-    <Text>Quattro_Robot_0</Text>
-    <Locale>Quattro Robot</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1036</OID>
-    <Text>Printer_19</Text>
-    <Locale>Printer 19</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1037</OID>
-    <Text>Printer_08</Text>
-    <Locale>Printer 8</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1038</OID>
-    <Text>Viper_Robot_Workstation</Text>
-    <Locale>Viper Robots</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1039</OID>
-    <Text>ID_Info_Order</Text>
-    <Locale>Here there be info order</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1040</OID>
-    <Text>Printer_03</Text>
-    <Locale>Printer 3</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1041</OID>
-    <Text>Printer_06</Text>
-    <Locale>Printer 6</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1042</OID>
-    <Text>Mobile_Robot_Fleet</Text>
-    <Locale>Mobile Robots</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1043</OID>
-    <Text>Printer_07</Text>
-    <Locale>Printer 7</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1044</OID>
-    <Text>Printer_05</Text>
-    <Locale>Printer 5</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1045</OID>
-    <Text>Printer_18</Text>
-    <Locale>Printer 18</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1046</OID>
-    <Text>Printer_01</Text>
-    <Locale>Printer 1</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1047</OID>
-    <Text>Laser_Cutter_Workstation</Text>
-    <Locale>Laser Cutter</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1048</OID>
-    <Text>Mobile_Robot_1</Text>
-    <Locale>LD-Robot: Ringstad</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1049</OID>
-    <Text>Printer_13</Text>
-    <Locale>Printer 13</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1050</OID>
-    <Text>Cobot_1</Text>
-    <Locale>TM Robot 1</Locale>
-    <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFStringLocaleText>
-  <UFStringLocaleText>
-    <OID>1051</OID>
+    <OID>1060</OID>
     <Text>Status_Main</Text>
     <Locale>Main Page</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1052</OID>
-    <Text>ID_Info_Status_Title</Text>
-    <Locale>Status of all major equipment</Locale>
+    <OID>1061</OID>
+    <Text>Mobile_Robot_1</Text>
+    <Locale>LD-Robot: Ringstad</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1053</OID>
-    <Text>Viper_Robot_1</Text>
-    <Locale>Viper Robot 1</Locale>
+    <OID>1062</OID>
+    <Text>Status_Error_Main</Text>
+    <Locale>ERROR IN WORKSTATION:</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1054</OID>
-    <Text>Printer_09</Text>
-    <Locale>Printer 9</Locale>
+    <OID>1063</OID>
+    <Text>Status_Error</Text>
+    <Locale>ERROR:</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1055</OID>
-    <Text>Printer_15</Text>
-    <Locale>Printer 15</Locale>
+    <OID>1064</OID>
+    <Text>Printer_13</Text>
+    <Locale>Printer 13</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1056</OID>
-    <Text>Status_Busy</Text>
-    <Locale>BUSY:</Locale>
+    <OID>1065</OID>
+    <Text>Laser_Cutter_0</Text>
+    <Locale>Laser Cutter</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1057</OID>
-    <Text>Product_1</Text>
-    <Locale>Name Plate</Locale>
+    <OID>1066</OID>
+    <Text>ID_Info_Main</Text>
+    <Locale>Here there be info main</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1058</OID>
-    <Text>ID_Info_Order_Title</Text>
-    <Locale>Order page for products</Locale>
+    <OID>1067</OID>
+    <Text>Mobile_Robot_Fleet</Text>
+    <Locale>Mobile Robots</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
   <UFStringLocaleText>
-    <OID>1059</OID>
+    <OID>1068</OID>
+    <Text>Printer_05</Text>
+    <Locale>Printer 5</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1069</OID>
+    <Text>Printer_11</Text>
+    <Locale>Printer 11</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1070</OID>
+    <Text>Mobile_Robot_0</Text>
+    <Locale>LD-Robot: Taklo</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1071</OID>
+    <Text>Printer_19</Text>
+    <Locale>Printer 19</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1072</OID>
+    <Text>Printer_01</Text>
+    <Locale>Printer 1</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1073</OID>
     <Text>ID_Info_Main_Title</Text>
     <Locale>Main Screen of the Manulab</Locale>
     <Culture>en-GB</Culture>
-    <UFStringLocale>29</UFStringLocale>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1074</OID>
+    <Text>Printer_02</Text>
+    <Locale>Printer 2</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1075</OID>
+    <Text>Cobot_1</Text>
+    <Locale>TM Robot 1</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1076</OID>
+    <Text>Printer_07</Text>
+    <Locale>Printer 7</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1077</OID>
+    <Text>Status_Empty_Slot</Text>
+    <Locale>Empty Slot</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1078</OID>
+    <Text>Viper_Robot_Workstation</Text>
+    <Locale>Viper Robots</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1079</OID>
+    <Text>ID_Product_1</Text>
+    <Locale>A name plate with an NTNU Manulab logo and your name.</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1080</OID>
+    <Text>Status_Busy</Text>
+    <Locale>BUSY:</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1081</OID>
+    <Text>Cobot_Workstation</Text>
+    <Locale>Cobots</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1082</OID>
+    <Text>Printer_03</Text>
+    <Locale>Printer 3</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1083</OID>
+    <Text>Printer_14</Text>
+    <Locale>Printer 14</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1084</OID>
+    <Text>Printer_15</Text>
+    <Locale>Printer 15</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1085</OID>
+    <Text>Viper_Robot_0</Text>
+    <Locale>Viper Robot 0</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1086</OID>
+    <Text>Printer_12</Text>
+    <Locale>Printer 12</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1087</OID>
+    <Text>ID_Info_Order</Text>
+    <Locale>Here there be info order</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1088</OID>
+    <Text>Product_1</Text>
+    <Locale>Name Plate</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1089</OID>
+    <Text>Printer_09</Text>
+    <Locale>Printer 9</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1090</OID>
+    <Text>Printer_16</Text>
+    <Locale>Printer 16</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1091</OID>
+    <Text>Printer_00</Text>
+    <Locale>Printer 0</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1092</OID>
+    <Text>Printer_04</Text>
+    <Locale>Printer 4</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1093</OID>
+    <Text>Printer_Rack_2</Text>
+    <Locale>3D Printer Rack 2</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1094</OID>
+    <Text>ID_Info_Status_Title</Text>
+    <Locale>Status of all major equipment</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1095</OID>
+    <Text>Printer_17</Text>
+    <Locale>Printer 17</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1096</OID>
+    <Text>Mobile_Robot_2</Text>
+    <Locale>LD-Robot: Finnson</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1097</OID>
+    <Text>Quattro_Robot_Workstation</Text>
+    <Locale>Quattro Robot</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1098</OID>
+    <Text>Quattro_Robot_0</Text>
+    <Locale>Quattro Robot</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1099</OID>
+    <Text>Printer_18</Text>
+    <Locale>Printer 18</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1100</OID>
+    <Text>ID_Info_Status</Text>
+    <Locale>The status main page will have an overview of errors in the workstation.\nTo view the status of the equipment in a workstation click on the corresponding button on left side of the screen.\nEach equipment will show the status IDLE, BUSY or ERROR.</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1101</OID>
+    <Text>Printer_10</Text>
+    <Locale>Printer 10</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1102</OID>
+    <Text>Printer_Rack_1</Text>
+    <Locale>3D Printer Rack 1</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1103</OID>
+    <Text>Cobot_0</Text>
+    <Locale>TM Robot 0: Mark Zuccerburg</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1104</OID>
+    <Text>Product_2</Text>
+    <Locale>Name Tag</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1105</OID>
+    <Text>ID_Product_2</Text>
+    <Locale>A name tag with an NTNU logo and your initial</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1106</OID>
+    <Text>Viper_Robot_1</Text>
+    <Locale>Viper Robot 1</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1107</OID>
+    <Text>ID_Info_Order_Title</Text>
+    <Locale>Order page for products</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1108</OID>
+    <Text>Printer_08</Text>
+    <Locale>Printer 8</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1109</OID>
+    <Text>Status_Idle</Text>
+    <Locale>IDLE:</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1110</OID>
+    <Text>Laser_Cutter_Workstation</Text>
+    <Locale>Laser Cutter</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1111</OID>
+    <Text>Printer_06</Text>
+    <Locale>Printer 6</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFStringLocaleText>
+  <UFStringLocaleText>
+    <OID>1112</OID>
+    <Text>Mobile_Robot_Cobot_0</Text>
+    <Locale>LD-Robot Cobot 0</Locale>
+    <Culture>en-GB</Culture>
+    <UFStringLocale>30</UFStringLocale>
     <OptimisticLockField>0</OptimisticLockField>
   </UFStringLocaleText>
 </DefaultName>

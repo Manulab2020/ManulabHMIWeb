@@ -176,7 +176,7 @@
         <bEnableManipulation>false</bEnableManipulation>
         <bEnableMouseOver>false</bEnableMouseOver>
         <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
-        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bForceDynamicOnClient>true</bForceDynamicOnClient>
         <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
         <bSourceSymbolLinked>true</bSourceSymbolLinked>
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
@@ -191,7 +191,12 @@
         <lockMovement>false</lockMovement>
         <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>IsHitTestVisible</d5p1:Key>
+            <d5p1:Value>&lt;Boolean xmlns="clr-namespace:System;assembly=mscorlib"&gt;False&lt;/Boolean&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
         <max3DRotationAngleY>0</max3DRotationAngleY>
@@ -208,7 +213,34 @@
         <min3DZoom>0</min3DZoom>
         <nSelLength>0</nSelLength>
         <nStartSel>0</nStartSel>
-        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>statusPrinter00:BUSY (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>fb4f54a2-40e1-47be-ad55-df56c4edebf8</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:statusVar/2:printers/2:statusPrinter00/2:BUSY</readablPath>
+          <relativePath>2:Tags/2:statusVar/2:printers/2:statusPrinter00/2:BUSY</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=c186f054-c2ba-4da4-a0ab-4e8a2f57bd1a?1f0d7cad-2bdb-4d21-bf66-85f399c7acb1</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>status</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
         <opcuaEntityReference3DZoom i:nil="true" />
         <preserveAnimations>false</preserveAnimations>
         <preserveCode>false</preserveCode>
@@ -259,7 +291,7 @@
         <bEnableManipulation>false</bEnableManipulation>
         <bEnableMouseOver>false</bEnableMouseOver>
         <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
-        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bForceDynamicOnClient>true</bForceDynamicOnClient>
         <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
         <bSourceSymbolLinked>true</bSourceSymbolLinked>
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
@@ -274,7 +306,12 @@
         <lockMovement>false</lockMovement>
         <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>IsHitTestVisible</d5p1:Key>
+            <d5p1:Value>&lt;Boolean xmlns="clr-namespace:System;assembly=mscorlib"&gt;False&lt;/Boolean&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
         <max3DRotationAngleY>0</max3DRotationAngleY>
@@ -291,7 +328,34 @@
         <min3DZoom>0</min3DZoom>
         <nSelLength>0</nSelLength>
         <nStartSel>0</nStartSel>
-        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>statusPrinter00:FAULT (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>fb4f54a2-40e1-47be-ad55-df56c4edebf8</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:statusVar/2:printers/2:statusPrinter00/2:FAULT</readablPath>
+          <relativePath>2:Tags/2:statusVar/2:printers/2:statusPrinter00/2:FAULT</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=c186f054-c2ba-4da4-a0ab-4e8a2f57bd1a?9837b515-6247-4840-94da-74790dda2b58</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>status</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
         <opcuaEntityReference3DZoom i:nil="true" />
         <preserveAnimations>false</preserveAnimations>
         <preserveCode>false</preserveCode>
@@ -342,7 +406,7 @@
         <bEnableManipulation>false</bEnableManipulation>
         <bEnableMouseOver>false</bEnableMouseOver>
         <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
-        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bForceDynamicOnClient>true</bForceDynamicOnClient>
         <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
         <bSourceSymbolLinked>true</bSourceSymbolLinked>
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
@@ -357,7 +421,12 @@
         <lockMovement>false</lockMovement>
         <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>IsHitTestVisible</d5p1:Key>
+            <d5p1:Value>&lt;Boolean xmlns="clr-namespace:System;assembly=mscorlib"&gt;False&lt;/Boolean&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
         <max3DRotationAngleY>0</max3DRotationAngleY>
@@ -374,7 +443,34 @@
         <min3DZoom>0</min3DZoom>
         <nSelLength>0</nSelLength>
         <nStartSel>0</nStartSel>
-        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>statusPrinter00:IDLE (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>fb4f54a2-40e1-47be-ad55-df56c4edebf8</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:statusVar/2:printers/2:statusPrinter00/2:IDLE</readablPath>
+          <relativePath>2:Tags/2:statusVar/2:printers/2:statusPrinter00/2:IDLE</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=c186f054-c2ba-4da4-a0ab-4e8a2f57bd1a?75743127-77ab-42be-84c9-1b7eac59cd08</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>status</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
         <opcuaEntityReference3DZoom i:nil="true" />
         <preserveAnimations>false</preserveAnimations>
         <preserveCode>false</preserveCode>
