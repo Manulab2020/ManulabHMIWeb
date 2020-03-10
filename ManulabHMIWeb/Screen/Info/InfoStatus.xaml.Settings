@@ -162,7 +162,7 @@
         <preserveVariables>false</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
-        <preservedHeight>312.57142857142833</preservedHeight>
+        <preservedHeight>312.571428571428</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>ID_Info_Status</preservedText>
         <preservedWidth>597.142857142857</preservedWidth>

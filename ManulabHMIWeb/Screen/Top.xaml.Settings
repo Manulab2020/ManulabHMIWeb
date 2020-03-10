@@ -314,11 +314,11 @@
         <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
           <d5p1:entry>
             <d5p1:Key>Content</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Status of Manulab(WIP)&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Status of Manulab&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Text</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Status of Manulab(WIP)&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Status of Manulab&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>

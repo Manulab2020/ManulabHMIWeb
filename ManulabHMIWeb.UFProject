@@ -30,13 +30,7 @@
   <listChildProjectPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <listStartupLogicsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document" />
   <listStartupScripts xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-  <listStartupScriptsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document">
-    <d2p1:StartupScript>
-      <d2p1:ExecuteAsService>true</d2p1:ExecuteAsService>
-      <d2p1:ExecutionMode>Synchro</d2p1:ExecutionMode>
-      <d2p1:Uri>Script/UpdateStatus.Script</d2p1:Uri>
-    </d2p1:StartupScript>
-  </listStartupScriptsEx>
+  <listStartupScriptsEx xmlns:d2p1="http://schemas.datacontract.org/2004/07/UFProjectManager.Document" />
   <longitude>NaN</longitude>
   <mainScreen>Screen/MainScreen.xaml</mainScreen>
   <mapAppNameSettings xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -62,7 +56,7 @@
     </d2p1:KeyValueOfstringstring>
     <d2p1:KeyValueOfstringstring>
       <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\Screen1.xaml</d2p1:Key>
-      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusMainPage.xaml</d2p1:Value>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\OrderPopUp.xaml</d2p1:Value>
     </d2p1:KeyValueOfstringstring>
     <d2p1:KeyValueOfstringstring>
       <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusLaserCutter.xaml</d2p1:Key>
@@ -159,6 +153,46 @@
     <d2p1:KeyValueOfstringstring>
       <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusMobileRobots\StatusCobot0.xaml</d2p1:Key>
       <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusMobileRobots\StatusMobileRobotCobot0.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter0.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter00.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter1.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter01.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter2.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter02.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter3.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter03.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter4.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter04.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter5.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter05.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter6.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter06.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter7.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter07.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter8.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter08.xaml</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter9.xaml</d2p1:Key>
+      <d2p1:Value>C:\Users\Hans-Christian\Documents\Progea\Movicon.NExT\ManulabHMIWeb\ManulabHMIWeb\Screen\StatusPages\StatusPrinter\StatusPrinter09.xaml</d2p1:Value>
     </d2p1:KeyValueOfstringstring>
   </mapRenamedResources>
   <mapUriChildProjectData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -632,7 +666,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter0.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter01.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -684,7 +718,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter1.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter02.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -710,7 +744,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter2.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter03.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -736,7 +770,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter3.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter04.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -762,7 +796,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter4.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter05.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -788,7 +822,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter5.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter06.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -814,7 +848,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter6.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter07.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -840,7 +874,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter7.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter08.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -866,33 +900,7 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter8.xaml</d2p1:Key>
-      <d2p1:Value>
-        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
-          <d5p1:A>255</d5p1:A>
-          <d5p1:B>148</d5p1:B>
-          <d5p1:G>195</d5p1:G>
-          <d5p1:R>72</d5p1:R>
-          <d5p1:ScA>1</d5p1:ScA>
-          <d5p1:ScB>0.2961383</d5p1:ScB>
-          <d5p1:ScG>0.5457245</d5p1:ScG>
-          <d5p1:ScR>0.06480327</d5p1:ScR>
-        </color>
-        <description i:nil="true" />
-        <latitude>NaN</latitude>
-        <latitudeTag i:nil="true" />
-        <longitude>NaN</longitude>
-        <longitudeTag i:nil="true" />
-        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
-        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
-        <rolesVisibility i:nil="true" />
-        <tileSize>Small</tileSize>
-        <usersVisibility i:nil="true" />
-        <visible>true</visible>
-      </d2p1:Value>
-    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter9.xaml</d2p1:Key>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter09.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>
@@ -1776,32 +1784,6 @@
       </d2p1:Value>
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-      <d2p1:Key>Logic/ErrLogic.Logic</d2p1:Key>
-      <d2p1:Value>
-        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
-          <d5p1:A>255</d5p1:A>
-          <d5p1:B>57</d5p1:B>
-          <d5p1:G>124</d5p1:G>
-          <d5p1:R>33</d5p1:R>
-          <d5p1:ScA>1</d5p1:ScA>
-          <d5p1:ScB>0.0409152</d5p1:ScB>
-          <d5p1:ScG>0.20155625</d5p1:ScG>
-          <d5p1:ScR>0.0152085163</d5p1:ScR>
-        </color>
-        <description i:nil="true" />
-        <latitude>NaN</latitude>
-        <latitudeTag i:nil="true" />
-        <longitude>NaN</longitude>
-        <longitudeTag i:nil="true" />
-        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
-        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
-        <rolesVisibility i:nil="true" />
-        <tileSize>Small</tileSize>
-        <usersVisibility i:nil="true" />
-        <visible>true</visible>
-      </d2p1:Value>
-    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
-    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
       <d2p1:Key>Screen/StatusPages/StatusMain/StatusMobileRobots.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
@@ -2115,6 +2097,32 @@
     </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
     <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
       <d2p1:Key>Screen/StatusPages/StatusMobileRobots/StatusMobileRobotCobot0.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>148</d5p1:B>
+          <d5p1:G>195</d5p1:G>
+          <d5p1:R>72</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.2961383</d5p1:ScB>
+          <d5p1:ScG>0.5457245</d5p1:ScG>
+          <d5p1:ScR>0.06480327</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/StatusPages/StatusPrinter/StatusPrinter00.xaml</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
           <d5p1:A>255</d5p1:A>

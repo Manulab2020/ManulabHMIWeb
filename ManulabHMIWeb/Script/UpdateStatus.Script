@@ -1,26 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
-  <bEnableLog>false</bEnableLog>
-  <bEnableSysLog>false</bEnableSysLog>
+  <bEnableLog>true</bEnableLog>
+  <bEnableSysLog>true</bEnableSysLog>
   <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <currentStatusTag i:nil="true" />
   <cycleTimeTag i:nil="true" />
   <disableWhenNotUsed>true</disableWhenNotUsed>
   <fastSamplingInterval>500</fastSamplingInterval>
-  <forceWritingOnServer>false</forceWritingOnServer>
+  <forceWritingOnServer>true</forceWritingOnServer>
   <id>00000000-0000-0000-0000-000000000000</id>
   <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d2p1:string>stopVar</d2p1:string>
     <d2p1:string>num</d2p1:string>
+    <d2p1:string>testArray</d2p1:string>
     <d2p1:string>Station0_moviconSend-statusCutter</d2p1:string>
+    <d2p1:string>Station0_moviconSend-statusQuattro</d2p1:string>
     <d2p1:string>Station0_moviconSend-statusPrinters</d2p1:string>
     <d2p1:string>Station0_moviconSend-statusLDs</d2p1:string>
     <d2p1:string>Station0_moviconSend-statusTMs</d2p1:string>
-    <d2p1:string>Station0_moviconSend-statusQuattro</d2p1:string>
     <d2p1:string>Station0_moviconSend-statusVipers</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-FAULT</d2p1:string>
+    <d2p1:string>statusVar_workstation_printerRack00</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter01-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter01-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter01-FAULT</d2p1:string>
@@ -51,6 +53,7 @@
     <d2p1:string>statusVar_printers_statusPrinter10-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter10-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter10-FAULT</d2p1:string>
+    <d2p1:string>statusVar_workstation_printerRack01</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter11-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter11-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter11-FAULT</d2p1:string>
@@ -112,7 +115,7 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>755</nStartSel>
+  <nStartSel>348</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -132,6 +135,7 @@ Const testing As Boolean = True
 Sub Main Handles .Main
     stopVar = True
     num = statCodeIdle
+    testArray(0) = True
     Do
         ' DoEvents
 
@@ -147,6 +151,7 @@ Sub Main Handles .Main
             End If
 
             Station0_moviconSend.statusCutter = num
+            Station0_moviconSend.statusQuattro = num
             Station0_moviconSend.statusPrinters(0) = num
             Station0_moviconSend.statusPrinters(1) = num
             Station0_moviconSend.statusPrinters(2) = num
@@ -173,7 +178,6 @@ Sub Main Handles .Main
             Station0_moviconSend.statusTMs(0) = num
             Station0_moviconSend.statusTMs(1) = num
             Station0_moviconSend.statusTMs(2) = num
-            Station0_moviconSend.statusQuattro = num
             Station0_moviconSend.statusVipers(0) = num
             Station0_moviconSend.statusVipers(1) = num
         End If
@@ -186,18 +190,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter00.IDLE = True
                 statusVar_printers_statusPrinter00.BUSY = False
                 statusVar_printers_statusPrinter00.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter00.IDLE = False
                 statusVar_printers_statusPrinter00.BUSY = True
                 statusVar_printers_statusPrinter00.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter00.IDLE = False
                 statusVar_printers_statusPrinter00.BUSY = False
                 statusVar_printers_statusPrinter00.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter00.IDLE = False
                 statusVar_printers_statusPrinter00.BUSY = False
                 statusVar_printers_statusPrinter00.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 01
@@ -206,18 +214,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter01.IDLE = True
                 statusVar_printers_statusPrinter01.BUSY = False
                 statusVar_printers_statusPrinter01.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter01.IDLE = False
                 statusVar_printers_statusPrinter01.BUSY = True
                 statusVar_printers_statusPrinter01.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter01.IDLE = False
                 statusVar_printers_statusPrinter01.BUSY = False
                 statusVar_printers_statusPrinter01.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter01.IDLE = False
                 statusVar_printers_statusPrinter01.BUSY = False
                 statusVar_printers_statusPrinter01.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 02
@@ -226,18 +238,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter02.IDLE = True
                 statusVar_printers_statusPrinter02.BUSY = False
                 statusVar_printers_statusPrinter02.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter02.IDLE = False
                 statusVar_printers_statusPrinter02.BUSY = True
                 statusVar_printers_statusPrinter02.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter02.IDLE = False
                 statusVar_printers_statusPrinter02.BUSY = False
                 statusVar_printers_statusPrinter02.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter02.IDLE = False
                 statusVar_printers_statusPrinter02.BUSY = False
                 statusVar_printers_statusPrinter02.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 03
@@ -246,18 +262,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter03.IDLE = True
                 statusVar_printers_statusPrinter03.BUSY = False
                 statusVar_printers_statusPrinter03.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter03.IDLE = False
                 statusVar_printers_statusPrinter03.BUSY = True
                 statusVar_printers_statusPrinter03.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter03.IDLE = False
                 statusVar_printers_statusPrinter03.BUSY = False
                 statusVar_printers_statusPrinter03.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter03.IDLE = False
                 statusVar_printers_statusPrinter03.BUSY = False
                 statusVar_printers_statusPrinter03.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 04
@@ -266,18 +286,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter04.IDLE = True
                 statusVar_printers_statusPrinter04.BUSY = False
                 statusVar_printers_statusPrinter04.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter04.IDLE = False
                 statusVar_printers_statusPrinter04.BUSY = True
                 statusVar_printers_statusPrinter04.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter04.IDLE = False
                 statusVar_printers_statusPrinter04.BUSY = False
                 statusVar_printers_statusPrinter04.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter04.IDLE = False
                 statusVar_printers_statusPrinter04.BUSY = False
                 statusVar_printers_statusPrinter04.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 05
@@ -286,18 +310,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter05.IDLE = True
                 statusVar_printers_statusPrinter05.BUSY = False
                 statusVar_printers_statusPrinter05.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter05.IDLE = False
                 statusVar_printers_statusPrinter05.BUSY = True
                 statusVar_printers_statusPrinter05.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter05.IDLE = False
                 statusVar_printers_statusPrinter05.BUSY = False
                 statusVar_printers_statusPrinter05.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter05.IDLE = False
                 statusVar_printers_statusPrinter05.BUSY = False
                 statusVar_printers_statusPrinter05.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 06
@@ -306,18 +334,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter06.IDLE = True
                 statusVar_printers_statusPrinter06.BUSY = False
                 statusVar_printers_statusPrinter06.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter06.IDLE = False
                 statusVar_printers_statusPrinter06.BUSY = True
                 statusVar_printers_statusPrinter06.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter06.IDLE = False
                 statusVar_printers_statusPrinter06.BUSY = False
                 statusVar_printers_statusPrinter06.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter06.IDLE = False
                 statusVar_printers_statusPrinter06.BUSY = False
                 statusVar_printers_statusPrinter06.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 07
@@ -326,18 +358,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter07.IDLE = True
                 statusVar_printers_statusPrinter07.BUSY = False
                 statusVar_printers_statusPrinter07.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter07.IDLE = False
                 statusVar_printers_statusPrinter07.BUSY = True
                 statusVar_printers_statusPrinter07.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter07.IDLE = False
                 statusVar_printers_statusPrinter07.BUSY = False
                 statusVar_printers_statusPrinter07.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter07.IDLE = False
                 statusVar_printers_statusPrinter07.BUSY = False
                 statusVar_printers_statusPrinter07.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 08
@@ -346,18 +382,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter08.IDLE = True
                 statusVar_printers_statusPrinter08.BUSY = False
                 statusVar_printers_statusPrinter08.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter08.IDLE = False
                 statusVar_printers_statusPrinter08.BUSY = True
                 statusVar_printers_statusPrinter08.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter08.IDLE = False
                 statusVar_printers_statusPrinter08.BUSY = False
                 statusVar_printers_statusPrinter08.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter08.IDLE = False
                 statusVar_printers_statusPrinter08.BUSY = False
                 statusVar_printers_statusPrinter08.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 09
@@ -366,18 +406,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter09.IDLE = True
                 statusVar_printers_statusPrinter09.BUSY = False
                 statusVar_printers_statusPrinter09.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter09.IDLE = False
                 statusVar_printers_statusPrinter09.BUSY = True
                 statusVar_printers_statusPrinter09.FAULT = False
+                statusVar_workstation_printerRack00 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter09.IDLE = False
                 statusVar_printers_statusPrinter09.BUSY = False
                 statusVar_printers_statusPrinter09.FAULT = True
+                statusVar_workstation_printerRack00 = True
             Case Else
                 statusVar_printers_statusPrinter09.IDLE = False
                 statusVar_printers_statusPrinter09.BUSY = False
                 statusVar_printers_statusPrinter09.FAULT = True
+                statusVar_workstation_printerRack00 = True
         End Select
 
         ' Status for 3D Printer 10
@@ -386,18 +430,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter10.IDLE = True
                 statusVar_printers_statusPrinter10.BUSY = False
                 statusVar_printers_statusPrinter10.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter10.IDLE = False
                 statusVar_printers_statusPrinter10.BUSY = True
                 statusVar_printers_statusPrinter10.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter10.IDLE = False
                 statusVar_printers_statusPrinter10.BUSY = False
                 statusVar_printers_statusPrinter10.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter10.IDLE = False
                 statusVar_printers_statusPrinter10.BUSY = False
                 statusVar_printers_statusPrinter10.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 11
@@ -406,18 +454,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter11.IDLE = True
                 statusVar_printers_statusPrinter11.BUSY = False
                 statusVar_printers_statusPrinter11.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter11.IDLE = False
                 statusVar_printers_statusPrinter11.BUSY = True
                 statusVar_printers_statusPrinter11.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter11.IDLE = False
                 statusVar_printers_statusPrinter11.BUSY = False
                 statusVar_printers_statusPrinter11.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter11.IDLE = False
                 statusVar_printers_statusPrinter11.BUSY = False
                 statusVar_printers_statusPrinter11.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 12
@@ -426,18 +478,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter12.IDLE = True
                 statusVar_printers_statusPrinter12.BUSY = False
                 statusVar_printers_statusPrinter12.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter12.IDLE = False
                 statusVar_printers_statusPrinter12.BUSY = True
                 statusVar_printers_statusPrinter12.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter12.IDLE = False
                 statusVar_printers_statusPrinter12.BUSY = False
                 statusVar_printers_statusPrinter12.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter12.IDLE = False
                 statusVar_printers_statusPrinter12.BUSY = False
                 statusVar_printers_statusPrinter12.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 13
@@ -446,18 +502,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter13.IDLE = True
                 statusVar_printers_statusPrinter13.BUSY = False
                 statusVar_printers_statusPrinter13.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter13.IDLE = False
                 statusVar_printers_statusPrinter13.BUSY = True
                 statusVar_printers_statusPrinter13.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter13.IDLE = False
                 statusVar_printers_statusPrinter13.BUSY = False
                 statusVar_printers_statusPrinter13.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter13.IDLE = False
                 statusVar_printers_statusPrinter13.BUSY = False
                 statusVar_printers_statusPrinter13.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 14
@@ -466,18 +526,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter14.IDLE = True
                 statusVar_printers_statusPrinter14.BUSY = False
                 statusVar_printers_statusPrinter14.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter14.IDLE = False
                 statusVar_printers_statusPrinter14.BUSY = True
                 statusVar_printers_statusPrinter14.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter14.IDLE = False
                 statusVar_printers_statusPrinter14.BUSY = False
                 statusVar_printers_statusPrinter14.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter14.IDLE = False
                 statusVar_printers_statusPrinter14.BUSY = False
                 statusVar_printers_statusPrinter14.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 15
@@ -486,18 +550,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter15.IDLE = True
                 statusVar_printers_statusPrinter15.BUSY = False
                 statusVar_printers_statusPrinter15.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter15.IDLE = False
                 statusVar_printers_statusPrinter15.BUSY = True
                 statusVar_printers_statusPrinter15.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter15.IDLE = False
                 statusVar_printers_statusPrinter15.BUSY = False
                 statusVar_printers_statusPrinter15.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter15.IDLE = False
                 statusVar_printers_statusPrinter15.BUSY = False
                 statusVar_printers_statusPrinter15.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 16
@@ -506,18 +574,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter16.IDLE = True
                 statusVar_printers_statusPrinter16.BUSY = False
                 statusVar_printers_statusPrinter16.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter16.IDLE = False
                 statusVar_printers_statusPrinter16.BUSY = True
                 statusVar_printers_statusPrinter16.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter16.IDLE = False
                 statusVar_printers_statusPrinter16.BUSY = False
                 statusVar_printers_statusPrinter16.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter16.IDLE = False
                 statusVar_printers_statusPrinter16.BUSY = False
                 statusVar_printers_statusPrinter16.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 17
@@ -526,18 +598,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter17.IDLE = True
                 statusVar_printers_statusPrinter17.BUSY = False
                 statusVar_printers_statusPrinter17.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter17.IDLE = False
                 statusVar_printers_statusPrinter17.BUSY = True
                 statusVar_printers_statusPrinter17.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter17.IDLE = False
                 statusVar_printers_statusPrinter17.BUSY = False
                 statusVar_printers_statusPrinter17.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter17.IDLE = False
                 statusVar_printers_statusPrinter17.BUSY = False
                 statusVar_printers_statusPrinter17.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 18
@@ -546,18 +622,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter18.IDLE = True
                 statusVar_printers_statusPrinter18.BUSY = False
                 statusVar_printers_statusPrinter18.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter18.IDLE = False
                 statusVar_printers_statusPrinter18.BUSY = True
                 statusVar_printers_statusPrinter18.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter18.IDLE = False
                 statusVar_printers_statusPrinter18.BUSY = False
                 statusVar_printers_statusPrinter18.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter18.IDLE = False
                 statusVar_printers_statusPrinter18.BUSY = False
                 statusVar_printers_statusPrinter18.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         ' Status for 3D Printer 19
@@ -566,18 +646,22 @@ Sub Main Handles .Main
                 statusVar_printers_statusPrinter19.IDLE = True
                 statusVar_printers_statusPrinter19.BUSY = False
                 statusVar_printers_statusPrinter19.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeBusy
                 statusVar_printers_statusPrinter19.IDLE = False
                 statusVar_printers_statusPrinter19.BUSY = True
                 statusVar_printers_statusPrinter19.FAULT = False
+                statusVar_workstation_printerRack01 = False
             Case statCodeFault
                 statusVar_printers_statusPrinter19.IDLE = False
                 statusVar_printers_statusPrinter19.BUSY = False
                 statusVar_printers_statusPrinter19.FAULT = True
+                statusVar_workstation_printerRack01 = True
             Case Else
                 statusVar_printers_statusPrinter19.IDLE = False
                 statusVar_printers_statusPrinter19.BUSY = False
                 statusVar_printers_statusPrinter19.FAULT = True
+                statusVar_workstation_printerRack01 = True
         End Select
 
         '

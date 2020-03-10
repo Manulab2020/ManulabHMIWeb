@@ -208,7 +208,34 @@
         <min3DZoom>0</min3DZoom>
         <nSelLength>0</nSelLength>
         <nStartSel>0</nStartSel>
-        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>statusPrinter03:BUSY (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>fb4f54a2-40e1-47be-ad55-df56c4edebf8</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:statusVar/2:printers/2:statusPrinter03/2:BUSY</readablPath>
+          <relativePath>2:Tags/2:statusVar/2:printers/2:statusPrinter03/2:BUSY</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=3bbfbf62-4a2c-41d5-bf94-d2f54cd55748?1f0d7cad-2bdb-4d21-bf66-85f399c7acb1</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>status</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
         <opcuaEntityReference3DZoom i:nil="true" />
         <preserveAnimations>false</preserveAnimations>
         <preserveCode>false</preserveCode>
@@ -291,7 +318,34 @@
         <min3DZoom>0</min3DZoom>
         <nSelLength>0</nSelLength>
         <nStartSel>0</nStartSel>
-        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>statusPrinter03:FAULT (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>fb4f54a2-40e1-47be-ad55-df56c4edebf8</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:statusVar/2:printers/2:statusPrinter03/2:FAULT</readablPath>
+          <relativePath>2:Tags/2:statusVar/2:printers/2:statusPrinter03/2:FAULT</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=3bbfbf62-4a2c-41d5-bf94-d2f54cd55748?9837b515-6247-4840-94da-74790dda2b58</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>status</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
         <opcuaEntityReference3DZoom i:nil="true" />
         <preserveAnimations>false</preserveAnimations>
         <preserveCode>false</preserveCode>
@@ -374,7 +428,34 @@
         <min3DZoom>0</min3DZoom>
         <nSelLength>0</nSelLength>
         <nStartSel>0</nStartSel>
-        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>statusPrinter03:IDLE (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>fb4f54a2-40e1-47be-ad55-df56c4edebf8</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:statusVar/2:printers/2:statusPrinter03/2:IDLE</readablPath>
+          <relativePath>2:Tags/2:statusVar/2:printers/2:statusPrinter03/2:IDLE</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=3bbfbf62-4a2c-41d5-bf94-d2f54cd55748?75743127-77ab-42be-84c9-1b7eac59cd08</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>status</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=fb4f54a2-40e1-47be-ad55-df56c4edebf8</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
         <opcuaEntityReference3DZoom i:nil="true" />
         <preserveAnimations>false</preserveAnimations>
         <preserveCode>false</preserveCode>
@@ -723,7 +804,7 @@
         <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#00FFFFFF&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>300</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Printer_01</preservedText>
+        <preservedText>Printer_03</preservedText>
         <preservedWidth>216</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
