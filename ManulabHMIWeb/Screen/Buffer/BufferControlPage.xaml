@@ -1,0 +1,58 @@
+<Canvas Background="#FF000000" Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:c="clr-namespace:Converters;assembly=Converters">
+  <ContentControl Name="EmbeddedTabScreen" Width="1280" Height="80" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen1" Width="200" Height="720" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="80" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EmbeddedTabScreen02" Width="1080" Height="70" IsManipulationEnabled="False" Canvas.Left="200" Canvas.Top="730" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="28" FontWeight="Normal" Name="TextBox" Width="180" MinWidth="5" Height="70" MinHeight="5" ToolTip="Buffer_Control" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="210" Canvas.Top="90" syncfusion:SkinStorage.OverrideVisualStyle="True" c:TextBoxProperties.UnderlineTextSource="True">
+    <TextBox.TextDecorations>
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+    </TextBox.TextDecorations>Buffer_Control</TextBox>
+  <GroupBox Header="Product_1" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox" Width="540" Height="600" ToolTip="Product_1" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="200" Canvas.Top="130" />
+  <GroupBox Header="Product_2" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox1" Width="540" Height="600" ToolTip="Product_2" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="740" Canvas.Top="130" />
+  <ContentControl Name="ContentControl" Width="520" Height="70" RenderTransformOrigin="0.5,0.5" Canvas.Left="210" Canvas.Top="650" />
+  <ContentControl Name="ContentControl1" Width="520" Height="70" RenderTransformOrigin="0.5,0.5" Canvas.Left="750" Canvas.Top="650" />
+  <ContentControl Name="EditDisplay3" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="210" Canvas.Top="380" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay6" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="210" Canvas.Top="580" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay4" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="750" Canvas.Top="580" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay5" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="210" Canvas.Top="480" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#00000000" Foreground="#FFFFFFFF" FontSize="18" VerticalContentAlignment="Center" Name="TextBox2" Width="515.238095238095" MinWidth="5" Height="40" MinHeight="5" ToolTip="ID_Buffer_New_Lim" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="210" Canvas.Top="550" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Buffer_New_Lim</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#00000000" Foreground="#FFFFFFFF" FontSize="18" VerticalContentAlignment="Center" Name="TextBox3" Width="515.238095238095" MinWidth="5" Height="40" MinHeight="5" ToolTip="ID_Buffer_Curr_Lim" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="210" Canvas.Top="450" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Buffer_Curr_Lim</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#00000000" Foreground="#FFFFFFFF" FontSize="18" VerticalContentAlignment="Center" Name="TextBox4" Width="515.238095238095" MinWidth="5" Height="40" MinHeight="5" ToolTip="ID_Curr_Storage" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="210" Canvas.Top="350" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Curr_Storage</TextBox>
+  <ContentControl Name="EditDisplay8" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="750" Canvas.Top="380" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay9" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="750" Canvas.Top="480" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#00000000" Foreground="#FFFFFFFF" FontSize="18" VerticalContentAlignment="Center" Name="TextBox5" Width="515.238095238095" MinWidth="5" Height="40" MinHeight="5" ToolTip="ID_Buffer_New_Lim" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="750" Canvas.Top="550" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Buffer_New_Lim</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#00000000" Foreground="#FFFFFFFF" FontSize="18" VerticalContentAlignment="Center" Name="TextBox6" Width="515.238095238095" MinWidth="5" Height="40" MinHeight="5" ToolTip="ID_Buffer_Curr_Lim" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="750" Canvas.Top="450" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Buffer_Curr_Lim</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#00000000" Foreground="#FFFFFFFF" FontSize="18" VerticalContentAlignment="Center" Name="TextBox7" Width="515.238095238095" MinWidth="5" Height="40" MinHeight="5" ToolTip="ID_Curr_Storage" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="750" Canvas.Top="350" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Curr_Storage</TextBox>
+  <ContentControl Name="AnimatedImage" Width="200" Height="200" IsManipulationEnabled="False" Canvas.Left="210" Canvas.Top="150" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="AnimatedImage1" Width="200" Height="200" IsManipulationEnabled="False" Canvas.Left="750" Canvas.Top="150" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox TextWrapping="Wrap" TextAlignment="Left" IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FFFFFFFF" FontSize="18" Name="TextBox1" Width="310" MinWidth="5" Height="200" MinHeight="5" ToolTip="ID_Product_1_Buffer" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="420" Canvas.Top="150" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Product_1_Buffer</TextBox>
+  <TextBox TextWrapping="Wrap" TextAlignment="Left" IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FFFFFFFF" FontSize="18" Name="TextBox8" Width="310" MinWidth="5" Height="200" MinHeight="5" ToolTip="ID_Product_2_Buffer" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="960" Canvas.Top="150" syncfusion:SkinStorage.OverrideVisualStyle="True">ID_Product_2_Buffer</TextBox>
+</Canvas>

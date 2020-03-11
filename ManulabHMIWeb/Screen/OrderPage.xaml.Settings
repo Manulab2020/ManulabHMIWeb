@@ -2674,15 +2674,19 @@
         <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
           <d5p1:entry>
             <d5p1:Key>Text</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Order&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Order&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Content</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Order&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Order&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;28&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Order&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -2718,7 +2722,7 @@
         <preservedBrush i:nil="true" />
         <preservedHeight>72</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Order</preservedText>
+        <preservedText>ID_Order</preservedText>
         <preservedWidth>622</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -2973,11 +2977,15 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Text</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Order&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Order&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Content</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Order&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Order&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Order&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -3013,7 +3021,7 @@
         <preservedBrush i:nil="true" />
         <preservedHeight>71.6666666666665</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Order</preservedText>
+        <preservedText>ID_Order</preservedText>
         <preservedWidth>401.666666666667</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />

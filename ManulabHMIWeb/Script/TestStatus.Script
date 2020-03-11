@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>stopVar</d2p1:string>
+    <d2p1:string>num</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer00</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer01</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer02</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer03</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer04</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer05</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer06</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer07</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer08</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer09</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer10</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer11</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer12</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer13</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer14</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer15</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer16</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer17</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer18</d2p1:string>
+    <d2p1:string>Station0_moviconSend-printer19</d2p1:string>
+    <d2p1:string>Station0_moviconSend-laserCutter00</d2p1:string>
+    <d2p1:string>Station0_moviconSend-mobileRobot00</d2p1:string>
+    <d2p1:string>Station0_moviconSend-mobileRobot01</d2p1:string>
+    <d2p1:string>Station0_moviconSend-mobileRobot02</d2p1:string>
+    <d2p1:string>Station0_moviconSend-cobot00</d2p1:string>
+    <d2p1:string>Station0_moviconSend-cobot01</d2p1:string>
+    <d2p1:string>Station0_moviconSend-cobot02</d2p1:string>
+    <d2p1:string>Station0_moviconSend-quattro00</d2p1:string>
+    <d2p1:string>Station0_moviconSend-viper00</d2p1:string>
+    <d2p1:string>Station0_moviconSend-viper01</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>215</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+Imports System
+Imports System.Threading
+
+Option Explicit
+
+Const statCodeFault As Int16 = 0
+Const statCodeIdle As Int16 = 1
+Const statCodeBusy As Int16 = 2
+
+Const sleepTime As Int16 = 4000
+
+Const testing As Boolean = True
+
+Sub Main Handles .Main
+    stopVar = True
+    num = statCodeIdle
+    Do
+        If testing = True Then
+            If num = statCodeIdle Then
+                num = statCodeBusy
+            ElseIf num = statCodeBusy Then
+                num = statCodeFault
+            ElseIf num = statCodeFault Then
+                num = statCodeIdle
+            Else
+                num = statCodeFault
+            End If
+
+            Station0_moviconSend.printer00 = num
+            Station0_moviconSend.printer01 = num
+            Station0_moviconSend.printer02 = num
+            Station0_moviconSend.printer03 = num
+            Station0_moviconSend.printer04 = num
+            Station0_moviconSend.printer05 = num
+            Station0_moviconSend.printer06 = num
+            Station0_moviconSend.printer07 = num
+            Station0_moviconSend.printer08 = num
+            Station0_moviconSend.printer09 = num
+            Station0_moviconSend.printer10 = num
+            Station0_moviconSend.printer11 = num
+            Station0_moviconSend.printer12 = num
+            Station0_moviconSend.printer13 = num
+            Station0_moviconSend.printer14 = num
+            Station0_moviconSend.printer15 = num
+            Station0_moviconSend.printer16 = num
+            Station0_moviconSend.printer17 = num
+            Station0_moviconSend.printer18 = num
+            Station0_moviconSend.printer19 = num
+            Station0_moviconSend.laserCutter00 = num
+            Station0_moviconSend.mobileRobot00 = num
+            Station0_moviconSend.mobileRobot01 = num
+            Station0_moviconSend.mobileRobot02 = num
+            Station0_moviconSend.cobot00 = num
+            Station0_moviconSend.cobot01 = num
+            Station0_moviconSend.cobot02 = num
+            Station0_moviconSend.quattro00 = num
+            Station0_moviconSend.viper00 = num
+            Station0_moviconSend.viper01 = num
+        End If
+
+        Thread.Sleep(sleepTime)
+
+    Loop Until stopVar = False
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>
