@@ -272,7 +272,7 @@
             <isRelative>false</isRelative>
             <parameterFile i:nil="true" />
             <requestedMonitor>-1</requestedMonitor>
-            <screenName>Screen/Info/InfoStatus.xaml</screenName>
+            <screenName>Screen/Info/InfoBuffer.xaml</screenName>
             <synchroFrame>false</synchroFrame>
             <synchroPopup>false</synchroPopup>
             <x>NaN</x>
@@ -352,10 +352,10 @@
         <preserveText>false</preserveText>
         <preserveVariables>false</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
-        <preservedText i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText></preservedText>
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />

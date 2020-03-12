@@ -36,11 +36,6 @@
       <d2p1:ExecutionMode>Normal</d2p1:ExecutionMode>
       <d2p1:Uri>Script/UpdateStatus.Script</d2p1:Uri>
     </d2p1:StartupScript>
-    <d2p1:StartupScript>
-      <d2p1:ExecuteAsService>true</d2p1:ExecuteAsService>
-      <d2p1:ExecutionMode>Normal</d2p1:ExecutionMode>
-      <d2p1:Uri>Script/TestStatus.Script</d2p1:Uri>
-    </d2p1:StartupScript>
   </listStartupScriptsEx>
   <longitude>NaN</longitude>
   <mainScreen>Screen/MainScreen.xaml</mainScreen>

@@ -34,11 +34,13 @@
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
     </TextBox.TextDecorations>Buffer_Control</TextBox>
-  <GroupBox Header="Product_1" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox" Width="540" Height="600" ToolTip="Product_1" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="200" Canvas.Top="130" />
-  <GroupBox Header="Product_2" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox1" Width="540" Height="600" ToolTip="Product_2" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="740" Canvas.Top="130" />
-  <ContentControl Name="ContentControl" Width="520" Height="70" RenderTransformOrigin="0.5,0.5" Canvas.Left="210" Canvas.Top="650" />
-  <ContentControl Name="ContentControl1" Width="520" Height="70" RenderTransformOrigin="0.5,0.5" Canvas.Left="750" Canvas.Top="650" />
+  <GroupBox Header="Product_1" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox" Width="540" Height="600" ToolTip="Product_1" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="200" Canvas.Top="130" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <GroupBox Header="Product_2" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox1" Width="540" Height="600" ToolTip="Product_2" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="740" Canvas.Top="130" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl" Width="520" Height="70" RenderTransformOrigin="0.5,0.5" Canvas.Left="210" Canvas.Top="650" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ContentControl1" Width="520" Height="70" RenderTransformOrigin="0.5,0.5" Canvas.Left="750" Canvas.Top="650" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <ContentControl Name="EditDisplay3" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="210" Canvas.Top="380" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="EditDisplay6" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="210" Canvas.Top="580" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="EditDisplay4" Width="520" Height="60" IsManipulationEnabled="False" Canvas.Left="750" Canvas.Top="580" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />

@@ -32,5 +32,9 @@
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
     </TextBox.TextDecorations>Controls:</TextBox>
 </Canvas>

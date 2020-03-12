@@ -23,7 +23,7 @@
     </entry>
     <entry>
       <TagName>Station0/moviconSend</TagName>
-      <NodeId>f3635a1b-e8bf-4215-8594-26a2b9a6f065</NodeId>
+      <NodeId>fb6701eb-76c5-4761-a752-0e1205f2f00f</NodeId>
     </entry>
   </addressSpaceTags>
   <prototypeMembers>
@@ -32,8 +32,8 @@
       <NodeId>fb4f54a2-40e1-47be-ad55-df56c4edebf8</NodeId>
     </entry>
     <entry>
-      <TagName>customerOrder</TagName>
-      <NodeId>5d3d1098-6fc1-41a7-9aa3-60f4f7dd3a15</NodeId>
+      <TagName>moviconSendStatus</TagName>
+      <NodeId>54b07264-71de-4468-887e-1d9c83553590</NodeId>
     </entry>
     <entry>
       <TagName>moviconSend</TagName>
@@ -194,6 +194,130 @@
     <entry>
       <TagName>moviconSend1:viper01</TagName>
       <NodeId>7dc98b45-80bb-4b2e-9219-4eb6fff1a641</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:laserCutter00</TagName>
+      <NodeId>42c921f0-7ab5-4a62-93c8-58e9a5af951a</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:mobileRobot00</TagName>
+      <NodeId>892800d7-d3a1-4dc3-b84f-132d8e871d3a</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:mobileRobot01</TagName>
+      <NodeId>c9ffdcae-811b-44ea-bffb-8afe553b187c</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:mobileRobot02</TagName>
+      <NodeId>58b0c72f-dfa0-4e95-b591-ff5f90272cc0</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:cobot00</TagName>
+      <NodeId>f8398e4c-144e-45ce-ba6c-ddd11381a385</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:cobot01</TagName>
+      <NodeId>bc4ab643-b5d0-47dd-9a43-34f8cdeb720f</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:cobot02</TagName>
+      <NodeId>8c08f154-880b-44b9-a157-2294f50b9d6b</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:quattro00</TagName>
+      <NodeId>1304f121-9362-458f-8a61-edfa1b25e985</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:viper00</TagName>
+      <NodeId>76152459-14d2-4235-bfc8-1458e40923b8</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:viper01</TagName>
+      <NodeId>20ea0b24-4d9b-47ea-ae06-3781718c69f9</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer00</TagName>
+      <NodeId>94548954-27d0-4087-ad6a-193eb4f9b34c</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer01</TagName>
+      <NodeId>a6fa9a43-b695-4312-a2a6-0a8281770ea5</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer02</TagName>
+      <NodeId>48abcae3-e70f-43d1-85cb-ea099986fbb9</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer03</TagName>
+      <NodeId>6762b634-0010-483a-8507-3b1a6c4e12e8</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer04</TagName>
+      <NodeId>5e6706b6-0df2-43ed-b174-1300f49d10ed</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer05</TagName>
+      <NodeId>d1794882-5900-48eb-8644-fabbadf363c5</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer06</TagName>
+      <NodeId>819a2e4f-0d93-44af-8ac0-b55fdc20e530</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer07</TagName>
+      <NodeId>669ff130-206e-42d3-a870-2b434831b340</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer08</TagName>
+      <NodeId>8537e79c-b81b-4eba-9dd4-82d3e5e891da</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer09</TagName>
+      <NodeId>1a92fbc2-5c34-40fe-947b-070084501752</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer10</TagName>
+      <NodeId>070d8b15-a4d9-4ea4-a6eb-cd98c9dd31fe</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer11</TagName>
+      <NodeId>857b6f02-6007-4aa6-b7c0-849545730ac1</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer12</TagName>
+      <NodeId>f1a71f28-4ea6-481b-b619-522903bd827a</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer13</TagName>
+      <NodeId>f79fe1f6-c29f-4e08-b71b-6d1869a182f0</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer14</TagName>
+      <NodeId>81ff4785-60cb-4980-8590-286adfcab32f</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer15</TagName>
+      <NodeId>2dc18bbe-2e04-4d1f-bca5-1bf731fc4183</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer16</TagName>
+      <NodeId>2d091d5f-fb00-4c98-ad74-573da0835cbc</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer17</TagName>
+      <NodeId>70030961-ca01-4180-bcc5-13aac72cdaf8</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer18</TagName>
+      <NodeId>5471d124-589f-4fc8-8096-4b5b05efc97b</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSend:printer19</TagName>
+      <NodeId>31801ee5-0b67-4656-8ea2-3fa6780f1635</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSendCommand</TagName>
+      <NodeId>dfdb61c9-508e-4e9c-a9b0-722424a7980a</NodeId>
     </entry>
   </prototypeMembers>
 </RemovedVariablesDocument>
