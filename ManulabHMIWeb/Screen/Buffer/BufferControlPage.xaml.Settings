@@ -702,7 +702,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;28&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -857,7 +857,7 @@
         <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;28&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>ToolTip</d5p1:Key>
@@ -1414,7 +1414,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Width</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;520&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;255&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
@@ -1620,7 +1620,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Width</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;520&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;255&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
@@ -1826,7 +1826,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Width</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;520&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;255&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
@@ -2424,7 +2424,7 @@
         <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#00000000&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>40</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>ID_Curr_Storage</preservedText>
+        <preservedText>ID_In_Prod</preservedText>
         <preservedWidth>515.238095238095</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -2714,7 +2714,7 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Width</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;520&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;255&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
@@ -3276,6 +3276,1260 @@
         <showMenuOnLeft>false</showMenuOnLeft>
         <speechCommand i:nil="true" />
         <tagBrush i:nil="true" />
+        <tagPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</tagPen>
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>ContentControl2</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>true</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>3e8d256a-8566-4189-993c-1e932b68926b</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands>
+          <entry i:type="ValueCommand">
+            <delayCommandSecs>0</delayCommandSecs>
+            <expression i:nil="true" />
+            <opcuaEntityReference>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName i:nil="true" />
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
+              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName i:nil="true" />
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value i:nil="true" />
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </parentNodeId>
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName>moviconSendStatus</typeDefinitionName>
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </typeDefinitionNodeId>
+            </transferToTag>
+            <type>TransferValue</type>
+          </entry>
+        </listCommands>
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>Content</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Down&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Text</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Down&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Down&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush i:nil="true" />
+        <preservedHeight>70</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText>ID_Down</preservedText>
+        <preservedWidth>250</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml i:nil="true" />
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath>8wWGamS3somuyv1FmiUv92VciKr0tLeaU98s6WebLL/qHa0xYvnyT9YhRAqAl4uwmQZBLuZxW1Py5LeADCFL/dbiNyazi2acI2Z8qyCOM+PnBQnMQpv0/0jy+2gH2y5522dr7i+BlMxODwT1+7SXqhLwpiaBvlfU2qVIQZtxruYYQwrAW9OjshQBGyKEOTGZ7XmMNxvvVBrlBcRj9ELonCkIPWaZG0nnCBBkqMGC+XdanmvvrHML4yEVhT6mX2Lq</sSourceSymbolPath>
+        <sSourceSymbolProvider></sSourceSymbolProvider>
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush i:nil="true" />
+        <tagPen i:nil="true" />
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>ContentControl3</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>true</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>bdc3028d-2b83-45e4-b45d-d89e7ec5a190</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands>
+          <entry i:type="ValueCommand">
+            <delayCommandSecs>0</delayCommandSecs>
+            <expression i:nil="true" />
+            <opcuaEntityReference>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName i:nil="true" />
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
+              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName i:nil="true" />
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value i:nil="true" />
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </parentNodeId>
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName>moviconSendStatus</typeDefinitionName>
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </typeDefinitionNodeId>
+            </transferToTag>
+            <type>TransferValue</type>
+          </entry>
+        </listCommands>
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>Content</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Up&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Text</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Up&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Up&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush i:nil="true" />
+        <preservedHeight>70</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText>ID_Up</preservedText>
+        <preservedWidth>250</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml i:nil="true" />
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath>8wWGamS3somuyv1FmiUv92VciKr0tLeaU98s6WebLL/qHa0xYvnyT9YhRAqAl4uwmQZBLuZxW1Py5LeADCFL/dbiNyazi2acI2Z8qyCOM+PnBQnMQpv0/0jy+2gH2y5522dr7i+BlMxODwT1+7SXqhLwpiaBvlfU2qVIQZtxruYYQwrAW9OjshQBGyKEOTGZ7XmMNxvvVBrlBcRj9ELonCkIPWaZG0nnCBBkqMGC+XdanmvvrHML4yEVhT6mX2Lq</sSourceSymbolPath>
+        <sSourceSymbolProvider></sSourceSymbolProvider>
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush i:nil="true" />
+        <tagPen i:nil="true" />
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>EditDisplay2</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>2b470f35-03f5-481d-867e-f14eccdab8ad</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands />
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>RenderTransformOrigin</d5p1:Key>
+            <d5p1:Value>&lt;Point xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;0.5,0.5&lt;/Point&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>InkCanvas.Top</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;270&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>InkCanvas.Left</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;320&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontFamily</d5p1:Key>
+            <d5p1:Value>&lt;FontFamily xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Segoe UI&lt;/FontFamily&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ValueFontSettings</d5p1:Key>
+            <d5p1:Value>&lt;FontSettings FontFamilyXml="&amp;lt;string xmlns=&amp;quot;http://schemas.microsoft.com/2003/10/Serialization/&amp;quot;&amp;gt;Segoe UI&amp;lt;/string&amp;gt;" FontStyleXml="&amp;lt;string xmlns=&amp;quot;http://schemas.microsoft.com/2003/10/Serialization/&amp;quot;&amp;gt;Normal&amp;lt;/string&amp;gt;" FontWeightXml="&amp;lt;string xmlns=&amp;quot;http://schemas.microsoft.com/2003/10/Serialization/&amp;quot;&amp;gt;Normal&amp;lt;/string&amp;gt;" FontSize="24" xmlns="clr-namespace:Converters;assembly=Converters" /&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontWeight</d5p1:Key>
+            <d5p1:Value>&lt;FontWeight xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Normal&lt;/FontWeight&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Width</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;255&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Top</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;480&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Left</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;475&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Height</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;60&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>DisplayStringFormat</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;#0&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>IsReadOnly</d5p1:Key>
+            <d5p1:Value>&lt;Boolean xmlns="clr-namespace:System;assembly=mscorlib"&gt;True&lt;/Boolean&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>MaxValue</d5p1:Key>
+            <d5p1:Value>&lt;Decimal xmlns="clr-namespace:System;assembly=mscorlib"&gt;999.99&lt;/Decimal&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>PrecisionDigits</d5p1:Key>
+            <d5p1:Value>&lt;Int32 xmlns="clr-namespace:System;assembly=mscorlib"&gt;0&lt;/Int32&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Background</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Foreground</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>BorderThickness</d5p1:Key>
+            <d5p1:Value>&lt;Thickness xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;2.5,2.5,2.5,2.5&lt;/Thickness&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>BorderBrush</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF808000&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>DisplayBorderBrush</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFEBCD&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>DisplayBorderThickness</d5p1:Key>
+            <d5p1:Value>&lt;Int32 xmlns="clr-namespace:System;assembly=mscorlib"&gt;2&lt;/Int32&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>moviconSendStatus</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>false</preserveText>
+        <preserveVariables>false</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedBrush>
+        <preservedHeight>60</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText i:nil="true" />
+        <preservedWidth>250</preservedWidth>
+        <readableAccessMask>1</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml>&lt;ed:EditDisplay
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+		xmlns:ed="clr-namespace:EditDisplay;assembly=EditDisplay"
+		xmlns:mynsp="clr-namespace:Converters;assembly=Converters"
+                  Width="140" Height="50"  
+                	Tag="ProblematicXamlWriter"&gt;
+                  &lt;ed:EditDisplay.Resources&gt;
+                    &lt;mynsp:ObjectToTextConverter x:Key="ObjectToTextConverter" /&gt;
+                  &lt;/ed:EditDisplay.Resources&gt;
+                  &lt;ed:EditDisplay.Value&gt;
+                    &lt;Binding Path="Value" 
+                    Converter="{StaticResource ObjectToTextConverter}" Mode="TwoWay" 
+                    ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged"&gt;&lt;/Binding&gt;
+                  &lt;/ed:EditDisplay.Value&gt;
+&lt;/ed:EditDisplay&gt;</sProblematicXaml>
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</tagBrush>
+        <tagPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</tagPen>
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>TextBox9</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>39290ddc-c3fd-4688-bb21-c895f1d421f8</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands />
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#00000000&lt;/SolidColorBrush&gt;</preservedBrush>
+        <preservedHeight>40</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText>ID_Curr_Storage</preservedText>
+        <preservedWidth>250</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml i:nil="true" />
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#00000000&lt;/SolidColorBrush&gt;</tagBrush>
+        <tagPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</tagPen>
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>ContentControl4</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>true</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>f92611de-561b-4855-b18b-783c805646d9</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands>
+          <entry i:type="ValueCommand">
+            <delayCommandSecs>0</delayCommandSecs>
+            <expression i:nil="true" />
+            <opcuaEntityReference>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName i:nil="true" />
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
+              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName i:nil="true" />
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value i:nil="true" />
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </parentNodeId>
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName>moviconSendStatus</typeDefinitionName>
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </typeDefinitionNodeId>
+            </transferToTag>
+            <type>TransferValue</type>
+          </entry>
+        </listCommands>
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>Content</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Down&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Text</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Down&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Down&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush i:nil="true" />
+        <preservedHeight>70</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText>ID_Down</preservedText>
+        <preservedWidth>255</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml i:nil="true" />
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath>8wWGamS3somuyv1FmiUv92VciKr0tLeaU98s6WebLL/qHa0xYvnyT9YhRAqAl4uwmQZBLuZxW1Py5LeADCFL/dbiNyazi2acI2Z8qyCOM+PnBQnMQpv0/0jy+2gH2y5522dr7i+BlMxODwT1+7SXqhLwpiaBvlfU2qVIQZtxruYYQwrAW9OjshQBGyKEOTGZ7XmMNxvvVBrlBcRj9ELonCkIPWaZG0nnCBBkqMGC+XdanmvvrHML4yEVhT6mX2Lq</sSourceSymbolPath>
+        <sSourceSymbolProvider></sSourceSymbolProvider>
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush i:nil="true" />
+        <tagPen i:nil="true" />
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>ContentControl5</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>true</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>3b519b11-b82b-4bf3-81c3-547876527bce</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands>
+          <entry i:type="ValueCommand">
+            <delayCommandSecs>0</delayCommandSecs>
+            <expression i:nil="true" />
+            <opcuaEntityReference>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName i:nil="true" />
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
+              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName i:nil="true" />
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value i:nil="true" />
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag>
+              <appName>ManulabHMI_IOServer</appName>
+              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+              <hostName i:nil="true" />
+              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <isRedundancyEnabled>true</isRedundancyEnabled>
+              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </parentNodeId>
+              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
+              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <resolvedItem>false</resolvedItem>
+              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+              </resolvedNodeId>
+              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+              <savedRelativePath i:nil="true" />
+              <savedStartingAddress i:nil="true" />
+              <startingAddress i:nil="true" />
+              <typeDefinitionName>moviconSendStatus</typeDefinitionName>
+              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
+              </typeDefinitionNodeId>
+            </transferToTag>
+            <type>TransferValue</type>
+          </entry>
+        </listCommands>
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>Content</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Up&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Text</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Up&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Up&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush i:nil="true" />
+        <preservedHeight>0</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText>ID_Up</preservedText>
+        <preservedWidth>0</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml i:nil="true" />
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath>8wWGamS3somuyv1FmiUv92VciKr0tLeaU98s6WebLL/qHa0xYvnyT9YhRAqAl4uwmQZBLuZxW1Py5LeADCFL/dbiNyazi2acI2Z8qyCOM+PnBQnMQpv0/0jy+2gH2y5522dr7i+BlMxODwT1+7SXqhLwpiaBvlfU2qVIQZtxruYYQwrAW9OjshQBGyKEOTGZ7XmMNxvvVBrlBcRj9ELonCkIPWaZG0nnCBBkqMGC+XdanmvvrHML4yEVhT6mX2Lq</sSourceSymbolPath>
+        <sSourceSymbolProvider></sSourceSymbolProvider>
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush i:nil="true" />
+        <tagPen i:nil="true" />
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>EditDisplay7</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>b8f54aa7-8ea6-4cd8-beb2-6a7c919e8c1e</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands />
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>RenderTransformOrigin</d5p1:Key>
+            <d5p1:Value>&lt;Point xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;0.5,0.5&lt;/Point&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>InkCanvas.Top</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;270&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>InkCanvas.Left</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;320&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontSize</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;24&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontFamily</d5p1:Key>
+            <d5p1:Value>&lt;FontFamily xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Segoe UI&lt;/FontFamily&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ValueFontSettings</d5p1:Key>
+            <d5p1:Value>&lt;FontSettings FontFamilyXml="&amp;lt;string xmlns=&amp;quot;http://schemas.microsoft.com/2003/10/Serialization/&amp;quot;&amp;gt;Segoe UI&amp;lt;/string&amp;gt;" FontStyleXml="&amp;lt;string xmlns=&amp;quot;http://schemas.microsoft.com/2003/10/Serialization/&amp;quot;&amp;gt;Normal&amp;lt;/string&amp;gt;" FontWeightXml="&amp;lt;string xmlns=&amp;quot;http://schemas.microsoft.com/2003/10/Serialization/&amp;quot;&amp;gt;Normal&amp;lt;/string&amp;gt;" FontSize="24" xmlns="clr-namespace:Converters;assembly=Converters" /&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>FontWeight</d5p1:Key>
+            <d5p1:Value>&lt;FontWeight xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;Normal&lt;/FontWeight&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Width</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;255&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Top</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;480&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Canvas.Left</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;475&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Height</d5p1:Key>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;60&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>DisplayStringFormat</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;#0&lt;/String&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>IsReadOnly</d5p1:Key>
+            <d5p1:Value>&lt;Boolean xmlns="clr-namespace:System;assembly=mscorlib"&gt;True&lt;/Boolean&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>MaxValue</d5p1:Key>
+            <d5p1:Value>&lt;Decimal xmlns="clr-namespace:System;assembly=mscorlib"&gt;999.99&lt;/Decimal&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>PrecisionDigits</d5p1:Key>
+            <d5p1:Value>&lt;Int32 xmlns="clr-namespace:System;assembly=mscorlib"&gt;0&lt;/Int32&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Background</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>Foreground</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>BorderThickness</d5p1:Key>
+            <d5p1:Value>&lt;Thickness xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;2.5,2.5,2.5,2.5&lt;/Thickness&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>BorderBrush</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF808000&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>DisplayBorderBrush</d5p1:Key>
+            <d5p1:Value>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFEBCD&lt;/SolidColorBrush&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>DisplayBorderThickness</d5p1:Key>
+            <d5p1:Value>&lt;Int32 xmlns="clr-namespace:System;assembly=mscorlib"&gt;2&lt;/Int32&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference>
+          <appName>ManulabHMI_IOServer</appName>
+          <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+          <hostName i:nil="true" />
+          <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+          <isRedundancyEnabled>true</isRedundancyEnabled>
+          <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
+          </parentNodeId>
+          <parentTypeDefinitionIdList xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
+          <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+          <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+          <resolvedItem>false</resolvedItem>
+          <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d6p1:Identifier>
+          </resolvedNodeId>
+          <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+          <savedRelativePath i:nil="true" />
+          <savedStartingAddress i:nil="true" />
+          <startingAddress i:nil="true" />
+          <typeDefinitionName>moviconSendStatus</typeDefinitionName>
+          <typeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+            <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
+          </typeDefinitionNodeId>
+        </opcuaEntityReference>
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>false</preserveText>
+        <preserveVariables>false</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedBrush>
+        <preservedHeight>0</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText i:nil="true" />
+        <preservedWidth>0</preservedWidth>
+        <readableAccessMask>1</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml>&lt;ed:EditDisplay
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+		xmlns:ed="clr-namespace:EditDisplay;assembly=EditDisplay"
+		xmlns:mynsp="clr-namespace:Converters;assembly=Converters"
+                  Width="140" Height="50"  
+                	Tag="ProblematicXamlWriter"&gt;
+                  &lt;ed:EditDisplay.Resources&gt;
+                    &lt;mynsp:ObjectToTextConverter x:Key="ObjectToTextConverter" /&gt;
+                  &lt;/ed:EditDisplay.Resources&gt;
+                  &lt;ed:EditDisplay.Value&gt;
+                    &lt;Binding Path="Value" 
+                    Converter="{StaticResource ObjectToTextConverter}" Mode="TwoWay" 
+                    ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged"&gt;&lt;/Binding&gt;
+                  &lt;/ed:EditDisplay.Value&gt;
+&lt;/ed:EditDisplay&gt;</sProblematicXaml>
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</tagBrush>
+        <tagPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</tagPen>
+        <useIntelliSense>true</useIntelliSense>
+        <visibilityLevel>2147483647</visibilityLevel>
+        <writableAccessMask>0</writableAccessMask>
+        <zoomLevelVisibilityX>0</zoomLevelVisibilityX>
+        <zoomLevelVisibilityY>0</zoomLevelVisibilityY>
+      </Settings>
+    </entry>
+    <entry>
+      <XamlName>TextBox10</XamlName>
+      <Settings>
+        <accessLevel>0</accessLevel>
+        <accessLevelFromTag>false</accessLevelFromTag>
+        <accessRole i:nil="true" />
+        <bEnableManipulation>false</bEnableManipulation>
+        <bEnableMouseOver>false</bEnableMouseOver>
+        <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
+        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
+        <bSourceSymbolLinked>false</bSourceSymbolLinked>
+        <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
+        <bVisibleOnClient>true</bVisibleOnClient>
+        <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <id>76a7466a-cf0e-4719-b983-18ec539cccf9</id>
+        <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
+        <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <listCommands />
+        <listItemSources i:nil="true" />
+        <listopcuaSmartEntityReference i:nil="true" />
+        <lockMovement>false</lockMovement>
+        <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+        <max3DRotationAngleX>0</max3DRotationAngleX>
+        <max3DRotationAngleY>0</max3DRotationAngleY>
+        <max3DRotationAngleZ>0</max3DRotationAngleZ>
+        <max3DTranslateOffsetX>0</max3DTranslateOffsetX>
+        <max3DTranslateOffsetY>0</max3DTranslateOffsetY>
+        <max3DZoom>0</max3DZoom>
+        <menuName i:nil="true" />
+        <min3DRotationAngleX>0</min3DRotationAngleX>
+        <min3DRotationAngleY>0</min3DRotationAngleY>
+        <min3DRotationAngleZ>0</min3DRotationAngleZ>
+        <min3DTranslateOffsetX>0</min3DTranslateOffsetX>
+        <min3DTranslateOffsetY>0</min3DTranslateOffsetY>
+        <min3DZoom>0</min3DZoom>
+        <nSelLength>0</nSelLength>
+        <nStartSel>0</nStartSel>
+        <opcuaEntityReference i:nil="true" />
+        <opcuaEntityReference3DZoom i:nil="true" />
+        <preserveAnimations>false</preserveAnimations>
+        <preserveCode>false</preserveCode>
+        <preserveColors>false</preserveColors>
+        <preserveCommands>false</preserveCommands>
+        <preserveExpression>false</preserveExpression>
+        <preserveMenu>false</preserveMenu>
+        <preserveSecurity>false</preserveSecurity>
+        <preserveSize>true</preserveSize>
+        <preserveStyle>false</preserveStyle>
+        <preserveText>true</preserveText>
+        <preserveVariables>true</preserveVariables>
+        <preserveVisibility>false</preserveVisibility>
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#00000000&lt;/SolidColorBrush&gt;</preservedBrush>
+        <preservedHeight>0</preservedHeight>
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
+        <preservedText>ID_Curr_Storage</preservedText>
+        <preservedWidth>0</preservedWidth>
+        <readableAccessMask>0</readableAccessMask>
+        <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
+        <sCode i:nil="true" />
+        <sExpression i:nil="true" />
+        <sIdUnitConverter i:nil="true" />
+        <sProblematicXaml i:nil="true" />
+        <sReverseExpression i:nil="true" />
+        <sSourceSymbolPath i:nil="true" />
+        <sSourceSymbolProvider i:nil="true" />
+        <sStyleResource i:nil="true" />
+        <screen3DParameter i:nil="true" />
+        <screen3DUri i:nil="true" />
+        <showMenuOnLeft>false</showMenuOnLeft>
+        <speechCommand i:nil="true" />
+        <tagBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#00000000&lt;/SolidColorBrush&gt;</tagBrush>
         <tagPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</tagPen>
         <useIntelliSense>true</useIntelliSense>
         <visibilityLevel>2147483647</visibilityLevel>

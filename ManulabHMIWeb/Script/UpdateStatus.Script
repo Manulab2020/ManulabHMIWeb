@@ -3,138 +3,154 @@
   <bEnableLog>true</bEnableLog>
   <bEnableSysLog>true</bEnableSysLog>
   <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-  <currentStatusTag i:nil="true" />
-  <cycleTimeTag i:nil="true" />
+  <currentStatusTag>
+    <appName>ManulabHMI_IOServer</appName>
+    <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+    <hostName i:nil="true" />
+    <humanReadable>currStatusUpdateStatus (ManulabHMI_IOServer)</humanReadable>
+    <isRedundancyEnabled>true</isRedundancyEnabled>
+    <parentNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <parentTypeDefinitionIdList xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <parentTypeDefinitionName i:nil="true" />
+    <parentTypeDefinitionNameList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <parentTypeDefinitionNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <readablPath>2:Tags/2:currStatusUpdateStatus</readablPath>
+    <relativePath>2:Tags/2:currStatusUpdateStatus</relativePath>
+    <resolvedItem>false</resolvedItem>
+    <resolvedNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+      <d3p1:Identifier>ns=2;g=8669e339-8dcf-4f7b-9853-e56c0a099304</d3p1:Identifier>
+    </resolvedNodeId>
+    <resolvedStartingNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <savedRelativePath i:nil="true" />
+    <savedStartingAddress i:nil="true" />
+    <startingAddress i:nil="true" />
+    <typeDefinitionName i:nil="true" />
+    <typeDefinitionNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+  </currentStatusTag>
+  <cycleTimeTag>
+    <appName>ManulabHMI_IOServer</appName>
+    <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
+    <hostName i:nil="true" />
+    <humanReadable>cycleTimeUpdateStatus (ManulabHMI_IOServer)</humanReadable>
+    <isRedundancyEnabled>true</isRedundancyEnabled>
+    <parentNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <parentTypeDefinitionIdList xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <parentTypeDefinitionName i:nil="true" />
+    <parentTypeDefinitionNameList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <parentTypeDefinitionNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <readablPath>2:Tags/2:cycleTimeUpdateStatus</readablPath>
+    <relativePath>2:Tags/2:cycleTimeUpdateStatus</relativePath>
+    <resolvedItem>false</resolvedItem>
+    <resolvedNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
+      <d3p1:Identifier>ns=2;g=cc15725a-8b39-4903-bee2-3e554fe1e8ce</d3p1:Identifier>
+    </resolvedNodeId>
+    <resolvedStartingNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+    <savedRelativePath i:nil="true" />
+    <savedStartingAddress i:nil="true" />
+    <startingAddress i:nil="true" />
+    <typeDefinitionName i:nil="true" />
+    <typeDefinitionNodeId xmlns:d3p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
+  </cycleTimeTag>
   <disableWhenNotUsed>true</disableWhenNotUsed>
   <fastSamplingInterval>500</fastSamplingInterval>
   <forceWritingOnServer>true</forceWritingOnServer>
   <id>00000000-0000-0000-0000-000000000000</id>
   <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d2p1:string>stopVar</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer00</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_printerRack00</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer01</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter01-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter01-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter01-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer02</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter02-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter02-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter02-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer03</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter03-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter03-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter03-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer04</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter04-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter04-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter04-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer05</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter05-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter05-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter05-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer06</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter06-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter06-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter06-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer07</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter07-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter07-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter07-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer08</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter08-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter08-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter08-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer09</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter09-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter09-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter09-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer10</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter10-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter10-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter10-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_printerRack01</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer11</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter11-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter11-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter11-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer12</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter12-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter12-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter12-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer13</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter13-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter13-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter13-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer14</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter14-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter14-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter14-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer15</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter15-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter15-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter15-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer16</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter16-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter16-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter16-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer17</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter17-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter17-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter17-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer18</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter18-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter18-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter18-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-printer19</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter19-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter19-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter19-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-laserCutter00</d2p1:string>
     <d2p1:string>statusVar_laserCutter_statusLaserCutter00-IDLE</d2p1:string>
     <d2p1:string>statusVar_laserCutter_statusLaserCutter00-BUSY</d2p1:string>
     <d2p1:string>statusVar_laserCutter_statusLaserCutter00-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_laserCutterWorkstation</d2p1:string>
-    <d2p1:string>Station0_moviconSend-mobileRobot00</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot00-IDLE</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot00-BUSY</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot00-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_mobileRobotFleet</d2p1:string>
-    <d2p1:string>Station0_moviconSend-mobileRobot01</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot01-IDLE</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot01-BUSY</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot01-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-mobileRobot02</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot02-IDLE</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot02-BUSY</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobot02-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-cobot00</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobotCobot00-IDLE</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobotCobot00-BUSY</d2p1:string>
     <d2p1:string>statusVar_mobileRobot_statusMobileRobotCobot00-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-cobot01</d2p1:string>
     <d2p1:string>statusVar_cobot_statusCobot00-IDLE</d2p1:string>
     <d2p1:string>statusVar_cobot_statusCobot00-BUSY</d2p1:string>
     <d2p1:string>statusVar_cobot_statusCobot00-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_cobotWorkstation</d2p1:string>
-    <d2p1:string>Station0_moviconSend-cobot02</d2p1:string>
     <d2p1:string>statusVar_cobot_statusCobot01-IDLE</d2p1:string>
     <d2p1:string>statusVar_cobot_statusCobot01-BUSY</d2p1:string>
     <d2p1:string>statusVar_cobot_statusCobot01-FAULT</d2p1:string>
-    <d2p1:string>Station0_moviconSend-quattro00</d2p1:string>
     <d2p1:string>statusVar_quattro_statusQuattro00-IDLE</d2p1:string>
     <d2p1:string>statusVar_quattro_statusQuattro00-BUSY</d2p1:string>
     <d2p1:string>statusVar_quattro_statusQuattro00-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_quattroWorkstation</d2p1:string>
-    <d2p1:string>Station0_moviconSend-viper00</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper00-IDLE</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper00-BUSY</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper00-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_viperWorkstation</d2p1:string>
-    <d2p1:string>Station0_moviconSend-viper01</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper01-IDLE</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper01-BUSY</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper01-FAULT</d2p1:string>
@@ -142,7 +158,7 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>264</nStartSel>
+  <nStartSel>38527</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -901,7 +917,7 @@ Sub Main Handles .Main
                 statusVar_workstation_viperWorkstation = True
         End Select
         
-        Thread.Sleep(sleepTime)
+        'Thread.Sleep(sleepTime)
 
     Loop Until stopVar = False
 End Sub
@@ -909,7 +925,7 @@ End Sub
   <sessionName i:nil="true" />
   <slowSamplingInterval>5000</slowSamplingInterval>
   <stopCommandTimeout>2000</stopCommandTimeout>
-  <threadPriority>Normal</threadPriority>
+  <threadPriority>Highest</threadPriority>
   <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
   <writeTimeout>0</writeTimeout>
 </ScriptDocument>

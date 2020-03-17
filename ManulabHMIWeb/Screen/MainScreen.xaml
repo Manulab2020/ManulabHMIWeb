@@ -15,5 +15,6 @@
   <ContentControl Background="#FFF0F8FF" FontSize="10.2222222222222" Name="ContentControl6" Width="24" Height="26.6666666666667" RenderTransformOrigin="0.5,0.5" Opacity="1" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1076" Canvas.Top="742.222222222222" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <ContentControl Name="EmbeddedTabScreen" Width="1280" Height="222" IsManipulationEnabled="False" Canvas.Left="1.11111111111101" Canvas.Top="-1.23456790123462" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="EmbeddedTabScreen2" Width="216" Height="300" IsManipulationEnabled="False" Canvas.Left="1060" Canvas.Top="251.666666666667" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
-  <ContentControl Name="EditDisplay6" Width="184" Height="60" IsManipulationEnabled="False" Canvas.Left="1077.33333333333" Canvas.Top="594" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay6" Width="184" Height="60" IsManipulationEnabled="False" Canvas.Left="1075.33333333333" Canvas.Top="561.333333333333" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay2" Width="184" Height="60" IsManipulationEnabled="False" Canvas.Left="1076.33333333333" Canvas.Top="635.666666666667" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
 </Canvas>
