@@ -57,6 +57,37 @@
   <id>00000000-0000-0000-0000-000000000000</id>
   <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d2p1:string>stopVar</d2p1:string>
+    <d2p1:string>num</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer00</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer01</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer02</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer03</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer04</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer05</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer06</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer07</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer08</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer09</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer10</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer11</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer12</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer13</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer14</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer15</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer16</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer17</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer18</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-printer19</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-laserCutter00</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-mobileRobot00</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-mobileRobot01</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-mobileRobot02</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-cobot00</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-cobot01</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-cobot02</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-quattro00</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-viper00</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-viper01</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-FAULT</d2p1:string>
@@ -158,7 +189,7 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>38527</nStartSel>
+  <nStartSel>41089</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -174,15 +205,63 @@ Const statCodeBusy As Int16 = 2
 Const sleepTime As Int16 = 2000
 
 Sub Main Handles .Main
-    stopVar = True
+    stopVar = False
+    num = 0
     Do
         ' DoEvents
-
+        '
+        num = 1
+        '
+        ' Set all status external codes to a local prototype
+        '
+        ' 3D Printers:
+        Dim currStatCodePrinter00 As Int16 = Station0_moviconSendStatus.printer00
+        Dim currStatCodePrinter01 As Int16 = Station0_moviconSendStatus.printer01
+        Dim currStatCodePrinter02 As Int16 = Station0_moviconSendStatus.printer02
+        Dim currStatCodePrinter03 As Int16 = Station0_moviconSendStatus.printer03
+        Dim currStatCodePrinter04 As Int16 = Station0_moviconSendStatus.printer04
+        Dim currStatCodePrinter05 As Int16 = Station0_moviconSendStatus.printer05
+        Dim currStatCodePrinter06 As Int16 = Station0_moviconSendStatus.printer06
+        Dim currStatCodePrinter07 As Int16 = Station0_moviconSendStatus.printer07
+        Dim currStatCodePrinter08 As Int16 = Station0_moviconSendStatus.printer08
+        Dim currStatCodePrinter09 As Int16 = Station0_moviconSendStatus.printer09
+        Dim currStatCodePrinter10 As Int16 = Station0_moviconSendStatus.printer10
+        Dim currStatCodePrinter11 As Int16 = Station0_moviconSendStatus.printer11
+        Dim currStatCodePrinter12 As Int16 = Station0_moviconSendStatus.printer12
+        Dim currStatCodePrinter13 As Int16 = Station0_moviconSendStatus.printer13
+        Dim currStatCodePrinter14 As Int16 = Station0_moviconSendStatus.printer14
+        Dim currStatCodePrinter15 As Int16 = Station0_moviconSendStatus.printer15
+        Dim currStatCodePrinter16 As Int16 = Station0_moviconSendStatus.printer16
+        Dim currStatCodePrinter17 As Int16 = Station0_moviconSendStatus.printer17
+        Dim currStatCodePrinter18 As Int16 = Station0_moviconSendStatus.printer18
+        Dim currStatCodePrinter19 As Int16 = Station0_moviconSendStatus.printer19
+        '
+        ' Laser cutter:
+        Dim currStatCodeLaserCutter00 As Int16 = Station0_moviconSendStatus.laserCutter00
+        '
+        ' Mobile Robots:
+        Dim currStatCodeMobileRobot00 As Int16 = Station0_moviconSendStatus.mobileRobot00
+        Dim currStatCodeMobileRobot01 As Int16 = Station0_moviconSendStatus.mobileRobot01
+        Dim currStatCodeMobileRobot02 As Int16 = Station0_moviconSendStatus.mobileRobot02
+        '
+        ' Cobots:
+        Dim currStatCodeCobot00 As Int16 = Station0_moviconSendStatus.cobot00
+        Dim currStatCodeCobot01 As Int16 = Station0_moviconSendStatus.cobot01
+        Dim currStatCodeCobot02 As Int16 = Station0_moviconSendStatus.cobot02
+        '
+        ' Quattro:
+        Dim currStatCodeQuattro00 As Int16 = Station0_moviconSendStatus.quattro00
+        '
+        ' Viper:
+        Dim currStatCodeViper00 As Int16 = Station0_moviconSendStatus.viper00
+        Dim currStatCodeViper01 As Int16 = Station0_moviconSendStatus.viper01
+        '
+        num = 0
         '
         ' Status for 3D Printers
         '
         ' Status for 3D Printer 00
-        Select Case Station0_moviconSend.printer00
+        Select Case currStatCodePrinter01
             Case statCodeIdle
                 statusVar_printers_statusPrinter00.IDLE = True
                 statusVar_printers_statusPrinter00.BUSY = False
@@ -207,7 +286,7 @@ Sub Main Handles .Main
 
 
         ' Status for 3D Printer 01
-        Select Case Station0_moviconSend.printer01
+        Select Case currStatCodePrinter01
             Case statCodeIdle
                 statusVar_printers_statusPrinter01.IDLE = True
                 statusVar_printers_statusPrinter01.BUSY = False
@@ -231,7 +310,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 02
-        Select Case Station0_moviconSend.printer02
+        Select Case currStatCodePrinter02
             Case statCodeIdle
                 statusVar_printers_statusPrinter02.IDLE = True
                 statusVar_printers_statusPrinter02.BUSY = False
@@ -255,7 +334,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 03
-        Select Case Station0_moviconSend.printer03
+        Select Case currStatCodePrinter03
             Case statCodeIdle
                 statusVar_printers_statusPrinter03.IDLE = True
                 statusVar_printers_statusPrinter03.BUSY = False
@@ -279,7 +358,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 04
-        Select Case Station0_moviconSend.printer04
+        Select Case currStatCodePrinter04
             Case statCodeIdle
                 statusVar_printers_statusPrinter04.IDLE = True
                 statusVar_printers_statusPrinter04.BUSY = False
@@ -303,7 +382,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 05
-        Select Case Station0_moviconSend.printer05
+        Select Case currStatCodePrinter05
             Case statCodeIdle
                 statusVar_printers_statusPrinter05.IDLE = True
                 statusVar_printers_statusPrinter05.BUSY = False
@@ -327,7 +406,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 06
-        Select Case Station0_moviconSend.printer06
+        Select Case currStatCodePrinter06
             Case statCodeIdle
                 statusVar_printers_statusPrinter06.IDLE = True
                 statusVar_printers_statusPrinter06.BUSY = False
@@ -351,7 +430,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 07
-        Select Case Station0_moviconSend.printer07
+        Select Case currStatCodePrinter07
             Case statCodeIdle
                 statusVar_printers_statusPrinter07.IDLE = True
                 statusVar_printers_statusPrinter07.BUSY = False
@@ -375,7 +454,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 08
-        Select Case Station0_moviconSend.printer08
+        Select Case currStatCodePrinter08
             Case statCodeIdle
                 statusVar_printers_statusPrinter08.IDLE = True
                 statusVar_printers_statusPrinter08.BUSY = False
@@ -399,7 +478,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 09
-        Select Case Station0_moviconSend.printer09
+        Select Case currStatCodePrinter09
             Case statCodeIdle
                 statusVar_printers_statusPrinter09.IDLE = True
                 statusVar_printers_statusPrinter09.BUSY = False
@@ -423,7 +502,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 10
-        Select Case Station0_moviconSend.printer10
+        Select Case currStatCodePrinter10
             Case statCodeIdle
                 statusVar_printers_statusPrinter10.IDLE = True
                 statusVar_printers_statusPrinter10.BUSY = False
@@ -447,7 +526,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 11
-        Select Case Station0_moviconSend.printer11
+        Select Case currStatCodePrinter11
             Case statCodeIdle
                 statusVar_printers_statusPrinter11.IDLE = True
                 statusVar_printers_statusPrinter11.BUSY = False
@@ -471,7 +550,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 12
-        Select Case Station0_moviconSend.printer12
+        Select Case currStatCodePrinter12
             Case statCodeIdle
                 statusVar_printers_statusPrinter12.IDLE = True
                 statusVar_printers_statusPrinter12.BUSY = False
@@ -495,7 +574,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 13
-        Select Case Station0_moviconSend.printer13
+        Select Case currStatCodePrinter13
             Case statCodeIdle
                 statusVar_printers_statusPrinter13.IDLE = True
                 statusVar_printers_statusPrinter13.BUSY = False
@@ -519,7 +598,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 14
-        Select Case Station0_moviconSend.printer14
+        Select Case currStatCodePrinter14
             Case statCodeIdle
                 statusVar_printers_statusPrinter14.IDLE = True
                 statusVar_printers_statusPrinter14.BUSY = False
@@ -543,7 +622,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 15
-        Select Case Station0_moviconSend.printer15
+        Select Case currStatCodePrinter15
             Case statCodeIdle
                 statusVar_printers_statusPrinter15.IDLE = True
                 statusVar_printers_statusPrinter15.BUSY = False
@@ -567,7 +646,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 16
-        Select Case Station0_moviconSend.printer16
+        Select Case currStatCodePrinter16
             Case statCodeIdle
                 statusVar_printers_statusPrinter16.IDLE = True
                 statusVar_printers_statusPrinter16.BUSY = False
@@ -591,7 +670,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 17
-        Select Case Station0_moviconSend.printer17
+        Select Case currStatCodePrinter17
             Case statCodeIdle
                 statusVar_printers_statusPrinter17.IDLE = True
                 statusVar_printers_statusPrinter17.BUSY = False
@@ -615,7 +694,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 18
-        Select Case Station0_moviconSend.printer18
+        Select Case currStatCodePrinter18
             Case statCodeIdle
                 statusVar_printers_statusPrinter18.IDLE = True
                 statusVar_printers_statusPrinter18.BUSY = False
@@ -639,7 +718,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for 3D Printer 19
-        Select Case Station0_moviconSend.printer19
+        Select Case currStatCodePrinter19
             Case statCodeIdle
                 statusVar_printers_statusPrinter19.IDLE = True
                 statusVar_printers_statusPrinter19.BUSY = False
@@ -666,7 +745,7 @@ Sub Main Handles .Main
         ' Status for Laser Cutter
         '
         ' Status for Laser Cutter 00
-        Select Case Station0_moviconSend.laserCutter00
+        Select Case currStatCodeLaserCutter00
             Case statCodeIdle
                 statusVar_laserCutter_statusLaserCutter00.IDLE = True
                 statusVar_laserCutter_statusLaserCutter00.BUSY = False
@@ -693,7 +772,7 @@ Sub Main Handles .Main
         ' Status for Mobile Robots
         '
         ' Status for Mobile Robots 00
-        Select Case Station0_moviconSend.mobileRobot00
+        Select Case currStatCodeMobileRobot00
             Case statCodeIdle
                 statusVar_mobileRobot_statusMobileRobot00.IDLE = True
                 statusVar_mobileRobot_statusMobileRobot00.BUSY = False
@@ -717,7 +796,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for Mobile Robots 01
-        Select Case Station0_moviconSend.mobileRobot01
+        Select Case currStatCodeMobileRobot01
             Case statCodeIdle
                 statusVar_mobileRobot_statusMobileRobot01.IDLE = True
                 statusVar_mobileRobot_statusMobileRobot01.BUSY = False
@@ -741,7 +820,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for Mobile Robots 02
-        Select Case Station0_moviconSend.mobileRobot02
+        Select Case currStatCodeMobileRobot02
             Case statCodeIdle
                 statusVar_mobileRobot_statusMobileRobot02.IDLE = True
                 statusVar_mobileRobot_statusMobileRobot02.BUSY = False
@@ -768,7 +847,7 @@ Sub Main Handles .Main
         ' Status for Cobots
         '
         ' Status for Mobile Robots Cobots 00
-        Select Case Station0_moviconSend.cobot00
+        Select Case currStatCodeCobot00
             Case statCodeIdle
                 statusVar_mobileRobot_statusMobileRobotCobot00.IDLE = True
                 statusVar_mobileRobot_statusMobileRobotCobot00.BUSY = False
@@ -792,7 +871,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for Cobots 00
-        Select Case Station0_moviconSend.cobot01
+        Select Case currStatCodeCobot01
             Case statCodeIdle
                 statusVar_cobot_statusCobot00.IDLE = True
                 statusVar_cobot_statusCobot00.BUSY = False
@@ -816,7 +895,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for Cobots 01
-        Select Case Station0_moviconSend.cobot02
+        Select Case currStatCodeCobot02
             Case statCodeIdle
                 statusVar_cobot_statusCobot01.IDLE = True
                 statusVar_cobot_statusCobot01.BUSY = False
@@ -843,7 +922,7 @@ Sub Main Handles .Main
         ' Status for Quattro Robots
         '
         ' Status for Quattro Robot 00
-        Select Case Station0_moviconSend.quattro00
+        Select Case currStatCodeQuattro00
             Case statCodeIdle
                 statusVar_quattro_statusQuattro00.IDLE = True
                 statusVar_quattro_statusQuattro00.BUSY = False
@@ -870,7 +949,7 @@ Sub Main Handles .Main
         ' Status for Viper Robots
         '
         ' Status for Viper Robot 00
-        Select Case Station0_moviconSend.viper00
+        Select Case currStatCodeViper00
             Case statCodeIdle
                 statusVar_viper_statusViper00.IDLE = True
                 statusVar_viper_statusViper00.BUSY = False
@@ -894,7 +973,7 @@ Sub Main Handles .Main
         End Select
 
         ' Status for Viper Robot 01
-        Select Case Station0_moviconSend.viper01
+        Select Case currStatCodeViper01
             Case statCodeIdle
                 statusVar_viper_statusViper01.IDLE = True
                 statusVar_viper_statusViper01.BUSY = False
@@ -917,9 +996,9 @@ Sub Main Handles .Main
                 statusVar_workstation_viperWorkstation = True
         End Select
         
-        'Thread.Sleep(sleepTime)
+        Thread.Sleep(sleepTime)
 
-    Loop Until stopVar = False
+    Loop Until stopVar = True
 End Sub
 </sCode>
   <sessionName i:nil="true" />
