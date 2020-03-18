@@ -3521,40 +3521,11 @@
     <OptimisticLockField>0</OptimisticLockField>
   </UFUATag>
   <UFUATag>
-    <OID>384</OID>
+    <OID>388</OID>
     <MemberOrderId>-1</MemberOrderId>
     <UseShared>true</UseShared>
-    <Name>cycleTimeUpdateStatus</Name>
-    <Description>The cycle time for the UpdateStatus script</Description>
-    <ModelType>3</ModelType>
-    <DataType>3</DataType>
-    <ArrayDimension>0</ArrayDimension>
-    <IsRetentive>false</IsRetentive>
-    <EnableStatistics>false</EnableStatistics>
-    <IsRedundancyEnabled>true</IsRedundancyEnabled>
-    <AuditTraceEnabled>false</AuditTraceEnabled>
-    <EnterCommentOnAudit>false</EnterCommentOnAudit>
-    <EnterPasswordOnAudit>false</EnterPasswordOnAudit>
-    <MinAccessLevelRequiredOnAudit>0</MinAccessLevelRequiredOnAudit>
-    <MaxAuditAge>86400</MaxAuditAge>
-    <InitialValue>20000</InitialValue>
-    <UserReadAccessMask>0</UserReadAccessMask>
-    <UserWriteAccessMask>0</UserWriteAccessMask>
-    <UserAccessLevel>0</UserAccessLevel>
-    <AccessLevel>3</AccessLevel>
-    <SettingsTimeStamp>2020-03-16T09:56:47.146621</SettingsTimeStamp>
-    <NodeId>cc15725a-8b39-4903-bee2-3e554fe1e8ce</NodeId>
-    <PrototypeModel></PrototypeModel>
-    <CreateDate>2020-03-16T09:56:47.1686007</CreateDate>
-    <Breakpoints></Breakpoints>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFUATag>
-  <UFUATag>
-    <OID>386</OID>
-    <MemberOrderId>-1</MemberOrderId>
-    <UseShared>true</UseShared>
-    <Name>currStatusUpdateStatus</Name>
-    <Description>Current status of the UpdateStatus script</Description>
+    <Name>statUpdateStatus</Name>
+    <Description>State the script UpdateStatus is in</Description>
     <ModelType>3</ModelType>
     <DataType>11</DataType>
     <ArrayDimension>0</ArrayDimension>
@@ -3566,47 +3537,18 @@
     <EnterPasswordOnAudit>false</EnterPasswordOnAudit>
     <MinAccessLevelRequiredOnAudit>0</MinAccessLevelRequiredOnAudit>
     <MaxAuditAge>86400</MaxAuditAge>
-    <InitialValue></InitialValue>
+    <InitialValue>Not initialized</InitialValue>
     <UserReadAccessMask>0</UserReadAccessMask>
     <UserWriteAccessMask>0</UserWriteAccessMask>
     <UserAccessLevel>0</UserAccessLevel>
     <AccessLevel>3</AccessLevel>
-    <SettingsTimeStamp>2020-03-16T10:00:47.3713244</SettingsTimeStamp>
-    <NodeId>8669e339-8dcf-4f7b-9853-e56c0a099304</NodeId>
+    <SettingsTimeStamp>2020-03-18T07:31:21.111359</SettingsTimeStamp>
+    <NodeId>1843707f-c7bb-4d2b-8f76-41d3a6a9e552</NodeId>
     <PrototypeModel></PrototypeModel>
     <UFUAEngineeringUnit></UFUAEngineeringUnit>
-    <CreateDate>2020-03-16T10:00:47.3733181</CreateDate>
+    <CreateDate>2020-03-18T07:31:21.1143521</CreateDate>
     <Breakpoints></Breakpoints>
-    <OptimisticLockField>0</OptimisticLockField>
-  </UFUATag>
-  <UFUATag>
-    <OID>387</OID>
-    <MemberOrderId>-1</MemberOrderId>
-    <UseShared>true</UseShared>
-    <Name>currStatCode</Name>
-    <Description>Contains current statuses from sysmac</Description>
-    <ModelType>5</ModelType>
-    <ArrayDimension>0</ArrayDimension>
-    <IsRetentive>false</IsRetentive>
-    <EnableStatistics>false</EnableStatistics>
-    <IsRedundancyEnabled>true</IsRedundancyEnabled>
-    <AuditTraceEnabled>false</AuditTraceEnabled>
-    <EnterCommentOnAudit>false</EnterCommentOnAudit>
-    <EnterPasswordOnAudit>false</EnterPasswordOnAudit>
-    <MinAccessLevelRequiredOnAudit>0</MinAccessLevelRequiredOnAudit>
-    <MaxAuditAge>86400</MaxAuditAge>
-    <UserReadAccessMask>0</UserReadAccessMask>
-    <UserWriteAccessMask>0</UserWriteAccessMask>
-    <UserAccessLevel>0</UserAccessLevel>
-    <AccessLevel>3</AccessLevel>
-    <SettingsTimeStamp>2020-03-17T13:28:12.9505705Z</SettingsTimeStamp>
-    <NodeId>b00924f8-11aa-42b5-8187-52c565c9c668</NodeId>
-    <PrototypeModel>54b07264-71de-4468-887e-1d9c83553590</PrototypeModel>
-    <UFUAFolder>2</UFUAFolder>
-    <UFUAEngineeringUnit></UFUAEngineeringUnit>
-    <CreateDate>2020-03-17T13:28:12.9644415Z</CreateDate>
-    <Breakpoints></Breakpoints>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>3</OptimisticLockField>
   </UFUATag>
   <UFUAFolder>
     <OID>1</OID>

@@ -25,6 +25,18 @@
       <TagName>Station0/moviconSend</TagName>
       <NodeId>fb6701eb-76c5-4761-a752-0e1205f2f00f</NodeId>
     </entry>
+    <entry>
+      <TagName>statusVar/currStatCode</TagName>
+      <NodeId>b00924f8-11aa-42b5-8187-52c565c9c668</NodeId>
+    </entry>
+    <entry>
+      <TagName>currStatusUpdateStatus</TagName>
+      <NodeId>8669e339-8dcf-4f7b-9853-e56c0a099304</NodeId>
+    </entry>
+    <entry>
+      <TagName>cycleTimeUpdateStatus</TagName>
+      <NodeId>cc15725a-8b39-4903-bee2-3e554fe1e8ce</NodeId>
+    </entry>
   </addressSpaceTags>
   <prototypeMembers>
     <entry>
