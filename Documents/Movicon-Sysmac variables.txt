@@ -1,11 +1,13 @@
 HOST	NAME	DATATYPE	ADDRESS	COMMENT	TAGLINK	RW	POU
 	customerOrder.orderReceived	BOOL			TRUE	RW	
-	customerOrder.productID	INT			TRUE	RW	
+	customerOrder.productID	UINT			TRUE	RW	
 	customerOrder.name	STRING(256)			TRUE	RW	
-	moviconSendStatus.currentID1BracketNumber	INT			TRUE	RW	
-	moviconSendStatus.currentID1BracketBuffer	INT			TRUE	RW	
-	moviconSendStatus.currentID2KeychainNumber	INT			TRUE	RW	
-	moviconSendStatus.currentID2KeychainBuffer	INT			TRUE	RW	
+	moviconSendStatus.ID1BracketPairNumber	INT			TRUE	RW	
+	moviconSendStatus.ID1BracketPairPrinting	INT			TRUE	RW	
+	moviconSendStatus.ID1BracketPairBuffer	INT			TRUE	RW	
+	moviconSendStatus.ID2KeychainNumber	INT			TRUE	RW	
+	moviconSendStatus.ID2KeychainPrinting	INT			TRUE	RW	
+	moviconSendStatus.ID2KeychainBuffer	INT			TRUE	RW	
 	moviconSendStatus.laserCutter00	INT			TRUE	RW	
 	moviconSendStatus.mobileRobot00	INT			TRUE	RW	
 	moviconSendStatus.mobileRobot01	INT			TRUE	RW	
