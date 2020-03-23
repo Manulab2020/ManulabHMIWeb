@@ -32,7 +32,7 @@
         <bEnableManipulation>false</bEnableManipulation>
         <bEnableMouseOver>false</bEnableMouseOver>
         <bExecuteAnyEnabledCommands>true</bExecuteAnyEnabledCommands>
-        <bForceDynamicOnClient>false</bForceDynamicOnClient>
+        <bForceDynamicOnClient>true</bForceDynamicOnClient>
         <bShowTooltipWhenDisabled>false</bShowTooltipWhenDisabled>
         <bSourceSymbolLinked>true</bSourceSymbolLinked>
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
@@ -47,7 +47,12 @@
         <lockMovement>false</lockMovement>
         <mapAlias xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <mapHashInner3DEntities xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
+        <mapProblematicXamlWriterProperties xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities">
+          <d5p1:entry>
+            <d5p1:Key>IsHitTestVisible</d5p1:Key>
+            <d5p1:Value>&lt;Boolean xmlns="clr-namespace:System;assembly=mscorlib"&gt;False&lt;/Boolean&gt;</d5p1:Value>
+          </d5p1:entry>
+        </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
         <max3DRotationAngleX>0</max3DRotationAngleX>
         <max3DRotationAngleY>0</max3DRotationAngleY>
