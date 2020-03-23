@@ -37,6 +37,10 @@
       <TagName>cycleTimeUpdateStatus</TagName>
       <NodeId>cc15725a-8b39-4903-bee2-3e554fe1e8ce</NodeId>
     </entry>
+    <entry>
+      <TagName>ArrayTest</TagName>
+      <NodeId>c12afdd0-b73a-4dbd-ab6e-410a4e093c85</NodeId>
+    </entry>
   </addressSpaceTags>
   <prototypeMembers>
     <entry>
