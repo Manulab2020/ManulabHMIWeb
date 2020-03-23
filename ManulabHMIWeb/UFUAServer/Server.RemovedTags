@@ -41,6 +41,10 @@
       <TagName>ArrayTest</TagName>
       <NodeId>c12afdd0-b73a-4dbd-ab6e-410a4e093c85</NodeId>
     </entry>
+    <entry>
+      <TagName>Station0/moviconSendStatus</TagName>
+      <NodeId>8f202637-30ef-4b4c-aeeb-d419ff3fc761</NodeId>
+    </entry>
   </addressSpaceTags>
   <prototypeMembers>
     <entry>
@@ -334,6 +338,22 @@
     <entry>
       <TagName>moviconSendCommand</TagName>
       <NodeId>dfdb61c9-508e-4e9c-a9b0-722424a7980a</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSendStatus:currentID1BracketBuffer</TagName>
+      <NodeId>b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSendStatus:currentID2KeychainNumber</TagName>
+      <NodeId>0fcb0ed7-b70d-466d-952d-5e490356a780</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSendStatus:currentID1BracketNumber</TagName>
+      <NodeId>1976535c-0bc7-45cd-a1f6-839ef2fddc53</NodeId>
+    </entry>
+    <entry>
+      <TagName>moviconSendStatus:currentID2KeychainBuffer</TagName>
+      <NodeId>6004a5bc-6500-4f26-a0da-49f482b15f95</NodeId>
     </entry>
   </prototypeMembers>
 </RemovedVariablesDocument>

@@ -655,7 +655,7 @@
               <appName>ManulabHMI_IOServer</appName>
               <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
               <hostName i:nil="true" />
-              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <humanReadable>moviconSendStatus:ID1BracketPairBuffer (ManulabHMI_IOServer)</humanReadable>
               <isRedundancyEnabled>true</isRedundancyEnabled>
               <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
@@ -664,11 +664,11 @@
               <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
               <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
               <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairBuffer</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairBuffer</relativePath>
               <resolvedItem>false</resolvedItem>
               <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+                <d8p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?b09fa291-cfc2-4d8a-8d35-2af1f6406026</d8p1:Identifier>
               </resolvedNodeId>
               <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
               <savedRelativePath i:nil="true" />
@@ -822,7 +822,7 @@
               <appName>ManulabHMI_IOServer</appName>
               <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
               <hostName i:nil="true" />
-              <humanReadable>moviconSendStatus:currentID2KeychainBuffer (ManulabHMI_IOServer)</humanReadable>
+              <humanReadable>moviconSendStatus:ID2KeychainBuffer (ManulabHMI_IOServer)</humanReadable>
               <isRedundancyEnabled>true</isRedundancyEnabled>
               <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
@@ -831,11 +831,11 @@
               <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
               <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
               <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID2KeychainBuffer</readablPath>
-              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID2KeychainBuffer</relativePath>
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainBuffer</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainBuffer</relativePath>
               <resolvedItem>false</resolvedItem>
               <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?6004a5bc-6500-4f26-a0da-49f482b15f95</d8p1:Identifier>
+                <d8p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?20edef92-650e-469d-9556-a20ac231bd65</d8p1:Identifier>
               </resolvedNodeId>
               <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
               <savedRelativePath i:nil="true" />
@@ -1143,7 +1143,7 @@
           <appName>ManulabHMI_IOServer</appName>
           <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
           <hostName i:nil="true" />
-          <humanReadable>moviconSendStatus:currentID1BracketNumber (ManulabHMI_IOServer)</humanReadable>
+          <humanReadable>moviconSendStatus:ID1BracketPairPrinting (ManulabHMI_IOServer)</humanReadable>
           <isRedundancyEnabled>true</isRedundancyEnabled>
           <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
             <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
@@ -1152,11 +1152,11 @@
           <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
           <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
           <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketNumber</readablPath>
-          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketNumber</relativePath>
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairPrinting</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairPrinting</relativePath>
           <resolvedItem>false</resolvedItem>
           <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?1976535c-0bc7-45cd-a1f6-839ef2fddc53</d6p1:Identifier>
+            <d6p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?8ce256bd-f076-45dc-a730-aca52f965d77</d6p1:Identifier>
           </resolvedNodeId>
           <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
           <savedRelativePath i:nil="true" />
@@ -1901,7 +1901,7 @@
           <appName>ManulabHMI_IOServer</appName>
           <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
           <hostName i:nil="true" />
-          <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+          <humanReadable>moviconSendStatus:ID1BracketPairBuffer (ManulabHMI_IOServer)</humanReadable>
           <isRedundancyEnabled>true</isRedundancyEnabled>
           <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
             <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
@@ -1910,11 +1910,11 @@
           <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
           <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
           <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairBuffer</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairBuffer</relativePath>
           <resolvedItem>false</resolvedItem>
           <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d6p1:Identifier>
+            <d6p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?b09fa291-cfc2-4d8a-8d35-2af1f6406026</d6p1:Identifier>
           </resolvedNodeId>
           <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
           <savedRelativePath i:nil="true" />
@@ -2579,7 +2579,7 @@
           <appName>ManulabHMI_IOServer</appName>
           <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
           <hostName i:nil="true" />
-          <humanReadable>moviconSendStatus:currentID2KeychainNumber (ManulabHMI_IOServer)</humanReadable>
+          <humanReadable>moviconSendStatus:ID2KeychainPrinting (ManulabHMI_IOServer)</humanReadable>
           <isRedundancyEnabled>true</isRedundancyEnabled>
           <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
             <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
@@ -2588,11 +2588,11 @@
           <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
           <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
           <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID2KeychainNumber</readablPath>
-          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID2KeychainNumber</relativePath>
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainPrinting</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainPrinting</relativePath>
           <resolvedItem>false</resolvedItem>
           <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?0fcb0ed7-b70d-466d-952d-5e490356a780</d6p1:Identifier>
+            <d6p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?b974f9c4-35ca-4960-8561-8999a62fc208</d6p1:Identifier>
           </resolvedNodeId>
           <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
           <savedRelativePath i:nil="true" />
@@ -2789,7 +2789,7 @@
           <appName>ManulabHMI_IOServer</appName>
           <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
           <hostName i:nil="true" />
-          <humanReadable>moviconSendStatus:currentID2KeychainBuffer (ManulabHMI_IOServer)</humanReadable>
+          <humanReadable>moviconSendStatus:ID2KeychainBuffer (ManulabHMI_IOServer)</humanReadable>
           <isRedundancyEnabled>true</isRedundancyEnabled>
           <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
             <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
@@ -2798,11 +2798,11 @@
           <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
           <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
           <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID2KeychainBuffer</readablPath>
-          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID2KeychainBuffer</relativePath>
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainBuffer</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainBuffer</relativePath>
           <resolvedItem>false</resolvedItem>
           <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?6004a5bc-6500-4f26-a0da-49f482b15f95</d6p1:Identifier>
+            <d6p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?20edef92-650e-469d-9556-a20ac231bd65</d6p1:Identifier>
           </resolvedNodeId>
           <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
           <savedRelativePath i:nil="true" />
@@ -3310,40 +3310,7 @@
               <appName>ManulabHMI_IOServer</appName>
               <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
               <hostName i:nil="true" />
-              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
-              <isRedundancyEnabled>true</isRedundancyEnabled>
-              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionName i:nil="true" />
-              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
-              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
-              <resolvedItem>false</resolvedItem>
-              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
-              </resolvedNodeId>
-              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <savedRelativePath i:nil="true" />
-              <savedStartingAddress i:nil="true" />
-              <startingAddress i:nil="true" />
-              <typeDefinitionName i:nil="true" />
-              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-            </opcuaEntityReference>
-            <_synchronous>false</_synchronous>
-            <_time>0</_time>
-            <_value i:nil="true" />
-            <decimals>0</decimals>
-            <maxValue>0</maxValue>
-            <minValue>0</minValue>
-            <reverseExpression i:nil="true" />
-            <tagMaxValue i:nil="true" />
-            <tagMinValue i:nil="true" />
-            <transferToTag>
-              <appName>ManulabHMI_IOServer</appName>
-              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
-              <hostName i:nil="true" />
-              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <humanReadable>moviconSendStatus:ID1BracketPairNumber (ManulabHMI_IOServer)</humanReadable>
               <isRedundancyEnabled>true</isRedundancyEnabled>
               <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
@@ -3352,11 +3319,11 @@
               <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
               <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
               <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairNumber</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairNumber</relativePath>
               <resolvedItem>false</resolvedItem>
               <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+                <d8p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?a115b00f-f8c5-4387-a283-d961394da482</d8p1:Identifier>
               </resolvedNodeId>
               <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
               <savedRelativePath i:nil="true" />
@@ -3366,8 +3333,18 @@
               <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
               </typeDefinitionNodeId>
-            </transferToTag>
-            <type>TransferValue</type>
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value>1</_value>
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag i:nil="true" />
+            <type>Decrease</type>
           </entry>
         </listCommands>
         <listItemSources i:nil="true" />
@@ -3477,40 +3454,7 @@
               <appName>ManulabHMI_IOServer</appName>
               <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
               <hostName i:nil="true" />
-              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
-              <isRedundancyEnabled>true</isRedundancyEnabled>
-              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionName i:nil="true" />
-              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
-              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
-              <resolvedItem>false</resolvedItem>
-              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
-              </resolvedNodeId>
-              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <savedRelativePath i:nil="true" />
-              <savedStartingAddress i:nil="true" />
-              <startingAddress i:nil="true" />
-              <typeDefinitionName i:nil="true" />
-              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-            </opcuaEntityReference>
-            <_synchronous>false</_synchronous>
-            <_time>0</_time>
-            <_value i:nil="true" />
-            <decimals>0</decimals>
-            <maxValue>0</maxValue>
-            <minValue>0</minValue>
-            <reverseExpression i:nil="true" />
-            <tagMaxValue i:nil="true" />
-            <tagMinValue i:nil="true" />
-            <transferToTag>
-              <appName>ManulabHMI_IOServer</appName>
-              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
-              <hostName i:nil="true" />
-              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <humanReadable>moviconSendStatus:ID1BracketPairNumber (ManulabHMI_IOServer)</humanReadable>
               <isRedundancyEnabled>true</isRedundancyEnabled>
               <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
@@ -3519,11 +3463,11 @@
               <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
               <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
               <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairNumber</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairNumber</relativePath>
               <resolvedItem>false</resolvedItem>
               <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+                <d8p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?a115b00f-f8c5-4387-a283-d961394da482</d8p1:Identifier>
               </resolvedNodeId>
               <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
               <savedRelativePath i:nil="true" />
@@ -3533,8 +3477,18 @@
               <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
               </typeDefinitionNodeId>
-            </transferToTag>
-            <type>TransferValue</type>
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value>1</_value>
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag i:nil="true" />
+            <type>Increase</type>
           </entry>
         </listCommands>
         <listItemSources i:nil="true" />
@@ -3748,7 +3702,7 @@
           <appName>ManulabHMI_IOServer</appName>
           <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
           <hostName i:nil="true" />
-          <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+          <humanReadable>moviconSendStatus:ID1BracketPairNumber (ManulabHMI_IOServer)</humanReadable>
           <isRedundancyEnabled>true</isRedundancyEnabled>
           <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
             <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
@@ -3757,11 +3711,11 @@
           <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
           <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
           <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairNumber</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID1BracketPairNumber</relativePath>
           <resolvedItem>false</resolvedItem>
           <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d6p1:Identifier>
+            <d6p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?a115b00f-f8c5-4387-a283-d961394da482</d6p1:Identifier>
           </resolvedNodeId>
           <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
           <savedRelativePath i:nil="true" />
@@ -3937,40 +3891,7 @@
               <appName>ManulabHMI_IOServer</appName>
               <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
               <hostName i:nil="true" />
-              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
-              <isRedundancyEnabled>true</isRedundancyEnabled>
-              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionName i:nil="true" />
-              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
-              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
-              <resolvedItem>false</resolvedItem>
-              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
-              </resolvedNodeId>
-              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <savedRelativePath i:nil="true" />
-              <savedStartingAddress i:nil="true" />
-              <startingAddress i:nil="true" />
-              <typeDefinitionName i:nil="true" />
-              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-            </opcuaEntityReference>
-            <_synchronous>false</_synchronous>
-            <_time>0</_time>
-            <_value i:nil="true" />
-            <decimals>0</decimals>
-            <maxValue>0</maxValue>
-            <minValue>0</minValue>
-            <reverseExpression i:nil="true" />
-            <tagMaxValue i:nil="true" />
-            <tagMinValue i:nil="true" />
-            <transferToTag>
-              <appName>ManulabHMI_IOServer</appName>
-              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
-              <hostName i:nil="true" />
-              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <humanReadable>moviconSendStatus:ID2KeychainNumber (ManulabHMI_IOServer)</humanReadable>
               <isRedundancyEnabled>true</isRedundancyEnabled>
               <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
@@ -3979,11 +3900,11 @@
               <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
               <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
               <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainNumber</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainNumber</relativePath>
               <resolvedItem>false</resolvedItem>
               <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+                <d8p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?57f046c6-6521-4513-b108-aad337c212c7</d8p1:Identifier>
               </resolvedNodeId>
               <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
               <savedRelativePath i:nil="true" />
@@ -3993,8 +3914,18 @@
               <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
               </typeDefinitionNodeId>
-            </transferToTag>
-            <type>TransferValue</type>
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value>1</_value>
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag i:nil="true" />
+            <type>Decrease</type>
           </entry>
         </listCommands>
         <listItemSources i:nil="true" />
@@ -4104,40 +4035,7 @@
               <appName>ManulabHMI_IOServer</appName>
               <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
               <hostName i:nil="true" />
-              <humanReadable>buffer\buffLimPro01 (ManulabHMI_IOServer)</humanReadable>
-              <isRedundancyEnabled>true</isRedundancyEnabled>
-              <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionIdList xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <parentTypeDefinitionName i:nil="true" />
-              <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-              <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:buffer/2:buffLimPro01</readablPath>
-              <relativePath>2:Tags/2:buffer/2:buffLimPro01</relativePath>
-              <resolvedItem>false</resolvedItem>
-              <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;g=5cf0cd99-ee29-4a2f-892c-754cff13bc7a</d8p1:Identifier>
-              </resolvedNodeId>
-              <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <savedRelativePath i:nil="true" />
-              <savedStartingAddress i:nil="true" />
-              <startingAddress i:nil="true" />
-              <typeDefinitionName i:nil="true" />
-              <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-            </opcuaEntityReference>
-            <_synchronous>false</_synchronous>
-            <_time>0</_time>
-            <_value i:nil="true" />
-            <decimals>0</decimals>
-            <maxValue>0</maxValue>
-            <minValue>0</minValue>
-            <reverseExpression i:nil="true" />
-            <tagMaxValue i:nil="true" />
-            <tagMinValue i:nil="true" />
-            <transferToTag>
-              <appName>ManulabHMI_IOServer</appName>
-              <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
-              <hostName i:nil="true" />
-              <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+              <humanReadable>moviconSendStatus:ID2KeychainNumber (ManulabHMI_IOServer)</humanReadable>
               <isRedundancyEnabled>true</isRedundancyEnabled>
               <parentNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
@@ -4146,11 +4044,11 @@
               <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
               <parentTypeDefinitionNameList xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
               <parentTypeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+              <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainNumber</readablPath>
+              <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainNumber</relativePath>
               <resolvedItem>false</resolvedItem>
               <resolvedNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-                <d8p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d8p1:Identifier>
+                <d8p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?57f046c6-6521-4513-b108-aad337c212c7</d8p1:Identifier>
               </resolvedNodeId>
               <resolvedStartingNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
               <savedRelativePath i:nil="true" />
@@ -4160,8 +4058,18 @@
               <typeDefinitionNodeId xmlns:d8p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
                 <d8p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d8p1:Identifier>
               </typeDefinitionNodeId>
-            </transferToTag>
-            <type>TransferValue</type>
+            </opcuaEntityReference>
+            <_synchronous>false</_synchronous>
+            <_time>0</_time>
+            <_value>1</_value>
+            <decimals>0</decimals>
+            <maxValue>0</maxValue>
+            <minValue>0</minValue>
+            <reverseExpression i:nil="true" />
+            <tagMaxValue i:nil="true" />
+            <tagMinValue i:nil="true" />
+            <transferToTag i:nil="true" />
+            <type>Increase</type>
           </entry>
         </listCommands>
         <listItemSources i:nil="true" />
@@ -4375,7 +4283,7 @@
           <appName>ManulabHMI_IOServer</appName>
           <endpointUrl>net.pipe://localhost/ManulabHMI_IOServer</endpointUrl>
           <hostName i:nil="true" />
-          <humanReadable>moviconSendStatus:currentID1BracketBuffer (ManulabHMI_IOServer)</humanReadable>
+          <humanReadable>moviconSendStatus:ID2KeychainNumber (ManulabHMI_IOServer)</humanReadable>
           <isRedundancyEnabled>true</isRedundancyEnabled>
           <parentNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
             <d6p1:Identifier>ns=2;g=54b07264-71de-4468-887e-1d9c83553590</d6p1:Identifier>
@@ -4384,11 +4292,11 @@
           <parentTypeDefinitionName>54b07264-71de-4468-887e-1d9c83553590</parentTypeDefinitionName>
           <parentTypeDefinitionNameList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
           <parentTypeDefinitionNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
-          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</readablPath>
-          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:currentID1BracketBuffer</relativePath>
+          <readablPath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainNumber</readablPath>
+          <relativePath>2:Tags/2:Station0/2:moviconSendStatus/2:ID2KeychainNumber</relativePath>
           <resolvedItem>false</resolvedItem>
           <resolvedNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd">
-            <d6p1:Identifier>ns=2;s=8f202637-30ef-4b4c-aeeb-d419ff3fc761?b06760b2-e7e7-4231-bc7b-f3ebadb8ed5c</d6p1:Identifier>
+            <d6p1:Identifier>ns=2;s=2d49d0ce-9ba4-4aba-8aed-e17737d039e7?57f046c6-6521-4513-b108-aad337c212c7</d6p1:Identifier>
           </resolvedNodeId>
           <resolvedStartingNodeId xmlns:d6p1="http://opcfoundation.org/UA/2008/02/Types.xsd" i:nil="true" />
           <savedRelativePath i:nil="true" />

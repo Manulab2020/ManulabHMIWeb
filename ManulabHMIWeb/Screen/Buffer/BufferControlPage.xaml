@@ -40,6 +40,8 @@
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
     </TextBox.TextDecorations>Buffer_Control</TextBox>
   <GroupBox Header="Product_1" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox" Width="540" Height="600" ToolTip="Product_1" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="200" Canvas.Top="130" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <GroupBox Header="Product_2" Background="#00FFFFFF" FontSize="12" Style="{DynamicResource GroupBoxStyle1}" Name="GroupBox1" Width="540" Height="600" ToolTip="Product_2" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="740" Canvas.Top="130" syncfusion:SkinStorage.OverrideVisualStyle="True" />
