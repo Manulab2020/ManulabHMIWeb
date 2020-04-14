@@ -8,6 +8,7 @@ HOST	NAME	DATATYPE	ADDRESS	COMMENT	TAGLINK	RW	POU
 	moviconSendStatus.ID2KeychainNumber	INT			TRUE	RW	
 	moviconSendStatus.ID2KeychainPrinting	INT			TRUE	RW	
 	moviconSendStatus.ID2KeychainBuffer	INT			TRUE	RW	
+	moviconSendStatus.masterState	INT			TRUE	RW	
 	moviconSendStatus.laserCutter00	INT			TRUE	RW	
 	moviconSendStatus.mobileRobot00	INT			TRUE	RW	
 	moviconSendStatus.mobileRobot01	INT			TRUE	RW	
