@@ -1,6 +1,6 @@
 <Canvas Background="#FF000000" Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:c="clr-namespace:Converters;assembly=Converters">
   <ContentControl Name="ButtonControl" Width="180" Height="50" IsManipulationEnabled="False" Canvas.Left="10" Canvas.Top="60" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
-  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="36" FontWeight="Normal" Name="TextBox" Width="177.777777777778" MinWidth="5" Height="70" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="10" Canvas.Top="1" syncfusion:SkinStorage.OverrideVisualStyle="True" c:TextBoxProperties.UnderlineTextSource="True">
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="36" FontWeight="Normal" Name="TextBox" Width="177.777777777778" MinWidth="5" Height="70" MinHeight="5" ToolTip="Status_Btns" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="10" Canvas.Top="1" syncfusion:SkinStorage.OverrideVisualStyle="True" c:TextBoxProperties.UnderlineTextSource="True">
     <TextBox.TextDecorations>
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
@@ -14,7 +14,11 @@
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
       <TextDecoration Location="Underline" />
-    </TextBox.TextDecorations>Status:</TextBox>
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+      <TextDecoration Location="Underline" />
+    </TextBox.TextDecorations>Status_Btns</TextBox>
   <ContentControl Name="ButtonControl1" Width="180" Height="50" IsManipulationEnabled="False" Canvas.Left="10" Canvas.Top="120" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="ButtonControl2" Width="180" Height="50" IsManipulationEnabled="False" Canvas.Left="10" Canvas.Top="180" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="ButtonControl3" Width="180" Height="50" IsManipulationEnabled="False" Canvas.Left="10" Canvas.Top="240" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />

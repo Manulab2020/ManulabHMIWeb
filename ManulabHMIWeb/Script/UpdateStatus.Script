@@ -43,6 +43,7 @@
     <d2p1:string>Station0_moviconSendStatus-quattro00</d2p1:string>
     <d2p1:string>Station0_moviconSendStatus-viper00</d2p1:string>
     <d2p1:string>Station0_moviconSendStatus-viper01</d2p1:string>
+    <d2p1:string>Station0_moviconSendStatus-masterState</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-IDLE</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-BUSY</d2p1:string>
     <d2p1:string>statusVar_printers_statusPrinter00-FAULT</d2p1:string>
@@ -133,6 +134,9 @@
     <d2p1:string>statusVar_viper_statusViper01-IDLE</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper01-BUSY</d2p1:string>
     <d2p1:string>statusVar_viper_statusViper01-FAULT</d2p1:string>
+    <d2p1:string>statusVar_master_statusMaster00-IDLE</d2p1:string>
+    <d2p1:string>statusVar_master_statusMaster00-BUSY</d2p1:string>
+    <d2p1:string>statusVar_master_statusMaster00-FAULT</d2p1:string>
     <d2p1:string>statusVar_workstation_printerRack00</d2p1:string>
     <d2p1:string>statusVar_workstation_printerRack01</d2p1:string>
     <d2p1:string>statusVar_workstation_laserCutterWorkstation</d2p1:string>
@@ -140,11 +144,12 @@
     <d2p1:string>statusVar_workstation_cobotWorkstation</d2p1:string>
     <d2p1:string>statusVar_workstation_quattroWorkstation</d2p1:string>
     <d2p1:string>statusVar_workstation_viperWorkstation</d2p1:string>
+    <d2p1:string>statusVar_workstation_masterWorkstation</d2p1:string>
   </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>4820</nStartSel>
+  <nStartSel>3268</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -214,6 +219,8 @@ Sub Main Handles .Main
         Dim currStatCodeViper00 As Int16 = Station0_moviconSendStatus.viper00
         Dim currStatCodeViper01 As Int16 = Station0_moviconSendStatus.viper01
         '
+        ' Master:
+        Dim currStatCodeMaster00 As Int16 = Station0_moviconSendStatus.masterState
         '
         ' Set status accordiing to status code
         '
@@ -226,6 +233,7 @@ Sub Main Handles .Main
         Dim workstationErr04 As Boolean = False
         Dim workstationErr05 As Boolean = False
         Dim workstationErr06 As Boolean = False
+        Dim workstationErr07 As Boolean = False
         '
         ' Status for 3D Printers
         '
@@ -903,6 +911,31 @@ Sub Main Handles .Main
                 statusVar_viper_statusViper01.FAULT = True
                 workstationErr06 = True
         End Select
+
+        '
+        ' Status for Master
+        '
+        ' Status for the master
+        Select Case currStatCodeMaster00
+            Case statCodeIdle
+                statusVar_master_statusMaster00.IDLE = True
+                statusVar_master_statusMaster00.BUSY = False
+                statusVar_master_statusMaster00.FAULT = False
+            Case statCodeBusy
+                statusVar_master_statusMaster00.IDLE = False
+                statusVar_master_statusMaster00.BUSY = True
+                statusVar_master_statusMaster00.FAULT = False
+            Case statCodeFault
+                statusVar_master_statusMaster00.IDLE = False
+                statusVar_master_statusMaster00.BUSY = False
+                statusVar_master_statusMaster00.FAULT = True
+                workstationErr07 = True
+            Case Else
+                statusVar_master_statusMaster00.IDLE = False
+                statusVar_master_statusMaster00.BUSY = False
+                statusVar_master_statusMaster00.FAULT = True
+                workstationErr07 = True
+        End Select
         '
         ' Set workstation error to appropriate tag
         '
@@ -915,6 +948,7 @@ Sub Main Handles .Main
         statusVar_workstation_cobotWorkstation = workstationErr04
         statusVar_workstation_quattroWorkstation = workstationErr05
         statusVar_workstation_viperWorkstation = workstationErr06
+        statusVar_workstation_masterWorkstation = workstationErr07
         '
         statUpdateStatus = "Sleeping"
         Thread.Sleep(sleepTime)

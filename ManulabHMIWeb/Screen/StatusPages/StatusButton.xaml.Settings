@@ -217,7 +217,7 @@
         <preservedBrush i:nil="true" />
         <preservedHeight>70</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Status:</preservedText>
+        <preservedText>Status_Btns</preservedText>
         <preservedWidth>177.77777777777777</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -1229,11 +1229,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Content</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Not in use&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Text</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Not in use&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -1246,6 +1246,10 @@
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;10&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -1281,7 +1285,7 @@
         <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>50</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Not in use</preservedText>
+        <preservedText>ID_Not_In_Use</preservedText>
         <preservedWidth>180</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -1345,11 +1349,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Content</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Not in use&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Text</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Not in use&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -1362,6 +1366,10 @@
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;10&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -1397,7 +1405,7 @@
         <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>50</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Not in use</preservedText>
+        <preservedText>ID_Not_In_Use</preservedText>
         <preservedWidth>180</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
@@ -1461,11 +1469,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Content</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Not in use&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Text</d5p1:Key>
-            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;Not in use&lt;/String&gt;</d5p1:Value>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -1478,6 +1486,10 @@
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
             <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;10&lt;/Double&gt;</d5p1:Value>
+          </d5p1:entry>
+          <d5p1:entry>
+            <d5p1:Key>ToolTip</d5p1:Key>
+            <d5p1:Value>&lt;String xmlns="clr-namespace:System;assembly=mscorlib"&gt;ID_Not_In_Use&lt;/String&gt;</d5p1:Value>
           </d5p1:entry>
         </mapProblematicXamlWriterProperties>
         <mapProps xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
@@ -1513,7 +1525,7 @@
         <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
         <preservedHeight>50</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Not in use</preservedText>
+        <preservedText>ID_Not_In_Use</preservedText>
         <preservedWidth>180</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
