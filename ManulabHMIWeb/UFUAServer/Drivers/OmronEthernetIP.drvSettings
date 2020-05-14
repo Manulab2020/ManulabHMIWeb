@@ -180,7 +180,7 @@
     <OID>1</OID>
     <Name>Channel0</Name>
     <WaitTime>0</WaitTime>
-    <Timeout>5000</Timeout>
+    <Timeout>500</Timeout>
     <ScheduleTimeJobsList>100</ScheduleTimeJobsList>
     <PollingTimeNotInUse>0</PollingTimeNotInUse>
     <PollingTimeInError>0</PollingTimeInError>

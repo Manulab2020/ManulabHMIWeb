@@ -3661,12 +3661,12 @@
     <UserWriteAccessMask>0</UserWriteAccessMask>
     <UserAccessLevel>0</UserAccessLevel>
     <AccessLevel>3</AccessLevel>
-    <SettingsTimeStamp>2020-05-01T09:57:31.0785266Z</SettingsTimeStamp>
+    <SettingsTimeStamp>2020-05-01T09:57:31.0785266</SettingsTimeStamp>
     <NodeId>ca94e780-52d7-4cb8-a0b1-21bef093f56e</NodeId>
     <PrototypeModel></PrototypeModel>
     <UFUAFolder>11</UFUAFolder>
     <UFUAEngineeringUnit></UFUAEngineeringUnit>
-    <CreateDate>2020-05-01T09:57:31.0785266Z</CreateDate>
+    <CreateDate>2020-05-01T09:57:31.0785266</CreateDate>
     <Breakpoints></Breakpoints>
     <OptimisticLockField>1</OptimisticLockField>
   </UFUATag>
@@ -3691,12 +3691,12 @@
     <UserWriteAccessMask>0</UserWriteAccessMask>
     <UserAccessLevel>0</UserAccessLevel>
     <AccessLevel>3</AccessLevel>
-    <SettingsTimeStamp>2020-05-01T09:49:58.6132524Z</SettingsTimeStamp>
+    <SettingsTimeStamp>2020-05-01T09:49:58.6132524</SettingsTimeStamp>
     <NodeId>d6ca884f-71c1-4ac4-a9cd-bb38d241f422</NodeId>
     <PrototypeModel>fb4f54a2-40e1-47be-ad55-df56c4edebf8</PrototypeModel>
     <UFUAFolder>15</UFUAFolder>
     <UFUAEngineeringUnit></UFUAEngineeringUnit>
-    <CreateDate>2020-05-01T09:49:58.6132524Z</CreateDate>
+    <CreateDate>2020-05-01T09:49:58.6132524</CreateDate>
     <Breakpoints></Breakpoints>
     <OptimisticLockField>6</OptimisticLockField>
   </UFUATag>
